@@ -2,17 +2,6 @@ $font-family-serif:     Times New Roman;
 $font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 $font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Arial, sans-serif;
 
-
-
-// COLORS
-
-$colors: (
-  1: #000,
-  2: #fff,
-  3: #666
-);
-
-
 // RESPONSIVE
 
 $device-sm:        320px;
@@ -22,32 +11,31 @@ $device-xl:        1400px;
 
 // PROPERTIES
 
-$white-spaces: (
-  nowrap,
-  pre,
-  normal
+$displays: (
+  none,
+  block,
+  inline,
+  inline-block
   );
 
-$word-wraps: (
-  break-word,
-  normal
+$pointer-events: (
+  none,
+  auto
   );
 
-$visibilities: (
-  visible,
+$positions: (
+  static,
+  relative,
+  fixed,
+  absolute,
+  sticky
+  );
+
+$overflows: (
+  scroll,
   hidden,
-  collapse
-  );
-
-$vertical-aligns: (
-  middle,
-  top,
-  text-top,
-  bottom,
-  text-bottom,
-  sub,
-  super,
-  baseline
+  auto,
+  visible
   );
 
 $text-aligns: (
@@ -69,94 +57,100 @@ $text-transforms: (
   none
   );
 
-$overflows: (
-  scroll,
+$vertical-aligns: (
+  middle,
+  top,
+  text-top,
+  bottom,
+  text-bottom,
+  sub,
+  super,
+  baseline
+  );
+
+$visibilities: (
+  visible,
   hidden,
-  auto,
-  visible
+  collapse
   );
 
-$displays: (
-  none,
-  block,
-  inline,
-  inline-block
+$white-spaces: (
+  nowrap,
+  pre,
+  normal
   );
 
-$positions: (
-  static,
-  relative,
-  fixed,
-  absolute,
-  sticky
+$word-wraps: (
+  break-word,
+  normal
   );
 
-$scales: (
-  0,
-  4,
-  8,
-  16,
-  32,
-  64
-  );
+// $scales: (
+//   0,
+//   4,
+//   8,
+//   16,
+//   32,
+//   64
+//   );
 
-// GRID
+// // GRID
 
-$auto-flow: (
-  column,
-  row
-);
+// $auto-flow: (
+//   column,
+//   row
+// );
 
 // FLEXBOX
 
-$direction: (
-  row,
-  row-reverse,
-  column,
-  column-reverse
-  );
+// $direction: (
+//   row,
+//   row-reverse,
+//   column,
+//   column-reverse
+//   );
 
-$wrap: (
-  nowrap,
-  wrap,
-  wrap-reverse
-  );
+// $wrap: (
+//   nowrap,
+//   wrap,
+//   wrap-reverse
+//   );
 
-$justify: (
-  flex-start,
-  flex-end,
-  center,
-  space-between,
-  space-around,
-  space-evenly
-  );
+// $justify: (
+//   flex-start,
+//   flex-end,
+//   center,
+//   space-between,
+//   space-around,
+//   space-evenly
+//   );
 
-$aligned: (
-  flex-start,
-  flex-end,
-  center,
-  stretch,
-  baseline
-  );
+// $aligned: (
+//   flex-start,
+//   flex-end,
+//   center,
+//   stretch,
+//   baseline
+//   );
 
-$content: (
-  flex-start,
-  flex-end,
-  center,
-  stretch,
-  baseline
-  ); 
+// $content: (
+//   flex-start,
+//   flex-end,
+//   center,
+//   stretch,
+//   baseline
+//   ); 
 
-$grow: (
-  1,
-  2
-  );
+// $grow: (
+//   1,
+//   2
+//   );
 
-$align-self: (
-  auto,
-  flex-start,
-  flex-end,
-  center,
-  stretch,
-  baseline
-  );
+// $align-self: (
+//   auto,
+//   flex-start,
+//   flex-end,
+//   center,
+//   stretch,
+//   baseline
+//   );

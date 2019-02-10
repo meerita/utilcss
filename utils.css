@@ -1,8 +1,6 @@
-.white-space--nowrap {
-  white-space: nowrap; }
-.white-space--pre {
-  white-space: pre; }
-.white-space--normal {
-  white-space: normal; }
+.pointer-events--none {
+  pointer-events: none; }
+.pointer-events--auto {
+  pointer-events: auto; }
 
 /*# sourceMappingURL=utils.css.map */
