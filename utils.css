@@ -1,22 +1,18 @@
-.text__align--center {
-  text-align: center; }
-.text__align--left {
-  text-align: left; }
-.text__align--right {
-  text-align: right; }
-.text__align--justify {
-  text-align: justify; }
-.text__overflow--clip {
-  text-overflow: clip; }
-.text__overflow--ellipsis {
-  text-overflow: ellipsis; }
-.text__transform--uppercase {
-  text-transform: uppercase; }
-.text__transform--lowercase {
-  text-transform: lowercase; }
-.text__transform--capitalize {
-  text-transform: capitalize; }
-.text__transform--none {
-  text-transform: none; }
+.vertical__align--middle {
+  vertical-align: middle; }
+.vertical__align--top {
+  vertical-align: top; }
+.vertical__align--text-top {
+  vertical-align: text-top; }
+.vertical__align--bottom {
+  vertical-align: bottom; }
+.vertical__align--text-bottom {
+  vertical-align: text-bottom; }
+.vertical__align--sub {
+  vertical-align: sub; }
+.vertical__align--super {
+  vertical-align: super; }
+.vertical__align--baseline {
+  vertical-align: baseline; }
 
 /*# sourceMappingURL=utils.css.map */

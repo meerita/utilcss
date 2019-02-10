@@ -22,6 +22,17 @@ $device-xl:        1400px;
 
 // PROPERTIES
 
+$vertical-aligns: (
+  middle,
+  top,
+  text-top,
+  bottom,
+  text-bottom,
+  sub,
+  super,
+  baseline
+  );
+
 $text-aligns: (
   center,
   left,
