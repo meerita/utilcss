@@ -1,0 +1,7 @@
+.visibility {
+  @each $visibility in $visibilities {
+    &--#{$visibility} {
+      visibility: $visibility;
+    }
+  }
+}

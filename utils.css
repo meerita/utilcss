@@ -1,18 +1,8 @@
-.vertical__align--middle {
-  vertical-align: middle; }
-.vertical__align--top {
-  vertical-align: top; }
-.vertical__align--text-top {
-  vertical-align: text-top; }
-.vertical__align--bottom {
-  vertical-align: bottom; }
-.vertical__align--text-bottom {
-  vertical-align: text-bottom; }
-.vertical__align--sub {
-  vertical-align: sub; }
-.vertical__align--super {
-  vertical-align: super; }
-.vertical__align--baseline {
-  vertical-align: baseline; }
+.visibility--visible {
+  visibility: visible; }
+.visibility--hidden {
+  visibility: hidden; }
+.visibility--collapse {
+  visibility: collapse; }
 
 /*# sourceMappingURL=utils.css.map */
