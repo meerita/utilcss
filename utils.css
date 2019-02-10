@@ -1,12 +1,10 @@
-.position--static {
-  position: static; }
-.position--relative {
-  position: relative; }
-.position--fixed {
-  position: fixed; }
-.position--absolute {
-  position: absolute; }
-.position--sticky {
-  position: sticky; }
+.display--none {
+  display: none; }
+.display--block {
+  display: block; }
+.display--inline {
+  display: inline; }
+.display--inline-block {
+  display: inline-block; }
 
 /*# sourceMappingURL=utils.css.map */

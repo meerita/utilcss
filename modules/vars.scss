@@ -4,7 +4,7 @@ $font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Ari
 
 
 
-// My array of colors
+// COLORS
 
 $colors: (
   1: #000,
@@ -13,14 +13,21 @@ $colors: (
 );
 
 
-// Responsive steps
+// RESPONSIVE
 
 $device-sm:        320px;
 $device-md:        768px;
 $device-lg:        1024px;
 $device-xl:        1400px;
 
-// Positions
+// PROPERTIES
+
+$displays: (
+  none,
+  block,
+  inline,
+  inline-block
+  );
 
 $positions: (
   static,
@@ -29,9 +36,6 @@ $positions: (
   absolute,
   sticky
   );
-
-
-// SCALES
 
 $scales: (
   0,
