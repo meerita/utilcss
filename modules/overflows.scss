@@ -1,0 +1,21 @@
+.overflow {
+  @each $overflow in $overflows {
+    &--#{$overflow} {
+      overflow: $overflow;
+    }
+  }
+  &-x {
+    @each $overflow in $overflows {
+      &--#{$overflow} {
+        overflow-x: $overflow;
+      }
+    }
+  }
+  &-y {
+    @each $overflow in $overflows {
+      &--#{$overflow} {
+        overflow-y: $overflow;
+      }
+    }
+  }
+}
