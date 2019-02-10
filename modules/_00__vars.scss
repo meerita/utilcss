@@ -1,19 +1,16 @@
 $fonts: (
-  sans: 'BentonSansBBVA',
-  serif: 'hola'
+  sans: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif',
+  serif: 'serif',
+  mono: '.SFMono-Semibold, San Francisco Mono, Roboto Mono, Arial, sans-serif'
   );
 
 
-$colores: (
-  1: #0000fa,
-  2: #2abcbd,
-  3: #fff,
-  4: rgba(112, 69, 196, 1),
-  5: #f0f0f0,
-  6: #01009a,
-  7: #999,
-  8: #3ccbd3,
-  9: #8BEBEA
+// My array of colors
+
+$colors: (
+  1: #000,
+  2: #fff,
+  3: #666
 );
 
 
