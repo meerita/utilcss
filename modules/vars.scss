@@ -22,6 +22,12 @@ $device-xl:        1400px;
 
 // PROPERTIES
 
+$visibilities: (
+  visible,
+  hidden,
+  collapse
+  );
+
 $vertical-aligns: (
   middle,
   top,
