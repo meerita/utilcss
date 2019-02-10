@@ -1,0 +1,7 @@
+.word-wrap {
+  @each $word-wrap in $word-wraps {
+    &--#{$word-wrap} {
+      word-wrap: $word-wrap;
+    }
+  }
+}
