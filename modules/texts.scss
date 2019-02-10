@@ -1,0 +1,8 @@
+.text {
+  // align module
+  @each $text-align in $text-aligns {
+    &__align--#{$text-align} {
+      text-align: $text-align;
+    }
+  }
+}
