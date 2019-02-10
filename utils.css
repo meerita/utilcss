@@ -1,8 +1,6 @@
-.visibility--visible {
-  visibility: visible; }
-.visibility--hidden {
-  visibility: hidden; }
-.visibility--collapse {
-  visibility: collapse; }
+.word-wrap--break-word {
+  word-wrap: break-word; }
+.word-wrap--normal {
+  word-wrap: normal; }
 
 /*# sourceMappingURL=utils.css.map */
