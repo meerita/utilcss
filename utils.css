@@ -1,10 +1,26 @@
-.display--none {
-  display: none; }
-.display--block {
-  display: block; }
-.display--inline {
-  display: inline; }
-.display--inline-block {
-  display: inline-block; }
+.overflow--scroll {
+  overflow: scroll; }
+.overflow--hidden {
+  overflow: hidden; }
+.overflow--auto {
+  overflow: auto; }
+.overflow--visible {
+  overflow: visible; }
+.overflow-x--scroll {
+  overflow-x: scroll; }
+.overflow-x--hidden {
+  overflow-x: hidden; }
+.overflow-x--auto {
+  overflow-x: auto; }
+.overflow-x--visible {
+  overflow-x: visible; }
+.overflow-y--scroll {
+  overflow-y: scroll; }
+.overflow-y--hidden {
+  overflow-y: hidden; }
+.overflow-y--auto {
+  overflow-y: auto; }
+.overflow-y--visible {
+  overflow-y: visible; }
 
 /*# sourceMappingURL=utils.css.map */
