@@ -1,26 +1,22 @@
-.overflow--scroll {
-  overflow: scroll; }
-.overflow--hidden {
-  overflow: hidden; }
-.overflow--auto {
-  overflow: auto; }
-.overflow--visible {
-  overflow: visible; }
-.overflow-x--scroll {
-  overflow-x: scroll; }
-.overflow-x--hidden {
-  overflow-x: hidden; }
-.overflow-x--auto {
-  overflow-x: auto; }
-.overflow-x--visible {
-  overflow-x: visible; }
-.overflow-y--scroll {
-  overflow-y: scroll; }
-.overflow-y--hidden {
-  overflow-y: hidden; }
-.overflow-y--auto {
-  overflow-y: auto; }
-.overflow-y--visible {
-  overflow-y: visible; }
+.text__align--center {
+  text-align: center; }
+.text__align--left {
+  text-align: left; }
+.text__align--right {
+  text-align: right; }
+.text__align--justify {
+  text-align: justify; }
+.text__overflow--clip {
+  text-overflow: clip; }
+.text__overflow--ellipsis {
+  text-overflow: ellipsis; }
+.text__transform--uppercase {
+  text-transform: uppercase; }
+.text__transform--lowercase {
+  text-transform: lowercase; }
+.text__transform--capitalize {
+  text-transform: capitalize; }
+.text__transform--none {
+  text-transform: none; }
 
 /*# sourceMappingURL=utils.css.map */

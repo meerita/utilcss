@@ -22,6 +22,25 @@ $device-xl:        1400px;
 
 // PROPERTIES
 
+$text-aligns: (
+  center,
+  left,
+  right,
+  justify
+  );
+
+$text-overflows: (
+  clip,
+  ellipsis
+  );
+
+$text-transforms: (
+  uppercase,
+  lowercase,
+  capitalize,
+  none
+  );
+
 $overflows: (
   scroll,
   hidden,
