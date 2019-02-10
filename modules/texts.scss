@@ -5,4 +5,16 @@
       text-align: $text-align;
     }
   }
+  // text overflow
+  @each $text-overflow in $text-overflows {
+    &__overflow--#{$text-overflow} {
+      text-overflow: $text-overflow;
+    }
+  }
+  // text transform
+  @each $text-transform in $text-transforms {
+    &__transform--#{$text-transform} {
+      text-transform: $text-transform;
+    }
+  }
 }

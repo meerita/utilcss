@@ -29,6 +29,18 @@ $text-aligns: (
   justify
   );
 
+$text-overflows: (
+  clip,
+  ellipsis
+  );
+
+$text-transforms: (
+  uppercase,
+  lowercase,
+  capitalize,
+  none
+  );
+
 $overflows: (
   scroll,
   hidden,

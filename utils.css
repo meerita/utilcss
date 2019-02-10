@@ -6,5 +6,17 @@
   text-align: right; }
 .text__align--justify {
   text-align: justify; }
+.text__overflow--clip {
+  text-overflow: clip; }
+.text__overflow--ellipsis {
+  text-overflow: ellipsis; }
+.text__transform--uppercase {
+  text-transform: uppercase; }
+.text__transform--lowercase {
+  text-transform: lowercase; }
+.text__transform--capitalize {
+  text-transform: capitalize; }
+.text__transform--none {
+  text-transform: none; }
 
 /*# sourceMappingURL=utils.css.map */
