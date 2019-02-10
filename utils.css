@@ -1,0 +1,12 @@
+.position--static {
+  position: static; }
+.position--relative {
+  position: relative; }
+.position--fixed {
+  position: fixed; }
+.position--absolute {
+  position: absolute; }
+.position--sticky {
+  position: sticky; }
+
+/*# sourceMappingURL=utils.css.map */
