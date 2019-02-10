@@ -1,6 +1,8 @@
-.word-wrap--break-word {
-  word-wrap: break-word; }
-.word-wrap--normal {
-  word-wrap: normal; }
+.white-space--nowrap {
+  white-space: nowrap; }
+.white-space--pre {
+  white-space: pre; }
+.white-space--normal {
+  white-space: normal; }
 
 /*# sourceMappingURL=utils.css.map */
