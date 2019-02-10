@@ -1,0 +1,98 @@
+$fonts: (
+  sans: 'BentonSansBBVA',
+  serif: 'hola'
+  );
+
+
+$colores: (
+  1: #0000fa,
+  2: #2abcbd,
+  3: #fff,
+  4: rgba(112, 69, 196, 1),
+  5: #f0f0f0,
+  6: #01009a,
+  7: #999,
+  8: #3ccbd3,
+  9: #8BEBEA
+);
+
+
+// Responsive steps
+
+$device-sm:        320px;
+$device-md:        768px;
+$device-lg:        1024px;
+$device-xl:        1400px;
+
+
+// SCALES
+
+$scales: (
+  0,
+  4,
+  8,
+  16,
+  32,
+  64
+  );
+
+// GRID
+
+$auto-flow: (
+    column,
+    row
+  );
+
+// FLEXBOX
+
+$direction: (
+  row,
+  row-reverse,
+  column,
+  column-reverse
+  );
+
+$wrap: (
+  nowrap,
+  wrap,
+  wrap-reverse
+  );
+
+$justify: (
+  flex-start,
+  flex-end,
+  center,
+  space-between,
+  space-around,
+  space-evenly
+  );
+
+$aligned: (
+  flex-start,
+  flex-end,
+  center,
+  stretch,
+  baseline
+  );
+
+$content: (
+  flex-start,
+  flex-end,
+  center,
+  stretch,
+  baseline
+  ); 
+
+$grow: (
+  1,
+  2
+  );
+
+$align-self: (
+  auto,
+  flex-start,
+  flex-end,
+  center,
+  stretch,
+  baseline
+  );
