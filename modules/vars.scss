@@ -22,6 +22,11 @@ $device-xl:        1400px;
 
 // PROPERTIES
 
+$word-wraps: (
+  break-word,
+  normal
+  );
+
 $visibilities: (
   visible,
   hidden,
