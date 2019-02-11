@@ -1,4 +1,9 @@
 .font {
+  @each $style in $styles {
+    &__style--#{$style} {
+      font-style: $style;
+    }
+  }
   @each $weight in $weights {
     &__weight--#{$weight} {
       font-weight: $weight;

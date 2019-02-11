@@ -18,11 +18,6 @@ $displays: (
   inline  
   );
 
-$weights: (
-  normal,
-  bold
-  );
-
 $pointer-events: (
   none,
   auto
@@ -49,6 +44,11 @@ $overflows: (
   hidden,
   auto,
   visible
+  );
+
+$styles: (
+  italic,
+  normal
   );
 
 $text-aligns: (
@@ -87,6 +87,11 @@ $visibilities: (
   collapse
   );
 
+$weights: (
+  normal,
+  bold
+  );
+
 $white-spaces: (
   nowrap,
   pre,
@@ -97,6 +102,8 @@ $word-wraps: (
   break-word,
   normal
   );
+
+
 
 // $scales: (
 //   0,
