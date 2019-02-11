@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAEI,qBAAqB;EACnB,cAAc,ECkBlB,IAAI;ADnBF,qBAAqB;EACnB,cAAc,ECmBlB,IAAI",
-"sources": ["modules/pointer-events.scss","modules/vars.scss"],
+"mappings": "",
+"sources": [],
 "names": [],
 "file": "utils.css"
 }
