@@ -14,8 +14,13 @@ $device-xl:        1400px;
 $displays: (
   none,
   block,
-  inline,
-  inline-block
+  inline-block,
+  inline  
+  );
+
+$weights: (
+  normal,
+  bold
   );
 
 $pointer-events: (

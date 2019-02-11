@@ -1,3 +1,10 @@
-
+.font__weight--normal {
+  font-weight: normal; }
+.font__weight--bold {
+  font-weight: bold; }
+.font__weight--lighter {
+  font-weight: lighter; }
+.font__weight--900 {
+  font-weight: 900; }
 
 /*# sourceMappingURL=utils.css.map */
