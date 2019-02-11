@@ -2,6 +2,10 @@ $font-family-serif:     Times New Roman;
 $font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 $font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Arial, sans-serif;
 
+$columns: 12;
+$column-gap: 16px;
+$row-gap: 16px;
+
 // RESPONSIVE
 
 $device-sm:        320px;
@@ -9,7 +13,31 @@ $device-md:        768px;
 $device-lg:        1024px;
 $device-xl:        1400px;
 
+$colors: (
+  1: #000,
+  2: #666
+  );
+
 // PROPERTIES
+
+$column-fills: (
+  balance,
+  auto
+  );
+
+$column-rule-styles: (
+  none,
+  solid,
+  dotted,
+  hidden// ,
+  // dashed,
+  // double,
+  // groove,
+  // ridge,
+  // inset,
+  // outset,
+  // initial
+  );
 
 $displays: (
   none,
