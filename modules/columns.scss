@@ -19,11 +19,6 @@
       column-rule-color: $column-rule-color;
     }
   }
-  @each $number, $column-rule-color in $colors {
-    &-rule-color--#{$number} {
-      column-rule-color: $column-rule-color;
-    }
-  }
   &-column-gap {
     column-gap: $column-gap;
   }
