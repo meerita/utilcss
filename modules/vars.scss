@@ -31,6 +31,14 @@ $positions: (
   sticky
   );
 
+$object-fits: (
+  none,
+  fill,
+  contain,
+  cover,
+  scale-down
+  );
+
 $overflows: (
   scroll,
   hidden,
