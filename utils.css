@@ -1,3 +1,48 @@
-
+.column-count--1 {
+  column-count: 1; }
+.column-count--2 {
+  column-count: 2; }
+.column-count--3 {
+  column-count: 3; }
+.column-count--4 {
+  column-count: 4; }
+.column-count--5 {
+  column-count: 5; }
+.column-count--6 {
+  column-count: 6; }
+.column-count--7 {
+  column-count: 7; }
+.column-count--8 {
+  column-count: 8; }
+.column-count--9 {
+  column-count: 9; }
+.column-count--10 {
+  column-count: 10; }
+.column-count--11 {
+  column-count: 11; }
+.column-count--12 {
+  column-count: 12; }
+.column-fill--balance {
+  column-fill: balance, auto; }
+.column-fill--auto {
+  column-fill: balance, auto; }
+.column-rule-style--none {
+  column-rule-style: none; }
+.column-rule-style--solid {
+  column-rule-style: solid; }
+.column-rule-style--dotted {
+  column-rule-style: dotted; }
+.column-rule-style--hidden {
+  column-rule-style: hidden; }
+.column-rule-color--1 {
+  column-rule-color: #000; }
+.column-rule-color--2 {
+  column-rule-color: #666; }
+.column-rule-color--1 {
+  column-rule-color: #000; }
+.column-rule-color--2 {
+  column-rule-color: #666; }
+.column-column-gap {
+  column-gap: 16px; }
 
 /*# sourceMappingURL=utils.css.map */
