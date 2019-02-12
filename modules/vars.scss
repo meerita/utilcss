@@ -43,7 +43,9 @@ $displays: (
   none,
   block,
   inline,
-  inline-block
+  inline-block,
+  flex,
+  grid
   );
 
 $pointer-events: (
@@ -146,47 +148,50 @@ $directions: (
   column-reverse
   );
 
-// $wrap: (
-//   nowrap,
-//   wrap,
-//   wrap-reverse
-//   );
+$wraps: (
+  nowrap,
+  wrap,
+  wrap-reverse
+  );
 
-// $justify: (
-//   flex-start,
-//   flex-end,
-//   center,
-//   space-between,
-//   space-around,
-//   space-evenly
-//   );
+$grows: (
+  1,
+  2,
+  3,
+  4
+  );
 
-// $aligned: (
-//   flex-start,
-//   flex-end,
-//   center,
-//   stretch,
-//   baseline
-//   );
+$justify-contents: (
+  flex-start,
+  flex-end,
+  center,
+  space-between,
+  space-around,
+  space-evenly
+  );
 
-// $content: (
-//   flex-start,
-//   flex-end,
-//   center,
-//   stretch,
-//   baseline
-//   ); 
+$align-items: (
+  flex-start,
+  flex-end,
+  center,
+  stretch,
+  baseline
+  );
 
-// $grow: (
-//   1,
-//   2
-//   );
+$align-contents: (
+  flex-start,
+  flex-end,
+  center,
+  stretch,
+  space-between,
+  space-around
+  ); 
 
-// $align-self: (
-//   auto,
-//   flex-start,
-//   flex-end,
-//   center,
-//   stretch,
-//   baseline
-//   );
+$align-selfs: (
+  auto,
+  flex-start,
+  flex-end,
+  center,
+  stretch,
+  baseline
+  );
