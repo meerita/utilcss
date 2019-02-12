@@ -139,12 +139,12 @@ $word-wraps: (
 
 // FLEXBOX
 
-// $direction: (
-//   row,
-//   row-reverse,
-//   column,
-//   column-reverse
-//   );
+$directions: (
+  row,
+  row-reverse,
+  column,
+  column-reverse
+  );
 
 // $wrap: (
 //   nowrap,

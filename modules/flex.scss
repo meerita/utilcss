@@ -25,4 +25,12 @@
 
 .flex {
   display: flex;
+  
+  &-direction {
+    @each $direction in $directions {
+      &--#{$direction} {
+        flex-direction: $direction;
+      }
+    }
+  }
 }
