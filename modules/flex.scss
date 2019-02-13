@@ -1,0 +1,80 @@
+// ▓█████▄  ██▓  ██████  ██▓███   ██▓    ▄▄▄     ▓██   ██▓
+// ▒██▀ ██▌▓██▒▒██    ▒ ▓██░  ██▒▓██▒   ▒████▄    ▒██  ██▒
+// ░██   █▌▒██▒░ ▓██▄   ▓██░ ██▓▒▒██░   ▒██  ▀█▄   ▒██ ██░
+// ░▓█▄   ▌░██░  ▒   ██▒▒██▄█▓▒ ▒▒██░   ░██▄▄▄▄██  ░ ▐██▓░
+// ░▒████▓ ░██░▒██████▒▒▒██▒ ░  ░░██████▒▓█   ▓██▒ ░ ██▒▓░
+//  ▒▒▓  ▒ ░▓  ▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░░ ▒░▓  ░▒▒   ▓▒█░  ██▒▒▒ 
+//  ░ ▒  ▒  ▒ ░░ ░▒  ░ ░░▒ ░     ░ ░ ▒  ░ ▒   ▒▒ ░▓██ ░▒░ 
+//  ░ ░  ░  ▒ ░░  ░  ░  ░░         ░ ░    ░   ▒   ▒ ▒ ░░  
+//    ░     ░        ░               ░  ░     ░  ░░ ░     
+//  ░                                             ░ ░     
+//   █████▒██▓    ▓█████ ▒██   ██▒                        
+// ▓██   ▒▓██▒    ▓█   ▀ ▒▒ █ █ ▒░                        
+// ▒████ ░▒██░    ▒███   ░░  █   ░                        
+// ░▓█▒  ░▒██░    ▒▓█  ▄  ░ █ █ ▒                         
+// ░▒█░   ░██████▒░▒████▒▒██▒ ▒██▒                        
+//  ▒ ░   ░ ▒░▓  ░░░ ▒░ ░▒▒ ░ ░▓ ░                        
+//  ░     ░ ░ ▒  ░ ░ ░  ░░░   ░▒ ░                        
+//  ░ ░     ░ ░      ░    ░    ░                          
+//            ░  ░   ░  ░ ░    ░                                               
+
+
+.flex {
+  &-direction {
+    @each $direction in $directions {
+      &--#{$direction} {
+        flex-direction: $direction;
+      }
+    }
+  }
+  &-wrap {
+    @each $wrap in $wraps {
+      &--#{$wrap} {
+        flex-wrap: $wrap;
+      }
+    }
+  }
+  &-grow {
+    @each $grow in $grows {
+      &--#{$grow} {
+        flex-grow: $grow;
+      }
+    }
+  }
+}
+
+// CONTAINER OPTIONS
+
+.justify-content {
+  @each $justify in $justify-contents {
+    &--#{$justify} {
+      justify-content: $justify;
+    }
+  }
+}
+
+.align-items {
+  @each $align in $align-items {
+    &--#{$align} {
+      align-items: $align;
+    }
+  }
+}
+
+.align-content {
+  @each $align in $align-contents {
+    &--#{$align} {
+      align-content: $align;
+    }
+  }
+}
+
+// CHILD OPTIONS
+
+.align-self {
+  @each $align in $align-selfs {
+    &--#{$align} {
+      align-self: $align;
+    }
+  }
+}

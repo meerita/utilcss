@@ -1,0 +1,25 @@
+.column {
+  @for $column from 1 through $columns {
+    &-count--#{$column} {
+      column-count: $column;
+    }
+  }
+  @each $column-fill in $column-fills {
+    &-fill--#{$column-fill} {
+      column-fill: $column-fills;
+    }
+  }
+  @each $column-rule-style in $column-rule-styles {
+    &-rule-style--#{$column-rule-style} {
+      column-rule-style: $column-rule-style;
+    }
+  }
+  @each $number, $column-rule-color in $colors {
+    &-rule-color--#{$number} {
+      column-rule-color: $column-rule-color;
+    }
+  }
+  &-column-gap {
+    column-gap: $column-gap;
+  }
+}

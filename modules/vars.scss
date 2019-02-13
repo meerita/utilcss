@@ -2,6 +2,10 @@ $font-family-serif:     Times New Roman;
 $font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 $font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Arial, sans-serif;
 
+$columns: 12;
+$column-gap: 16px;
+$row-gap: 16px;
+
 // RESPONSIVE
 
 $device-sm:        320px;
@@ -9,13 +13,39 @@ $device-md:        768px;
 $device-lg:        1024px;
 $device-xl:        1400px;
 
+$colors: (
+  1: #000,
+  2: #666
+  );
+
 // PROPERTIES
+
+$column-fills: (
+  balance,
+  auto
+  );
+
+$column-rule-styles: (
+  none,
+  solid,
+  dotted,
+  hidden// ,
+  // dashed,
+  // double,
+  // groove,
+  // ridge,
+  // inset,
+  // outset,
+  // initial
+  );
 
 $displays: (
   none,
   block,
   inline,
-  inline-block
+  inline-block,
+  flex,
+  grid
   );
 
 $pointer-events: (
@@ -29,6 +59,14 @@ $positions: (
   fixed,
   absolute,
   sticky
+  );
+
+$object-fits: (
+  none,
+  fill,
+  contain,
+  cover,
+  scale-down
   );
 
 $overflows: (
@@ -103,54 +141,57 @@ $word-wraps: (
 
 // FLEXBOX
 
-// $direction: (
-//   row,
-//   row-reverse,
-//   column,
-//   column-reverse
-//   );
+$directions: (
+  row,
+  row-reverse,
+  column,
+  column-reverse
+  );
 
-// $wrap: (
-//   nowrap,
-//   wrap,
-//   wrap-reverse
-//   );
+$wraps: (
+  nowrap,
+  wrap,
+  wrap-reverse
+  );
 
-// $justify: (
-//   flex-start,
-//   flex-end,
-//   center,
-//   space-between,
-//   space-around,
-//   space-evenly
-//   );
+$grows: (
+  1,
+  2,
+  3,
+  4
+  );
 
-// $aligned: (
-//   flex-start,
-//   flex-end,
-//   center,
-//   stretch,
-//   baseline
-//   );
+$justify-contents: (
+  flex-start,
+  flex-end,
+  center,
+  space-between,
+  space-around,
+  space-evenly
+  );
 
-// $content: (
-//   flex-start,
-//   flex-end,
-//   center,
-//   stretch,
-//   baseline
-//   ); 
+$align-items: (
+  flex-start,
+  flex-end,
+  center,
+  stretch,
+  baseline
+  );
 
-// $grow: (
-//   1,
-//   2
-//   );
+$align-contents: (
+  flex-start,
+  flex-end,
+  center,
+  stretch,
+  space-between,
+  space-around
+  ); 
 
-// $align-self: (
-//   auto,
-//   flex-start,
-//   flex-end,
-//   center,
-//   stretch,
-//   baseline
-//   );
+$align-selfs: (
+  auto,
+  flex-start,
+  flex-end,
+  center,
+  stretch,
+  baseline
+  );
