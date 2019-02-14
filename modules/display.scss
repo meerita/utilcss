@@ -5,3 +5,43 @@
     }
   }
 }
+
+@media (min-width: 100px) and (max-width: $device-md) {
+  .display {
+    &-sm {
+      &--none {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: $device-md) and (max-width: $device-lg) {
+  .display {
+    &-md {
+      &--none {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: $device-lg) and (max-width: $device-xl) {
+  .display {
+    &-lg {
+      &--none {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: $device-xl) {
+  .display {
+    &-xl {
+      &--none {
+        display: none;
+      }
+    }
+  }
+}
