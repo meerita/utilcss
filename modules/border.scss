@@ -6,4 +6,11 @@
       }
     }
   }
+  &-radius {
+    @each $border in $radius {
+      &--#{$border} {
+        border-radius: #{$border}px;
+      }
+    }
+  }
 }

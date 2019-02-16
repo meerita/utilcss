@@ -18,6 +18,34 @@ $colors: (
   2: #666
   );
 
+$radius: (
+  2
+  );
+
+$borders: (
+  none,
+  hidden,
+  dotted,
+  dashed,
+  solid,
+  double,
+  groove,
+  ridge,
+  inset,
+  outset,
+  initial,
+  inherit
+  );
+
+$scales: (
+  0,
+  4,
+  8,
+  16,
+  32,
+  64
+  );
+
 // PROPERTIES
 
 $border-collapses: (
