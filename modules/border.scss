@@ -1,0 +1,9 @@
+.border {
+  &-collapse {
+    @each $border in $border-collapses {
+      &--#{$border} {
+        border-collapse: $border;
+      }
+    }
+  }
+}

@@ -1,27 +1,4 @@
-.display--none {
-  display: none; }
-.display--block {
-  display: block; }
-.display--inline {
-  display: inline; }
-.display--inline-block {
-  display: inline-block; }
-.display--flex {
-  display: flex; }
-.display--grid {
-  display: grid; }
-
-@media (min-width: 100px) and (max-width: 768px) {
-  .display-sm--none {
-    display: none; } }
-@media (min-width: 768px) and (max-width: 1024px) {
-  .display-md--none {
-    display: none; } }
-@media (min-width: 1024px) and (max-width: 1400px) {
-  .display-lg--none {
-    display: none; } }
-@media (min-width: 1400px) {
-  .display-xl--none {
-    display: none; } }
+.border-collapse--collapse {
+  border-collapse: collapse; }
 
 /*# sourceMappingURL=utils.css.map */

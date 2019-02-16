@@ -32,6 +32,7 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * align-content
 * align-items
 * align-self
+* border-collapse
 * column-count
 * column-fill
 * column-gap
