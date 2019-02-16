@@ -23,18 +23,25 @@
 
 UCSSM is a CSS framework and a methodology for developing responsive, mobile first projects on the web.
 
-Unlike other similar projects such as Bootstrap or BEM, UCSSM focuses on the utilitarian philosophy of CSS: which advocates using atomized classes with individual utility applied to the element instead of creating an initial set of predefined structures, styles and effects, thus increasing the overall size of the CSS file and the time it takes to maintain it or resume the development of it.
+Unlike other similar projects such as Bootstrap or BEM, UCSSM focuses on the utilitarian philosophy of CSS: which advocates using atomized classes with individual utility applied to the element instead of creating an initial set of predefined structures, styles and effects, thus increasing the overall size of the CSS file and the time it takes to maintain it or resume  development.
 
-Websites that were made with UCSSM have generally offered higher performance results: the painting speed will be reduced by half or more than that; the rendering time will be around 400% faster and the size of CSS files will remain smaller and easy to maintain.
+Websites and apps that were made with UCSSM have generally offered higher performance results: the painting speed will be reduced by half or more than that; the rendering time will be around 400% faster and the size of CSS files will remain smaller and easy to maintain.
 
-## Property support
+## List of supported properties
 
+* align-content
+* align-items
+* align-self
 * column-count
 * column-fill
 * column-gap
 * column-rule-style
 * column-rule-color
 * display
+* flex-direction
+* flex-grow
+* flex-wrap
+* justify-content
 * object-fit
 * overflow
 * overflow-x
