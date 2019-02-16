@@ -13,4 +13,21 @@
       }
     }
   }
+  // SIDES FOR RADIUSES
+  @each $side in $sides {
+    &-#{$side} {
+      @each $radius in $radius {
+        &-radius-#{$radius} {
+          border-#{$side}-radius: #{$radius}px;
+        } 
+      }
+    }
+  }
+  &-color {
+    @each $number, $color in $colors {
+      &--#{$number} {
+        border-color: $color;
+      }
+    }
+  }
 }

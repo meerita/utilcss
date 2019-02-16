@@ -1,6 +1,28 @@
 .border-collapse--collapse {
   border-collapse: collapse; }
+.border-radius--0 {
+  border-radius: 0px; }
 .border-radius--2 {
   border-radius: 2px; }
+.border-top-radius-0 {
+  border-top-radius: 0px; }
+.border-top-radius-2 {
+  border-top-radius: 2px; }
+.border-bottom-radius-0 {
+  border-bottom-radius: 0px; }
+.border-bottom-radius-2 {
+  border-bottom-radius: 2px; }
+.border-left-radius-0 {
+  border-left-radius: 0px; }
+.border-left-radius-2 {
+  border-left-radius: 2px; }
+.border-right-radius-0 {
+  border-right-radius: 0px; }
+.border-right-radius-2 {
+  border-right-radius: 2px; }
+.border-color--1 {
+  border-color: #000; }
+.border-color--2 {
+  border-color: #666; }
 
 /*# sourceMappingURL=utils.css.map */

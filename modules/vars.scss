@@ -13,12 +13,20 @@ $device-md:        768px;
 $device-lg:        1024px;
 $device-xl:        1400px;
 
+$sides: (
+  top,
+  bottom,
+  left,
+  right
+  );
+
 $colors: (
   1: #000,
   2: #666
   );
 
 $radius: (
+  0,
   2
   );
 
