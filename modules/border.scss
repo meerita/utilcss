@@ -6,27 +6,41 @@
       }
     }
   }
-  &-radius {
-    @each $border in $radius {
-      &--#{$border} {
-        border-radius: #{$border}px;
-      }
-    }
-  }
+  // &-radius {
+  //   @each $border in $radius {
+  //     &--#{$border} {
+  //       border-radius: #{$border}px;
+  //     }
+  //   }
+  // }
   // SIDES FOR RADIUSES
-  @each $side in $sides {
-    &-#{$side} {
-      @each $radius in $radius {
-        &-radius-#{$radius} {
-          border-#{$side}-radius: #{$radius}px;
-        } 
+  // @each $side in $sides {
+  //   &-#{$side} {
+  //     @each $radius in $radius {
+  //       &-radius-#{$radius} {
+  //         border-#{$side}-radius: #{$radius}px;
+  //       } 
+  //     }
+  //   }
+  // }
+  // &-color {
+  //   @each $number, $color in $colors {
+  //     &--#{$number} {
+  //       border-color: $color;
+  //     }
+  //   }
+  // }
+  &-style {
+    @each $style in $borders {
+      &--#{$style} {
+        border-style: $style;
       }
     }
   }
-  &-color {
-    @each $number, $color in $colors {
-      &--#{$number} {
-        border-color: $color;
+  @each $width in $border-widths {
+    &-width {
+      &--#{$width} {
+      border-width: #{$width}px;
       }
     }
   }

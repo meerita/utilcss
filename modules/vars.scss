@@ -22,7 +22,8 @@ $sides: (
 
 $colors: (
   1: #000,
-  2: #666
+  2: #f00,
+  3: #c00
   );
 
 $radius: (
@@ -32,17 +33,22 @@ $radius: (
 
 $borders: (
   none,
-  hidden,
-  dotted,
-  dashed,
-  solid,
-  double,
-  groove,
-  ridge,
-  inset,
-  outset,
-  initial,
-  inherit
+  solid
+  // hidden,
+  // dotted,
+  // dashed,
+  // double,
+  // groove,
+  // ridge,
+  // inset,
+  // outset,
+  // initial,
+  // inherit
+  );
+
+$border-widths: (
+  0,
+  1
   );
 
 $scales: (
@@ -118,10 +124,10 @@ $overflows: (
   );
 
 $text-aligns: (
-  center,
-  left,
-  right,
-  justify
+  left
+  // center,
+  // right,
+  // justify
   );
 
 $text-overflows: (

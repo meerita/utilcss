@@ -33,8 +33,28 @@
 // @import 'modules/overflow';
 // @import 'modules/pointer-event';
 // @import 'modules/position';
-// @import 'modules/text';
+@import 'modules/text';
 // @import 'modules/vertical-align';
 // @import 'modules/visibility';
 // @import 'modules/white-space';
 // @import 'modules/word-wrap';
+
+body {
+  font-family: $font-family-sans;
+}
+
+.width--100 {
+  width: 100%;
+}
+
+.padding--4 {
+  padding: 4px;
+}
+
+.color {
+  @each $number, $color in $colors {
+    &--#{$number} {
+      color: $color;
+    }
+  }
+}
