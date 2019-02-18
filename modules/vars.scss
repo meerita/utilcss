@@ -216,12 +216,15 @@ $grows: (
   );
 
 $justify-contents: (
-  flex-start,
-  flex-end,
   center,
-  space-between,
+  end,
+  flex-end,
+  flex-start,
   space-around,
-  space-evenly
+  space-between,
+  space-evenly,
+  start,
+  stretch,
   );
 
 $justify-items: (
@@ -240,12 +243,14 @@ $align-items: (
   );
 
 $align-contents: (
-  flex-start,
-  flex-end,
   center,
-  stretch,
+  end,
+  flex-end,
+  flex-start,
+  space-around,
   space-between,
-  space-around
+  start,
+  stretch
   ); 
 
 $align-selfs: (

@@ -64,19 +64,6 @@
   grid-column-gap: 32px; }
 .grid-column-gap--64 {
   grid-column-gap: 64px; }
-.grid-column-gap {
-  grid-column-gap: 16px; }
-.grid-row-gap {
-  grid-row-gap: 16px; }
-
-.justify-items--start {
-  justify-items: start; }
-.justify-items--end {
-  justify-items: end; }
-.justify-items--center {
-  justify-items: center; }
-.justify-items--stretch {
-  justify-items: stretch; }
 
 .text-align--left {
   text-align: left; }

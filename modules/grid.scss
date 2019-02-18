@@ -44,22 +44,4 @@
       }
     }
   }
-  
-
-  &-column-gap {
-    grid-column-gap: $column-gap;
-  }
-  &-row-gap {
-    grid-row-gap: $row-gap;
-  }
-}
-
-// CONTAINER OPTIONS
-
-.justify-items {
-  @each $justify in $justify-items {
-    &--#{$justify} {
-      justify-items: $justify;
-    }
-  }
 }
