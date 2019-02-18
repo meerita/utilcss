@@ -63,11 +63,6 @@ $scales: (
 
 // PROPERTIES
 
-$auto-flows: (
-  row,
-  column
-);
-
 $border-collapses: (
   collapse
   // separate
@@ -191,12 +186,12 @@ $scales: (
   64
   );
 
-// // GRID
+// GRID
 
-// $auto-flow: (
-//   column,
-//   row
-// );
+$flows: (
+  row,
+  column
+);
 
 // FLEXBOX
 

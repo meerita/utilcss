@@ -27,7 +27,7 @@
 
   // Autoflow
   &-auto-flow {
-    @each $type in $auto-flows {
+    @each $type in $flows {
       &--#{$type} {
         grid-auto-flow: $type;
       }
@@ -35,9 +35,17 @@
   }
 
   // Gap
-  &-gap {
-    grid-gap: $column-gap;
+   @each $flow in $flows {
+    &-#{$flow}-gap {
+      @each $scale in $scales {
+        &--#{$scale} {
+          grid-#{$flow}-gap: #{$scale}px;
+        }
+      }
+    }
   }
+  
+
   &-column-gap {
     grid-column-gap: $column-gap;
   }
