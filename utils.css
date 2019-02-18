@@ -8,6 +8,53 @@
   border-width: 0px; }
 .border-width--1 {
   border-width: 1px; }
+.border-width--2 {
+  border-width: 2px; }
+
+.display--none {
+  display: none; }
+.display--block {
+  display: block; }
+.display--inline {
+  display: inline; }
+.display--inline-block {
+  display: inline-block; }
+.display--flex {
+  display: flex; }
+.display--grid {
+  display: grid; }
+
+@media (min-width: 100px) and (max-width: 768px) {
+  .display-sm--none {
+    display: none; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .display-md--none {
+    display: none; } }
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .display-lg--none {
+    display: none; } }
+@media (min-width: 1400px) {
+  .display-xl--none {
+    display: none; } }
+.grid-auto-flow--row {
+  grid-auto-flow: row; }
+.grid-auto-flow--column {
+  grid-auto-flow: column; }
+.grid-gap {
+  grid-gap: 16px; }
+.grid-column-gap {
+  grid-column-gap: 16px; }
+.grid-row-gap {
+  grid-row-gap: 16px; }
+
+.justify-items--start {
+  justify-items: start; }
+.justify-items--end {
+  justify-items: end; }
+.justify-items--center {
+  justify-items: center; }
+.justify-items--stretch {
+  justify-items: stretch; }
 
 .text-align--left {
   text-align: left; }
@@ -27,5 +74,11 @@ body {
   color: #f00; }
 .color--3 {
   color: #c00; }
+
+.border--1 {
+  border: 1px solid red; }
+
+.border--2 {
+  border: 1px solid blue; }
 
 /*# sourceMappingURL=utils.css.map */

@@ -26,8 +26,9 @@
 
 @import 'modules/border';
 // @import 'modules/column';
-// @import 'modules/display';
+@import 'modules/display';
 // @import 'modules/flex';
+@import 'modules/grid';
 // @import 'modules/normalizer';
 // @import 'modules/object-fit';
 // @import 'modules/overflow';
@@ -57,4 +58,12 @@ body {
       color: $color;
     }
   }
+}
+
+
+.border--1 {
+  border: 1px solid red;
+}
+.border--2 {
+  border: 1px solid blue;
 }

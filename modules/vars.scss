@@ -48,7 +48,8 @@ $borders: (
 
 $border-widths: (
   0,
-  1
+  1,
+  2
   );
 
 $scales: (
@@ -61,6 +62,11 @@ $scales: (
   );
 
 // PROPERTIES
+
+$auto-flows: (
+  row,
+  column
+);
 
 $border-collapses: (
   collapse
@@ -170,14 +176,20 @@ $word-wraps: (
   normal
   );
 
-// $scales: (
-//   0,
-//   4,
-//   8,
-//   16,
-//   32,
-//   64
-//   );
+// Patter scales
+//
+// For designs that use patterns, this one is friendly with Android
+// PC and Macs screens
+//
+
+$scales: (
+  0,
+  4,
+  8,
+  16,
+  32,
+  64
+  );
 
 // // GRID
 
@@ -215,6 +227,13 @@ $justify-contents: (
   space-between,
   space-around,
   space-evenly
+  );
+
+$justify-items: (
+  start,
+  end,
+  center,
+  stretch
   );
 
 $align-items: (
