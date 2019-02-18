@@ -27,14 +27,24 @@
 
   // Autoflow
   &-auto-flow {
-    @each $type in $flows {
-      &--#{$type} {
-        grid-auto-flow: $type;
+    @each $flow in $flows {
+      &--#{$flow} {
+        grid-auto-flow: $flow;
       }
     }
   }
 
   // Gap
+  //
+  // Specifies the size of the grid lines. You can think of it like setting the width 
+  // of the gutters between the columns/rows.
+  &-gap {
+    @each $scale in $scales {
+      &--#{$scale} {
+        grid-gap: #{$scale}px;
+      }
+    }
+  }
    @each $flow in $flows {
     &-#{$flow}-gap {
       @each $scale in $scales {

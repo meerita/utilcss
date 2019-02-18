@@ -1,3 +1,42 @@
+.align-items--flex-start {
+  align-items: flex-start; }
+.align-items--flex-end {
+  align-items: flex-end; }
+.align-items--center {
+  align-items: center; }
+.align-items--stretch {
+  align-items: stretch; }
+.align-items--baseline {
+  align-items: baseline; }
+.align-content--center {
+  align-content: center; }
+.align-content--end {
+  align-content: end; }
+.align-content--flex-end {
+  align-content: flex-end; }
+.align-content--flex-start {
+  align-content: flex-start; }
+.align-content--space-around {
+  align-content: space-around; }
+.align-content--space-between {
+  align-content: space-between; }
+.align-content--start {
+  align-content: start; }
+.align-content--stretch {
+  align-content: stretch; }
+.align-self--auto {
+  align-self: auto; }
+.align-self--flex-start {
+  align-self: flex-start; }
+.align-self--flex-end {
+  align-self: flex-end; }
+.align-self--center {
+  align-self: center; }
+.align-self--stretch {
+  align-self: stretch; }
+.align-self--baseline {
+  align-self: baseline; }
+
 .border-collapse--collapse {
   border-collapse: collapse; }
 .border-style--none {
@@ -40,6 +79,18 @@
   grid-auto-flow: row; }
 .grid-auto-flow--column {
   grid-auto-flow: column; }
+.grid-gap--0 {
+  grid-gap: 0px; }
+.grid-gap--4 {
+  grid-gap: 4px; }
+.grid-gap--8 {
+  grid-gap: 8px; }
+.grid-gap--16 {
+  grid-gap: 16px; }
+.grid-gap--32 {
+  grid-gap: 32px; }
+.grid-gap--64 {
+  grid-gap: 64px; }
 .grid-row-gap--0 {
   grid-row-gap: 0px; }
 .grid-row-gap--4 {
@@ -64,6 +115,33 @@
   grid-column-gap: 32px; }
 .grid-column-gap--64 {
   grid-column-gap: 64px; }
+
+.justify-content--center {
+  justify-content: center; }
+.justify-content--end {
+  justify-content: end; }
+.justify-content--flex-end {
+  justify-content: flex-end; }
+.justify-content--flex-start {
+  justify-content: flex-start; }
+.justify-content--space-around {
+  justify-content: space-around; }
+.justify-content--space-between {
+  justify-content: space-between; }
+.justify-content--space-evenly {
+  justify-content: space-evenly; }
+.justify-content--start {
+  justify-content: start; }
+.justify-content--stretch {
+  justify-content: stretch; }
+.justify-items--start {
+  justify-items: start; }
+.justify-items--end {
+  justify-items: end; }
+.justify-items--center {
+  justify-items: center; }
+.justify-items--stretch {
+  justify-items: stretch; }
 
 .text-align--left {
   text-align: left; }

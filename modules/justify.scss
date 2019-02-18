@@ -11,7 +11,7 @@
   // This property aligns the grid along the inline (row) axis (as opposed
   // to align-content which aligns the grid along the block (column) axis).
   //
-  .justify-content {
+  &-content {
     @each $justify in $justify-contents {
       &--#{$justify} {
         justify-content: $justify;
