@@ -1,0 +1,33 @@
+//    __     __  __     ______     ______   __     ______   __  __    
+//    /\ \   /\ \/\ \   /\  ___\   /\__  _\ /\ \   /\  ___\ /\ \_\ \   
+//   _\_\ \  \ \ \_\ \  \ \___  \  \/_/\ \/ \ \ \  \ \  __\ \ \____ \  
+//  /\_____\  \ \_____\  \/\_____\    \ \_\  \ \_\  \ \_\    \/\_____\ 
+//  \/_____/   \/_____/   \/_____/     \/_/   \/_/   \/_/     \/_____/ 
+//
+
+.justify {
+  // Justify Content
+  //
+  // This property aligns the grid along the inline (row) axis (as opposed
+  // to align-content which aligns the grid along the block (column) axis).
+  //
+  .justify-content {
+    @each $justify in $justify-contents {
+      &--#{$justify} {
+        justify-content: $justify;
+      }
+    }
+  }
+  // Justify Items
+  //
+  // Aligns grid items along the inline (row) axis (as opposed to align-items 
+  // which aligns along the block (column) axis). This value applies to all 
+  // grid items inside the container.
+  &-items {
+    @each $justify in $justify-items {
+      &--#{$justify} {
+        justify-items: $justify;
+      }
+    }
+  }
+}

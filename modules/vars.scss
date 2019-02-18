@@ -13,12 +13,60 @@ $device-md:        768px;
 $device-lg:        1024px;
 $device-xl:        1400px;
 
+$sides: (
+  top,
+  bottom,
+  left,
+  right
+  );
+
 $colors: (
   1: #000,
-  2: #666
+  2: #f00,
+  3: #c00
+  );
+
+$radius: (
+  0,
+  2
+  );
+
+$borders: (
+  none,
+  solid
+  // hidden,
+  // dotted,
+  // dashed,
+  // double,
+  // groove,
+  // ridge,
+  // inset,
+  // outset,
+  // initial,
+  // inherit
+  );
+
+$border-widths: (
+  0,
+  1,
+  2
+  );
+
+$scales: (
+  0,
+  4,
+  8,
+  16,
+  32,
+  64
   );
 
 // PROPERTIES
+
+$border-collapses: (
+  collapse
+  // separate
+  );
 
 $column-fills: (
   balance,
@@ -77,10 +125,10 @@ $overflows: (
   );
 
 $text-aligns: (
-  center,
-  left,
-  right,
-  justify
+  left
+  // center,
+  // right,
+  // justify
   );
 
 $text-overflows: (
@@ -123,21 +171,27 @@ $word-wraps: (
   normal
   );
 
-// $scales: (
-//   0,
-//   4,
-//   8,
-//   16,
-//   32,
-//   64
-//   );
+// Patter scales
+//
+// For designs that use patterns, this one is friendly with Android
+// PC and Macs screens
+//
 
-// // GRID
+$scales: (
+  0,
+  4,
+  8,
+  16,
+  32,
+  64
+  );
 
-// $auto-flow: (
-//   column,
-//   row
-// );
+// GRID
+
+$flows: (
+  row,
+  column
+);
 
 // FLEXBOX
 
@@ -162,12 +216,22 @@ $grows: (
   );
 
 $justify-contents: (
-  flex-start,
-  flex-end,
   center,
-  space-between,
+  end,
+  flex-end,
+  flex-start,
   space-around,
-  space-evenly
+  space-between,
+  space-evenly,
+  start,
+  stretch,
+  );
+
+$justify-items: (
+  start,
+  end,
+  center,
+  stretch
   );
 
 $align-items: (
@@ -179,12 +243,14 @@ $align-items: (
   );
 
 $align-contents: (
-  flex-start,
-  flex-end,
   center,
-  stretch,
+  end,
+  flex-end,
+  flex-start,
+  space-around,
   space-between,
-  space-around
+  start,
+  stretch
   ); 
 
 $align-selfs: (

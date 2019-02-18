@@ -1,3 +1,16 @@
+.border-collapse--collapse {
+  border-collapse: collapse; }
+.border-style--none {
+  border-style: none; }
+.border-style--solid {
+  border-style: solid; }
+.border-width--0 {
+  border-width: 0px; }
+.border-width--1 {
+  border-width: 1px; }
+.border-width--2 {
+  border-width: 2px; }
+
 .display--none {
   display: none; }
 .display--block {
@@ -23,5 +36,58 @@
 @media (min-width: 1400px) {
   .display-xl--none {
     display: none; } }
+.grid-auto-flow--row {
+  grid-auto-flow: row; }
+.grid-auto-flow--column {
+  grid-auto-flow: column; }
+.grid-row-gap--0 {
+  grid-row-gap: 0px; }
+.grid-row-gap--4 {
+  grid-row-gap: 4px; }
+.grid-row-gap--8 {
+  grid-row-gap: 8px; }
+.grid-row-gap--16 {
+  grid-row-gap: 16px; }
+.grid-row-gap--32 {
+  grid-row-gap: 32px; }
+.grid-row-gap--64 {
+  grid-row-gap: 64px; }
+.grid-column-gap--0 {
+  grid-column-gap: 0px; }
+.grid-column-gap--4 {
+  grid-column-gap: 4px; }
+.grid-column-gap--8 {
+  grid-column-gap: 8px; }
+.grid-column-gap--16 {
+  grid-column-gap: 16px; }
+.grid-column-gap--32 {
+  grid-column-gap: 32px; }
+.grid-column-gap--64 {
+  grid-column-gap: 64px; }
+
+.text-align--left {
+  text-align: left; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; }
+
+.width--100 {
+  width: 100%; }
+
+.padding--4 {
+  padding: 4px; }
+
+.color--1 {
+  color: #000; }
+.color--2 {
+  color: #f00; }
+.color--3 {
+  color: #c00; }
+
+.border--1 {
+  border: 1px solid red; }
+
+.border--2 {
+  border: 1px solid blue; }
 
 /*# sourceMappingURL=utils.css.map */

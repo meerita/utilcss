@@ -6,15 +6,15 @@
     }
   }
   // text overflow
-  @each $text-overflow in $text-overflows {
-    &-overflow--#{$text-overflow} {
-      text-overflow: $text-overflow;
-    }
-  }
+  // @each $text-overflow in $text-overflows {
+  //   &-overflow--#{$text-overflow} {
+  //     text-overflow: $text-overflow;
+  //   }
+  // }
   // text transform
-  @each $text-transform in $text-transforms {
-    &-transform--#{$text-transform} {
-      text-transform: $text-transform;
-    }
-  }
+  // @each $text-transform in $text-transforms {
+  //   &-transform--#{$text-transform} {
+  //     text-transform: $text-transform;
+  //   }
+  // }
 }
