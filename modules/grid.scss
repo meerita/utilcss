@@ -55,3 +55,20 @@
     }
   }
 }
+
+// Responsive Movile
+@media (min-width: $device-sm) {
+  // Definition of the media type
+  .sm {
+    // starts the grid-template-columns parent
+    &-grid {
+      &-template-columns {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-template-columns: repeat($column, auto);
+          }
+        }
+      }
+    }
+  }
+}

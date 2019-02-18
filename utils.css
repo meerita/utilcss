@@ -116,6 +116,31 @@
 .grid-column-gap--64 {
   grid-column-gap: 64px; }
 
+@media (min-width: 320px) {
+  .sm-grid-template-columns--1 {
+    grid-template-columns: repeat(1, auto); }
+  .sm-grid-template-columns--2 {
+    grid-template-columns: repeat(2, auto); }
+  .sm-grid-template-columns--3 {
+    grid-template-columns: repeat(3, auto); }
+  .sm-grid-template-columns--4 {
+    grid-template-columns: repeat(4, auto); }
+  .sm-grid-template-columns--5 {
+    grid-template-columns: repeat(5, auto); }
+  .sm-grid-template-columns--6 {
+    grid-template-columns: repeat(6, auto); }
+  .sm-grid-template-columns--7 {
+    grid-template-columns: repeat(7, auto); }
+  .sm-grid-template-columns--8 {
+    grid-template-columns: repeat(8, auto); }
+  .sm-grid-template-columns--9 {
+    grid-template-columns: repeat(9, auto); }
+  .sm-grid-template-columns--10 {
+    grid-template-columns: repeat(10, auto); }
+  .sm-grid-template-columns--11 {
+    grid-template-columns: repeat(11, auto); }
+  .sm-grid-template-columns--12 {
+    grid-template-columns: repeat(12, auto); } }
 .justify-content--center {
   justify-content: center; }
 .justify-content--end {
@@ -142,6 +167,14 @@
   justify-items: center; }
 .justify-items--stretch {
   justify-items: stretch; }
+.justify-self--start {
+  justify-self: start; }
+.justify-self--end {
+  justify-self: end; }
+.justify-self--center {
+  justify-self: center; }
+.justify-self--stretch {
+  justify-self: stretch; }
 
 .text-align--left {
   text-align: left; }
