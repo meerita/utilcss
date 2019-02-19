@@ -71,6 +71,17 @@
           }
         }
       }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      // &-template-rows {
+      //   @for $column from 1 through $columns {
+      //     &--#{$column} {
+      //       grid-template-rows: repeat($column, auto);
+      //     }
+      //   }
+      // }
     }
   }
 }
@@ -89,6 +100,75 @@
           }
         }
       }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      // &-template-rows {
+      //   @for $column from 1 through $columns {
+      //     &--#{$column} {
+      //       grid-template-rows: repeat($column, auto);
+      //     }
+      //   }
+      // }
+    }
+  }
+}
+
+
+// Landscape tablets and Desktop
+@media (min-width: $device-lg) {
+  // Definition of the media type
+  .lg {
+    // starts the grid-template-columns
+    &-grid {
+      &-template-columns {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-template-columns: repeat($column, auto);
+          }
+        }
+      }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      // &-template-rows {
+      //   @for $column from 1 through $columns {
+      //     &--#{$column} {
+      //       grid-template-rows: repeat($column, auto);
+      //     }
+      //   }
+      // }
+    }
+  }
+}
+
+
+// Large Desktop and Beyond
+@media (min-width: $device-xl) {
+  // Definition of the media type
+  .xl {
+    // starts the grid-template-columns
+    &-grid {
+      &-template-columns {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-template-columns: repeat($column, auto);
+          }
+        }
+      }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      // &-template-rows {
+      //   @for $column from 1 through $columns {
+      //     &--#{$column} {
+      //       grid-template-rows: repeat($column, auto);
+      //     }
+      //   }
+      // }
     }
   }
 }

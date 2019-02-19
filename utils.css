@@ -166,6 +166,56 @@
     grid-template-columns: repeat(11, auto); }
   .md-grid-template-columns--12 {
     grid-template-columns: repeat(12, auto); } }
+@media (min-width: 1024px) {
+  .lg-grid-template-columns--1 {
+    grid-template-columns: repeat(1, auto); }
+  .lg-grid-template-columns--2 {
+    grid-template-columns: repeat(2, auto); }
+  .lg-grid-template-columns--3 {
+    grid-template-columns: repeat(3, auto); }
+  .lg-grid-template-columns--4 {
+    grid-template-columns: repeat(4, auto); }
+  .lg-grid-template-columns--5 {
+    grid-template-columns: repeat(5, auto); }
+  .lg-grid-template-columns--6 {
+    grid-template-columns: repeat(6, auto); }
+  .lg-grid-template-columns--7 {
+    grid-template-columns: repeat(7, auto); }
+  .lg-grid-template-columns--8 {
+    grid-template-columns: repeat(8, auto); }
+  .lg-grid-template-columns--9 {
+    grid-template-columns: repeat(9, auto); }
+  .lg-grid-template-columns--10 {
+    grid-template-columns: repeat(10, auto); }
+  .lg-grid-template-columns--11 {
+    grid-template-columns: repeat(11, auto); }
+  .lg-grid-template-columns--12 {
+    grid-template-columns: repeat(12, auto); } }
+@media (min-width: 1400px) {
+  .xl-grid-template-columns--1 {
+    grid-template-columns: repeat(1, auto); }
+  .xl-grid-template-columns--2 {
+    grid-template-columns: repeat(2, auto); }
+  .xl-grid-template-columns--3 {
+    grid-template-columns: repeat(3, auto); }
+  .xl-grid-template-columns--4 {
+    grid-template-columns: repeat(4, auto); }
+  .xl-grid-template-columns--5 {
+    grid-template-columns: repeat(5, auto); }
+  .xl-grid-template-columns--6 {
+    grid-template-columns: repeat(6, auto); }
+  .xl-grid-template-columns--7 {
+    grid-template-columns: repeat(7, auto); }
+  .xl-grid-template-columns--8 {
+    grid-template-columns: repeat(8, auto); }
+  .xl-grid-template-columns--9 {
+    grid-template-columns: repeat(9, auto); }
+  .xl-grid-template-columns--10 {
+    grid-template-columns: repeat(10, auto); }
+  .xl-grid-template-columns--11 {
+    grid-template-columns: repeat(11, auto); }
+  .xl-grid-template-columns--12 {
+    grid-template-columns: repeat(12, auto); } }
 .justify-content--center {
   justify-content: center; }
 .justify-content--end {
