@@ -69,4 +69,5 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * word-wrap
 
 <sup>1</sup>: Can be used as `sm-[property]`, `md-[property]`
+
 <sup>2</sup>: Also can be triggered by responsive steps
