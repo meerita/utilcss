@@ -33,6 +33,9 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * align-items
 * align-self
 * border-collapse
+* border-radius
+* border-style
+* border-width
 * column-count
 * column-fill
 * column-gap
@@ -42,7 +45,19 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * flex-direction
 * flex-grow
 * flex-wrap
+* font-weight
+* font-style
+* grid-auto-flow
+* grid-column
+* grid-column-gap
+* grid-gap
+* grid-row
+* grid-row-gap
+* grid-template-columns<sup>1</sup>
+* grid-template-rows<sup>2</sup>
 * justify-content
+* justify-items
+* justify-self
 * object-fit
 * overflow
 * overflow-x
@@ -56,3 +71,9 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * visibility
 * white-space
 * word-wrap
+
+The framework contains a normalizer module.
+
+<sup>1</sup> Can be used as `sm-[property]`, `md-[property]`
+
+<sup>2</sup> Also can be triggered by responsive steps
