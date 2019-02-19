@@ -64,6 +64,13 @@
   .sm {
     // starts the grid-template-columns
     &-grid {
+      &-column {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-column: span $column / span $column;
+          }
+        }
+      }
       &-template-columns {
         @for $column from 1 through $columns {
           &--#{$column} {
@@ -91,8 +98,17 @@
 @media (min-width: $device-md) {
   // Definition of the media type
   .md {
-    // starts the grid-template-columns
+    // Template columns
+    //
+    // It will define how many columns the x-axis will have.
     &-grid {
+      &-column {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-column: span $column / span $column;
+          }
+        }
+      }
       &-template-columns {
         @for $column from 1 through $columns {
           &--#{$column} {
@@ -122,6 +138,13 @@
   .lg {
     // starts the grid-template-columns
     &-grid {
+      &-column {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-column: span $column / span $column;
+          }
+        }
+      }
       &-template-columns {
         @for $column from 1 through $columns {
           &--#{$column} {
@@ -151,6 +174,13 @@
   .xl {
     // starts the grid-template-columns
     &-grid {
+      &-column {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-column: span $column / span $column;
+          }
+        }
+      }
       &-template-columns {
         @for $column from 1 through $columns {
           &--#{$column} {
