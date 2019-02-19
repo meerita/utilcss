@@ -51,7 +51,7 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * grid-gap
 * grid-column-gap
 * grid-row-gap
-* grid-template-columns[^1]
+* grid-template-columns<sup>1</sup>
 * grid-template-rows[^2]
 * justify-content
 * object-fit
@@ -67,7 +67,6 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * visibility
 * white-space
 * word-wrap
-
 
 [^1]: Can be used as ´sm-[property], md-[property]´
 [^2]: Also can be triggered by responsive steps
