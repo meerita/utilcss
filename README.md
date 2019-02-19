@@ -52,7 +52,7 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * grid-column-gap
 * grid-row-gap
 * grid-template-columns<sup>1</sup>
-* grid-template-rows[^2]
+* grid-template-rows<sup>2</sup>
 * justify-content
 * object-fit
 * overflow
@@ -68,5 +68,5 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * white-space
 * word-wrap
 
-[^1]: Can be used as ´sm-[property], md-[property]´
-[^2]: Also can be triggered by responsive steps
+<sup>1</sup>: Can be used as `sm-[property]`, `md-[property]`
+<sup>2</sup>: Also can be triggered by responsive steps
