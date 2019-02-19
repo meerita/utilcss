@@ -56,11 +56,31 @@
   }
 }
 
-// Responsive Movile
+// Responsive Mobile
+//
+// Will cover from 100px onwards.
 @media (min-width: $device-sm) {
   // Definition of the media type
   .sm {
-    // starts the grid-template-columns parent
+    // starts the grid-template-columns
+    &-grid {
+      &-template-columns {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-template-columns: repeat($column, auto);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Portrait tablets
+@media (min-width: $device-md) {
+  // Definition of the media type
+  .md {
+    // starts the grid-template-columns
     &-grid {
       &-template-columns {
         @for $column from 1 through $columns {
