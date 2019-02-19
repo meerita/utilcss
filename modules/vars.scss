@@ -181,9 +181,7 @@ $scales: (
   0,
   4,
   8,
-  16,
-  32,
-  64
+  16
   );
 
 // GRID
@@ -226,6 +224,13 @@ $justify-contents: (
   start,
   stretch,
   );
+
+$justify-selfs: (
+  start,
+  end,
+  center,
+  stretch
+);
 
 $justify-items: (
   start,
