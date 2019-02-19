@@ -71,6 +71,13 @@
           }
         }
       }
+      &-row {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-row: span $column / span $column;
+          }
+        }
+      }
       &-template-columns {
         @for $column from 1 through $columns {
           &--#{$column} {
@@ -106,6 +113,13 @@
         @for $column from 1 through $columns {
           &--#{$column} {
             grid-column: span $column / span $column;
+          }
+        }
+      }
+      &-row {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-row: span $column / span $column;
           }
         }
       }
@@ -145,6 +159,13 @@
           }
         }
       }
+      &-row {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-row: span $column / span $column;
+          }
+        }
+      }
       &-template-columns {
         @for $column from 1 through $columns {
           &--#{$column} {
@@ -178,6 +199,13 @@
         @for $column from 1 through $columns {
           &--#{$column} {
             grid-column: span $column / span $column;
+          }
+        }
+      }
+      &-row {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-row: span $column / span $column;
           }
         }
       }
