@@ -11,7 +11,7 @@
   // This property aligns the grid along the inline (row) axis (as opposed
   // to align-content which aligns the grid along the block (column) axis).
   //
-  .justify-content {
+  &-content {
     @each $justify in $justify-contents {
       &--#{$justify} {
         justify-content: $justify;
@@ -27,6 +27,19 @@
     @each $justify in $justify-items {
       &--#{$justify} {
         justify-items: $justify;
+      }
+    }
+  }
+  // Justify Self
+  //
+  // Aligns a grid item inside a cell along the inline (row) axis (as opposed 
+  // to align-self which aligns along the block (column) axis). This value 
+  // applies to a grid item inside a single cell.
+  //
+  &-self {
+    @each $justify in $justify-selfs {
+      &--#{$justify} {
+        justify-self: $justify;
       }
     }
   }

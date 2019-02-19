@@ -27,14 +27,24 @@
 
   // Autoflow
   &-auto-flow {
-    @each $type in $flows {
-      &--#{$type} {
-        grid-auto-flow: $type;
+    @each $flow in $flows {
+      &--#{$flow} {
+        grid-auto-flow: $flow;
       }
     }
   }
 
   // Gap
+  //
+  // Specifies the size of the grid lines. You can think of it like setting the width 
+  // of the gutters between the columns/rows.
+  &-gap {
+    @each $scale in $scales {
+      &--#{$scale} {
+        grid-gap: #{$scale}px;
+      }
+    }
+  }
    @each $flow in $flows {
     &-#{$flow}-gap {
       @each $scale in $scales {
@@ -42,6 +52,181 @@
           grid-#{$flow}-gap: #{$scale}px;
         }
       }
+    }
+  }
+}
+
+// Responsive Mobile
+//
+// Will cover from 100px onwards.
+@media (min-width: $device-sm) {
+  // Definition of the media type
+  .sm {
+    // starts the grid-template-columns
+    &-grid {
+      &-column {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-column: span $column / span $column;
+          }
+        }
+      }
+      &-row {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-row: span $column / span $column;
+          }
+        }
+      }
+      &-template-columns {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-template-columns: repeat($column, auto);
+          }
+        }
+      }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      // &-template-rows {
+      //   @for $column from 1 through $columns {
+      //     &--#{$column} {
+      //       grid-template-rows: repeat($column, auto);
+      //     }
+      //   }
+      // }
+    }
+  }
+}
+
+
+// Portrait tablets
+@media (min-width: $device-md) {
+  // Definition of the media type
+  .md {
+    // Template columns
+    //
+    // It will define how many columns the x-axis will have.
+    &-grid {
+      &-column {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-column: span $column / span $column;
+          }
+        }
+      }
+      &-row {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-row: span $column / span $column;
+          }
+        }
+      }
+      &-template-columns {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-template-columns: repeat($column, auto);
+          }
+        }
+      }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      // &-template-rows {
+      //   @for $column from 1 through $columns {
+      //     &--#{$column} {
+      //       grid-template-rows: repeat($column, auto);
+      //     }
+      //   }
+      // }
+    }
+  }
+}
+
+
+// Landscape tablets and Desktop
+@media (min-width: $device-lg) {
+  // Definition of the media type
+  .lg {
+    // starts the grid-template-columns
+    &-grid {
+      &-column {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-column: span $column / span $column;
+          }
+        }
+      }
+      &-row {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-row: span $column / span $column;
+          }
+        }
+      }
+      &-template-columns {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-template-columns: repeat($column, auto);
+          }
+        }
+      }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      // &-template-rows {
+      //   @for $column from 1 through $columns {
+      //     &--#{$column} {
+      //       grid-template-rows: repeat($column, auto);
+      //     }
+      //   }
+      // }
+    }
+  }
+}
+
+
+// Large Desktop and Beyond
+@media (min-width: $device-xl) {
+  // Definition of the media type
+  .xl {
+    // starts the grid-template-columns
+    &-grid {
+      &-column {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-column: span $column / span $column;
+          }
+        }
+      }
+      &-row {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-row: span $column / span $column;
+          }
+        }
+      }
+      &-template-columns {
+        @for $column from 1 through $columns {
+          &--#{$column} {
+            grid-template-columns: repeat($column, auto);
+          }
+        }
+      }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      // &-template-rows {
+      //   @for $column from 1 through $columns {
+      //     &--#{$column} {
+      //       grid-template-rows: repeat($column, auto);
+      //     }
+      //   }
+      // }
     }
   }
 }
