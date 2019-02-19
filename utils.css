@@ -75,6 +75,15 @@
 @media (min-width: 1400px) {
   .display-xl--none {
     display: none; } }
+.font-style--italic {
+  font-style: italic; }
+.font-style--normal {
+  font-style: normal; }
+.font-weight--normal {
+  font-weight: normal; }
+.font-weight--bold {
+  font-weight: bold; }
+
 .grid-auto-flow--row {
   grid-auto-flow: row; }
 .grid-auto-flow--column {

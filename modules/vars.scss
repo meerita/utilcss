@@ -77,7 +77,7 @@ $column-rule-styles: (
   none,
   solid,
   dotted,
-  hidden// ,
+  hidden
   // dashed,
   // double,
   // groove,
@@ -124,6 +124,11 @@ $overflows: (
   visible
   );
 
+$styles: (
+  italic,
+  normal
+  );
+
 $text-aligns: (
   left
   // center,
@@ -160,6 +165,11 @@ $visibilities: (
   collapse
   );
 
+$weights: (
+  normal,
+  bold
+  );
+
 $white-spaces: (
   nowrap,
   pre,
@@ -175,7 +185,6 @@ $word-wraps: (
 //
 // For designs that use patterns, this one is friendly with Android
 // PC and Macs screens
-//
 
 $scales: (
   0,
