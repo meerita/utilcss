@@ -36,6 +36,7 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * border-radius
 * border-style
 * border-width
+* color
 * column-count
 * column-fill
 * column-gap
@@ -70,6 +71,7 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * vertical-align
 * visibility
 * white-space
+* width
 * word-wrap
 
 The framework contains a normalizer module.
