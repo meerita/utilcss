@@ -1,4 +1,7 @@
 .border {
+  // Border collapse
+  //
+  // Set the collapsing borders model for two tables
   &-collapse {
     @each $border in $border-collapses {
       &--#{$border} {
@@ -6,6 +9,19 @@
       }
     }
   }
+  // Border color
+  //
+  // Set the color for borders
+  &-color {
+    @each $number, $color in $colors {
+      &--#{$number} {
+        border-color: $color;
+      }
+    }
+  }
+  // Border radius
+  //
+  // Add rounded corners to divs.
   // &-radius {
   //   @each $border in $radius {
   //     &--#{$border} {
@@ -13,7 +29,10 @@
   //     }
   //   }
   // }
-  // SIDES FOR RADIUSES
+  // Border radius with sides
+  //
+  // Activate this option if you specifically work with radiuses and
+  // need to apply them to specific places.
   // @each $side in $sides {
   //   &-#{$side} {
   //     @each $radius in $radius {
@@ -23,13 +42,9 @@
   //     }
   //   }
   // }
-  // &-color {
-  //   @each $number, $color in $colors {
-  //     &--#{$number} {
-  //       border-color: $color;
-  //     }
-  //   }
-  // }
+  // Border Style
+  //
+  // Set a style for the border
   &-style {
     @each $style in $borders {
       &--#{$style} {
@@ -37,6 +52,10 @@
       }
     }
   }
+  // border-width
+  //
+  // The border-width property sets the width of an element's four 
+  // borders. This property can have from one to four values.
   @each $width in $border-widths {
     &-width {
       &--#{$width} {
