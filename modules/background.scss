@@ -1,9 +1,4 @@
 .background {
-  @each $color, $value in $colors {
-    &--#{$color} {
-      background: $value;
-    }
-  }
   // Background attachment
   //
   // The background-attachment property sets whether a background 
