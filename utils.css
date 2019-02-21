@@ -10,6 +10,70 @@
   background: #666; }
 .background--7 {
   background: #59bfff; }
+.background-attachment--scroll {
+  background-attachment: scroll; }
+.background-attachment--fixed {
+  background-attachment: fixed; }
+.background-attachment--local {
+  background-attachment: local; }
+.background-blend-mode--normal {
+  background-blend-mode: normal; }
+.background-blend-mode--multiply {
+  background-blend-mode: multiply; }
+.background-blend-mode--screen {
+  background-blend-mode: screen; }
+.background-blend-mode--overlay {
+  background-blend-mode: overlay; }
+.background-blend-mode--darken {
+  background-blend-mode: darken; }
+.background-blend-mode--lighten {
+  background-blend-mode: lighten; }
+.background-blend-mode--color-dodge {
+  background-blend-mode: color-dodge; }
+.background-blend-mode--saturation {
+  background-blend-mode: saturation; }
+.background-blend-mode--color {
+  background-blend-mode: color; }
+.background-blend-mode--luminosity {
+  background-blend-mode: luminosity; }
+.background-color--1 {
+  background-color: #00f; }
+.background-color--2 {
+  background-color: #2dcccd; }
+.background-color--3 {
+  background-color: #5180e5; }
+.background-color--4 {
+  background-color: #f4f4f4; }
+.background-color--5 {
+  background-color: #666; }
+.background-color--7 {
+  background-color: #59bfff; }
+.background-clip--border-box {
+  background-clip: border-box; }
+.background-clip--padding-box {
+  background-clip: padding-box; }
+.background-clip--content-box {
+  background-clip: content-box; }
+.background-origin--padding-box {
+  background-origin: padding-box; }
+.background-origin--border-box {
+  background-origin: border-box; }
+.background-origin--content-box {
+  background-origin: content-box; }
+.background-repeat--repeat {
+  background-repeat: repeat; }
+.background-repeat--repeat-x {
+  background-repeat: repeat-x; }
+.background-repeat--repeat-y {
+  background-repeat: repeat-y; }
+.background-repeat--no-repeat {
+  background-repeat: no-repeat; }
+.background-size--auto {
+  background-size: auto; }
+.background-size--cover {
+  background-size: cover; }
+.background-size--contain {
+  background-size: contain; }
 
 .display--none {
   display: none; }
@@ -165,3 +229,5 @@
     grid-template-columns: repeat(3, auto); }
   .xl-grid-template-columns--4 {
     grid-template-columns: repeat(4, auto); } }
+
+/*# sourceMappingURL=utils.css.map */

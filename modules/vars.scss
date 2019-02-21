@@ -29,6 +29,50 @@ $colors: (
   7: #59bfff
   );
 
+$background-attachments: (
+  scroll,
+  fixed,
+  local
+);
+
+$background-blend-modes: (
+  normal,
+  multiply,
+  screen,
+  overlay,
+  darken,
+  lighten,
+  color-dodge,
+  saturation,
+  color,
+  luminosity
+);
+
+$background-clips: (
+  border-box,
+  padding-box,
+  content-box
+);
+
+$background-origins: (
+  padding-box,
+  border-box,
+  content-box
+);
+
+$background-repeats: (
+  repeat,
+  repeat-x,
+  repeat-y,
+  no-repeat
+);
+
+$background-sizes: (
+  auto,
+  cover,
+  contain
+);
+
 $radius: (
   0,
   2
