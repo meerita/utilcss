@@ -12,9 +12,17 @@
 
 .box {
   @each $deco in $box-decorations {
-    &--#{$deco} {
-      box-decoration-break: $deco;
+    &-decoration-break {
+      &--#{$deco} {
+        box-decoration-break: $deco;
+      }
+    }
+  }
+  @each $size in $box-sizings {
+    &-size {
+      &--#{$size} {
+        box-sizing: $size;
+      }
     }
   }
 }
-

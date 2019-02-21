@@ -104,6 +104,11 @@ $box-decorations: (
   clone
 );
 
+$box-sizings: (
+  content-box,
+  border-box
+);
+
 $scales: (
   0,
   4,
