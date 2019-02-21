@@ -1,7 +1,7 @@
 .background {
-  @each $color in $colors {
+  @each $color, $value in $colors {
     &--#{$color} {
-      background: $color;
+      background: $value;
     }
   }
 }

@@ -1,6 +1,167 @@
-.width--auto {
-  width: auto; }
-.width--100 {
-  width: 100%; }
+.background--1 {
+  background: #00f; }
+.background--2 {
+  background: #2dcccd; }
+.background--3 {
+  background: #5180e5; }
+.background--4 {
+  background: #f4f4f4; }
+.background--5 {
+  background: #666; }
+.background--7 {
+  background: #59bfff; }
 
-/*# sourceMappingURL=utils.css.map */
+.display--none {
+  display: none; }
+.display--block {
+  display: block; }
+.display--inline {
+  display: inline; }
+.display--inline-block {
+  display: inline-block; }
+.display--flex {
+  display: flex; }
+.display--grid {
+  display: grid; }
+
+@media (min-width: 100px) and (max-width: 768px) {
+  .display-sm--none {
+    display: none; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .display-md--none {
+    display: none; } }
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .display-lg--none {
+    display: none; } }
+@media (min-width: 1400px) {
+  .display-xl--none {
+    display: none; } }
+.grid-auto-flow--row {
+  grid-auto-flow: row; }
+.grid-auto-flow--column {
+  grid-auto-flow: column; }
+.grid-gap--0 {
+  grid-gap: 0px; }
+.grid-gap--4 {
+  grid-gap: 4px; }
+.grid-gap--8 {
+  grid-gap: 8px; }
+.grid-gap--16 {
+  grid-gap: 16px; }
+.grid-row-gap--0 {
+  grid-row-gap: 0px; }
+.grid-row-gap--4 {
+  grid-row-gap: 4px; }
+.grid-row-gap--8 {
+  grid-row-gap: 8px; }
+.grid-row-gap--16 {
+  grid-row-gap: 16px; }
+.grid-column-gap--0 {
+  grid-column-gap: 0px; }
+.grid-column-gap--4 {
+  grid-column-gap: 4px; }
+.grid-column-gap--8 {
+  grid-column-gap: 8px; }
+.grid-column-gap--16 {
+  grid-column-gap: 16px; }
+
+@media (min-width: 320px) {
+  .sm-grid-column--1 {
+    grid-column: span 1/span 1; }
+  .sm-grid-column--2 {
+    grid-column: span 2/span 2; }
+  .sm-grid-column--3 {
+    grid-column: span 3/span 3; }
+  .sm-grid-column--4 {
+    grid-column: span 4/span 4; }
+  .sm-grid-row--1 {
+    grid-row: span 1/span 1; }
+  .sm-grid-row--2 {
+    grid-row: span 2/span 2; }
+  .sm-grid-row--3 {
+    grid-row: span 3/span 3; }
+  .sm-grid-row--4 {
+    grid-row: span 4/span 4; }
+  .sm-grid-template-columns--1 {
+    grid-template-columns: repeat(1, auto); }
+  .sm-grid-template-columns--2 {
+    grid-template-columns: repeat(2, auto); }
+  .sm-grid-template-columns--3 {
+    grid-template-columns: repeat(3, auto); }
+  .sm-grid-template-columns--4 {
+    grid-template-columns: repeat(4, auto); } }
+@media (min-width: 768px) {
+  .md-grid-column--1 {
+    grid-column: span 1/span 1; }
+  .md-grid-column--2 {
+    grid-column: span 2/span 2; }
+  .md-grid-column--3 {
+    grid-column: span 3/span 3; }
+  .md-grid-column--4 {
+    grid-column: span 4/span 4; }
+  .md-grid-row--1 {
+    grid-row: span 1/span 1; }
+  .md-grid-row--2 {
+    grid-row: span 2/span 2; }
+  .md-grid-row--3 {
+    grid-row: span 3/span 3; }
+  .md-grid-row--4 {
+    grid-row: span 4/span 4; }
+  .md-grid-template-columns--1 {
+    grid-template-columns: repeat(1, auto); }
+  .md-grid-template-columns--2 {
+    grid-template-columns: repeat(2, auto); }
+  .md-grid-template-columns--3 {
+    grid-template-columns: repeat(3, auto); }
+  .md-grid-template-columns--4 {
+    grid-template-columns: repeat(4, auto); } }
+@media (min-width: 1024px) {
+  .lg-grid-column--1 {
+    grid-column: span 1/span 1; }
+  .lg-grid-column--2 {
+    grid-column: span 2/span 2; }
+  .lg-grid-column--3 {
+    grid-column: span 3/span 3; }
+  .lg-grid-column--4 {
+    grid-column: span 4/span 4; }
+  .lg-grid-row--1 {
+    grid-row: span 1/span 1; }
+  .lg-grid-row--2 {
+    grid-row: span 2/span 2; }
+  .lg-grid-row--3 {
+    grid-row: span 3/span 3; }
+  .lg-grid-row--4 {
+    grid-row: span 4/span 4; }
+  .lg-grid-template-columns--1 {
+    grid-template-columns: repeat(1, auto); }
+  .lg-grid-template-columns--2 {
+    grid-template-columns: repeat(2, auto); }
+  .lg-grid-template-columns--3 {
+    grid-template-columns: repeat(3, auto); }
+  .lg-grid-template-columns--4 {
+    grid-template-columns: repeat(4, auto); } }
+@media (min-width: 1400px) {
+  .xl-grid-column--1 {
+    grid-column: span 1/span 1; }
+  .xl-grid-column--2 {
+    grid-column: span 2/span 2; }
+  .xl-grid-column--3 {
+    grid-column: span 3/span 3; }
+  .xl-grid-column--4 {
+    grid-column: span 4/span 4; }
+  .xl-grid-row--1 {
+    grid-row: span 1/span 1; }
+  .xl-grid-row--2 {
+    grid-row: span 2/span 2; }
+  .xl-grid-row--3 {
+    grid-row: span 3/span 3; }
+  .xl-grid-row--4 {
+    grid-row: span 4/span 4; }
+  .xl-grid-template-columns--1 {
+    grid-template-columns: repeat(1, auto); }
+  .xl-grid-template-columns--2 {
+    grid-template-columns: repeat(2, auto); }
+  .xl-grid-template-columns--3 {
+    grid-template-columns: repeat(3, auto); }
+  .xl-grid-template-columns--4 {
+    grid-template-columns: repeat(4, auto); } }
