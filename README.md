@@ -32,10 +32,17 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 * align-content
 * align-items
 * align-self
+* background-origin
+* background-size
+* background-color
+* background-repeat
+* background-clip
 * border-collapse
 * border-radius
 * border-style
 * border-width
+* box-decoration-break
+* box-sizing
 * color
 * column-count
 * column-fill

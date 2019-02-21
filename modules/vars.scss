@@ -99,6 +99,16 @@ $border-widths: (
   2
   );
 
+$box-decorations: (
+  slice,
+  clone
+);
+
+$box-sizings: (
+  content-box,
+  border-box
+);
+
 $scales: (
   0,
   4,
@@ -140,6 +150,11 @@ $displays: (
   flex,
   grid
   );
+
+$fill-rules: (
+  nonzero,
+  evenodd
+);
 
 $pointer-events: (
   none,

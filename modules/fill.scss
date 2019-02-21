@@ -1,0 +1,12 @@
+.fill {
+  @each $value, $color in $colors {
+    &--#{$value} {
+      fill: $color;
+    }
+  }
+  @each $rule in $fill-rules {
+    &-rule {
+      fill-rule: $rule;
+    }
+  }
+}
