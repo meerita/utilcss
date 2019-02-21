@@ -63,6 +63,11 @@
 .background-size--contain {
   background-size: contain; }
 
+.box--slice {
+  box-decoration-break: slice; }
+.box--clone {
+  box-decoration-break: clone; }
+
 .display--none {
   display: none; }
 .display--block {
