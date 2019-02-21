@@ -2,7 +2,7 @@ $font-family-serif:     Times New Roman;
 $font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 $font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Arial, sans-serif;
 
-$columns: 12;
+$columns: 4;
 $column-gap: 16px;
 $row-gap: 16px;
 
@@ -21,10 +21,57 @@ $sides: (
   );
 
 $colors: (
-  1: #000,
-  2: #f00,
-  3: #c00
+  1: #00f,
+  2: #2dcccd,
+  3: #5180e5,
+  4: #f4f4f4,
+  5: #666,
+  7: #59bfff
   );
+
+$background-attachments: (
+  scroll,
+  fixed,
+  local
+);
+
+$background-blend-modes: (
+  normal,
+  multiply,
+  screen,
+  overlay,
+  darken,
+  lighten,
+  color-dodge,
+  saturation,
+  color,
+  luminosity
+);
+
+$background-clips: (
+  border-box,
+  padding-box,
+  content-box
+);
+
+$background-origins: (
+  padding-box,
+  border-box,
+  content-box
+);
+
+$background-repeats: (
+  repeat,
+  repeat-x,
+  repeat-y,
+  no-repeat
+);
+
+$background-sizes: (
+  auto,
+  cover,
+  contain
+);
 
 $radius: (
   0,
@@ -56,9 +103,7 @@ $scales: (
   0,
   4,
   8,
-  16,
-  32,
-  64
+  16
   );
 
 // PROPERTIES

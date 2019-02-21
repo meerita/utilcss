@@ -1,0 +1,7 @@
+.color {
+  @each $number, $color in $colors {
+    &--#{$number} {
+      color: $color;
+    }
+  }
+}

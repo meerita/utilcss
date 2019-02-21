@@ -1,0 +1,78 @@
+.background {
+  // Background attachment
+  //
+  // The background-attachment property sets whether a background 
+  // image scrolls with the rest of the page, or is fixed.
+  @each $attachment in $background-attachments {
+    &-attachment {
+      &--#{$attachment} {
+        background-attachment: $attachment;
+      }
+    }
+  }
+  // Background blend mode
+  //
+  // The background-blend-mode property defines the blending mode
+  // of each background layer (color and/or image).
+  @each $blend in $background-blend-modes {
+    &-blend-mode {
+      &--#{$blend} {
+        background-blend-mode: $blend;
+      }
+    }
+  }
+  // Background color
+  //
+  // he background-color property sets the background color
+  // of an element.
+  @each $value, $color in $colors {
+    &-color {
+      &--#{$value} {
+        background-color: $color;
+      }
+    }
+  }
+  // Background clip
+  //
+  // The background-clip property defines how far 
+  // the background (color or image) should extend within an element.
+  @each $clip in $background-clips {
+    &-clip {
+      &--#{$clip} {
+        background-clip: $clip;
+      }
+    }
+  }
+  // Background origin
+  //
+  // The background-origin property specifies the origin position (the 
+  // background positioning area) of a background image.
+  @each $origin in $background-origins {
+    &-origin {
+      &--#{$origin} {
+        background-origin: $origin;
+      }
+    }
+  }
+  // Background repeat
+  //
+  // The background-repeat property sets if/how a background image 
+  // will be repeated.
+  @each $repeat in $background-repeats {
+    &-repeat {
+      &--#{$repeat} {
+        background-repeat: $repeat;
+      }
+    }
+  }
+  // Background size
+  //
+  // The background-size property specifies the size of the background images.
+  @each $size in $background-sizes {
+    &-size {
+      &--#{$size} {
+        background-size: $size;
+      }
+    }
+  }
+}
