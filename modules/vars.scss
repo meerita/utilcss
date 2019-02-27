@@ -2,7 +2,7 @@ $font-family-serif:     Times New Roman;
 $font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 $font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Arial, sans-serif;
 
-$columns: 4;
+$columns: 6;
 $column-gap: 16px;
 $row-gap: 16px;
 
@@ -20,13 +20,19 @@ $sides: (
   right
   );
 
+$list-styles: (
+  none
+);
+
 $colors: (
   1: #00f,
   2: #2dcccd,
   3: #5180e5,
   4: #f4f4f4,
   5: #666,
-  7: #59bfff
+  6: #59bfff,
+  7: #fff,
+  8: rgb(13,33,67)
   );
 
 $background-attachments: (

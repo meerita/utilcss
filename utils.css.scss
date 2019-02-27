@@ -19,30 +19,32 @@
 // CHECK https://github.com/meerita/utilcss FOR DOCUMENTATION
 
 @import 'modules/vars';
-
+@import 'modules/normalizer';
 //
 // MODULES
 // 
 
-// @import 'modules/align';
-// @import 'modules/background';
-@import 'modules/box';
+
+@import 'modules/align';
+@import 'modules/background';
+// @import 'modules/box';
 // @import 'modules/border';
+@import 'modules/color';
 // @import 'modules/column';
-//@import 'modules/display';
+@import 'modules/display';
 // @import 'modules/fill';
 // @import 'modules/flex';
 // @import 'modules/font';
-// @import 'modules/grid';
-// @import 'modules/justify';
-// @import 'modules/normalizer';
+@import 'modules/grid';
+@import 'modules/justify';
+@import 'modules/list';
 // @import 'modules/object-fit';
 // @import 'modules/overflow';
 // @import 'modules/pointer-event';
-// @import 'modules/position';
-// @import 'modules/text';
+@import 'modules/position';
+@import 'modules/text';
 // @import 'modules/vertical-align';
 // @import 'modules/visibility';
 // @import 'modules/white-space';
 // @import 'modules/word-wrap';
-// @import 'modules/width';
+@import 'modules/width';
