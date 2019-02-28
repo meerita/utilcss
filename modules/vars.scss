@@ -115,13 +115,6 @@ $box-sizings: (
   border-box
 );
 
-$scales: (
-  0,
-  4,
-  8,
-  16
-  );
-
 // PROPERTIES
 
 $border-collapses: (
@@ -247,7 +240,7 @@ $word-wraps: (
   normal
   );
 
-// Patter scales
+// Pattern scales
 //
 // For designs that use patterns, this one is friendly with Android
 // PC and Macs screens
@@ -256,7 +249,9 @@ $scales: (
   0,
   4,
   8,
-  16
+  16,
+  32,
+  64
   );
 
 // GRID
