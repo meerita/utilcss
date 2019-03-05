@@ -1,0 +1,9 @@
+.list {
+  @each $style in $list-styles {
+    &-style {
+      &--#{$style} {
+        list-style: $style;
+      }
+    }
+  }
+}
