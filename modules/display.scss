@@ -6,41 +6,51 @@
   }
 }
 
+// Hides elements by responsive steps
+
 @media (min-width: 100px) and (max-width: $device-md) {
-  .display {
-    &-sm {
-      &--none {
-        display: none;
+  .sm {
+    &-display {
+      @each $display in $displays {
+        &--#{$display} {
+          display: $display;
+        }
       }
     }
   }
 }
 
 @media (min-width: $device-md) and (max-width: $device-lg) {
-  .display {
-    &-md {
-      &--none {
-        display: none;
+  .md {
+    &-display {
+      @each $display in $displays {
+        &--#{$display} {
+          display: $display;
+        }
       }
     }
   }
 }
 
 @media (min-width: $device-lg) and (max-width: $device-xl) {
-  .display {
-    &-lg {
-      &--none {
-        display: none;
+  .lg {
+    &-display {
+      @each $display in $displays {
+        &--#{$display} {
+          display: $display;
+        }
       }
     }
   }
 }
 
 @media (min-width: $device-xl) {
-  .display {
-    &-xl {
-      &--none {
-        display: none;
+  .xl {
+    &-display {
+      @each $display in $displays {
+        &--#{$display} {
+          display: $display;
+        }
       }
     }
   }
