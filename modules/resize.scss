@@ -1,0 +1,7 @@
+.resize {
+  @each $resize in $resizes {
+    &--#{$resize} {
+      resize: $resize;
+    }
+  }
+}

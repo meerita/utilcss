@@ -156,6 +156,14 @@ $fill-rules: (
   evenodd
 );
 
+$line-heights: (
+  16,
+  24,
+  32,
+  40,
+  64
+  );
+
 $pointer-events: (
   none,
   auto
@@ -168,6 +176,13 @@ $positions: (
   // static,
   // relative,
   // fixed
+  );
+
+$resizes: (
+  vertical,
+  horizontal,
+  both,
+  none
   );
 
 $object-fits: (
