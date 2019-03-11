@@ -1,4 +1,11 @@
 .font {
+  &-size {
+    @each $size in $font-sizes {
+      &--#{$size} {
+        font-size: #{$size}px;
+      }
+    }
+  }
   @each $style in $styles {
     &-style--#{$style} {
       font-style: $style;
