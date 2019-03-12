@@ -5,3 +5,16 @@
     }
   }
 }
+
+// directions
+//
+// We will use this mainly to position elements nested with a absolute or fixed
+// position.
+
+@each $side in $sides {
+  .#{$side} {
+    &--0 {
+      #{$side}: 0;
+    }
+  }
+}

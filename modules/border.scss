@@ -1,4 +1,25 @@
 .border {
+
+  // will create a solid border in all directions or none
+  @each $width in $border-widths {
+    &--#{$width} {
+      border: #{$width}px;
+    } 
+  }
+
+  // Sides
+  //
+  // Specifies the border width of a particular side. Useful for definition in
+  // your projects.
+  @each $side in $sides {
+    &-#{$side} {
+      @each $width in $border-widths {
+        &-width--#{$width} {
+          border-#{$side}-width: #{$width}px;
+        } 
+      }
+    }
+  }
   // Border collapse
   //
   // Set the collapsing borders model for two tables
@@ -36,7 +57,7 @@
   // @each $side in $sides {
   //   &-#{$side} {
   //     @each $radius in $radius {
-  //       &-radius-#{$radius} {
+  //       &-radius--#{$radius} {
   //         border-#{$side}-radius: #{$radius}px;
   //       } 
   //     }

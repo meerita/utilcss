@@ -2,6 +2,14 @@ $font-family-serif:     Times New Roman;
 $font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 $font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Arial, sans-serif;
 
+$font-sizes: (
+  12,
+  16,
+  18,
+  28,
+  48
+  );
+
 $columns: 6;
 $column-gap: 16px;
 $row-gap: 16px;
@@ -10,7 +18,7 @@ $row-gap: 16px;
 
 $device-sm:        320px;
 $device-md:        768px;
-$device-lg:        1024px;
+$device-lg:        960px;
 $device-xl:        1280px;
 
 $sides: (
@@ -32,7 +40,9 @@ $colors: (
   5: #666,
   6: #59bfff,
   7: #fff,
-  8: rgb(13,33,67)
+  8: rgb(13,33,67),
+  9: #e9e9e9,
+  10: #121212
   );
 
 $background-attachments: (
@@ -155,17 +165,33 @@ $fill-rules: (
   evenodd
 );
 
+$line-heights: (
+  16,
+  24,
+  32,
+  40,
+  64
+  );
+
 $pointer-events: (
   none,
   auto
   );
 
 $positions: (
-  static,
-  relative,
-  fixed,
-  absolute,
   sticky
+  // absolute,
+  // relative,
+  // static,
+  // relative,
+  // fixed
+  );
+
+$resizes: (
+  vertical,
+  horizontal,
+  both,
+  none
   );
 
 $object-fits: (
@@ -230,9 +256,9 @@ $weights: (
   );
 
 $white-spaces: (
-  nowrap,
-  pre,
-  normal
+  nowrap
+  // pre,
+  // normal
   );
 
 $word-wraps: (
@@ -250,6 +276,7 @@ $scales: (
   4,
   8,
   16,
+  24,
   32,
   64
   );
