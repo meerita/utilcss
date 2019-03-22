@@ -44,10 +44,12 @@
   // Aligns a grid item inside a cell along the block (column) axis (as opposed
   // to justify-self which aligns along the inline (row) axis). This value 
   // applies to the content inside a single grid item.
-  &-self {
-    @each $align in $align-selfs {
-      &--#{$align} {
-        align-self: $align;
+  @if ($config-align-self) {
+    &-self {
+      @each $align in $align-selfs {
+        &--#{$align} {
+          align-self: $align;
+        }
       }
     }
   }
