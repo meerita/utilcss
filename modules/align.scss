@@ -29,10 +29,12 @@
   //
   // This property aligns the grid along the block (column) axis (as opposed 
   // to justify-content which aligns the grid along the inline (row) axis).
-  &-content {
-    @each $align in $align-contents {
-      &--#{$align} {
-        align-content: $align;
+  @if ($config-align-content) {
+    &-content {
+      @each $align in $align-contents {
+        &--#{$align} {
+          align-content: $align;
+        }
       }
     }
   }
