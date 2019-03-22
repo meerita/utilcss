@@ -17,5 +17,6 @@
 // without having to comment code on your file.
 
 
-$margin: false; // all sides margins ex. margin--0
-$margin-side: false; // top, right, bottom, left
+$config-align-items: false; // all sides margins ex. margin--0
+$config-margin: true; // all sides margins ex. margin--0
+$config-margin-side: false; // only sides ex. margin-top--0

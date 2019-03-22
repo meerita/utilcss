@@ -16,10 +16,12 @@
   // Aligns grid items along the block (column) axis (as opposed to 
   // justify-items which aligns along the inline (row) axis). This 
   // value applies to all grid items inside the container.
-  &-items {
-    @each $align in $align-items {
-      &--#{$align} {
-        align-items: $align;
+  @if ($config-align-items) {
+    &-items {
+      @each $align in $align-items {
+        &--#{$align} {
+          align-items: $align;
+        }
       }
     }
   }
