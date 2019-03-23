@@ -17,8 +17,15 @@
 // without having to comment code on your file.
 
 
-$config-align-items:      false;
-$config-align-content:    false;
-$config-align-self:       false;
-$config-margin:           true;     // all sides margins ex. margin--0
-$config-margin-side:      false;    // only sides ex. margin-top--0
+$config-align-items:                 false;
+$config-align-content:               false;
+$config-align-self:                  false;
+$config-background-attachment:       false;
+$config-background-blend-mode:       false;
+$config-background-color:            true;
+$config-background-clip:             false;
+$config-background-origin:           false;
+$config-background-repeat:           false;
+$config-background-size:             false;
+$config-margin:                      true;     // all sides margins ex. margin--0
+$config-margin-side:                 false;    // only sides ex. margin-top--0
