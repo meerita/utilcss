@@ -14,18 +14,31 @@
 // UTILITARIAN CSS FRAMEWORK CONFIGURATION FILE
 //
 // Here you can activate every single aspect of your CSS. From margins to other functions
-// without having to comment code on your file.
+// without having to comment code on your file. Just "true" everything you need. Beware
+// if you activate all, the CSS size will increase.
 
 
 $config-align-items:                 false;
 $config-align-content:               false;
 $config-align-self:                  false;
+
 $config-background-attachment:       false;
 $config-background-blend-mode:       false;
-$config-background-color:            true;
+$config-background-color:            false;
 $config-background-clip:             false;
 $config-background-origin:           false;
 $config-background-repeat:           false;
 $config-background-size:             false;
-$config-margin:                      true;     // all sides margins ex. margin--0
+
+$config-border:                      false;
+$config-border-sides:                false;    // only sides ex. border-left--0
+$config-border-collapse:             false;
+$config-border-color:                false;
+$config-border-radius:               false;
+$config-border-sides-radius:         false;    // only sides ex. border-top-radius--0
+$config-border-style:                false;
+$config-border-width:                false;
+
+
+$config-margin:                      false;    // all sides margins ex. margin--0
 $config-margin-side:                 false;    // only sides ex. margin-top--0
