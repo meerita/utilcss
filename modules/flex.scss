@@ -20,24 +20,30 @@
 
 
 .flex {
-  &-direction {
-    @each $direction in $directions {
-      &--#{$direction} {
-        flex-direction: $direction;
+  @if ($config-flex-direction) {
+    &-direction {
+      @each $direction in $directions {
+        &--#{$direction} {
+          flex-direction: $direction;
+        }
       }
     }
   }
-  &-wrap {
-    @each $wrap in $wraps {
-      &--#{$wrap} {
-        flex-wrap: $wrap;
+  @if ($config-flex-wrap) {
+    &-wrap {
+      @each $wrap in $wraps {
+        &--#{$wrap} {
+          flex-wrap: $wrap;
+        }
       }
     }
   }
-  &-grow {
-    @each $grow in $grows {
-      &--#{$grow} {
-        flex-grow: $grow;
+  @if ($config-flex-grow) {
+    &-grow {
+      @each $grow in $grows {
+        &--#{$grow} {
+          flex-grow: $grow;
+        }
       }
     }
   }

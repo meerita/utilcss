@@ -16,10 +16,12 @@
   // Aligns grid items along the block (column) axis (as opposed to 
   // justify-items which aligns along the inline (row) axis). This 
   // value applies to all grid items inside the container.
-  &-items {
-    @each $align in $align-items {
-      &--#{$align} {
-        align-items: $align;
+  @if ($config-align-items) {
+    &-items {
+      @each $align in $align-items {
+        &--#{$align} {
+          align-items: $align;
+        }
       }
     }
   }
@@ -27,10 +29,12 @@
   //
   // This property aligns the grid along the block (column) axis (as opposed 
   // to justify-content which aligns the grid along the inline (row) axis).
-  &-content {
-    @each $align in $align-contents {
-      &--#{$align} {
-        align-content: $align;
+  @if ($config-align-content) {
+    &-content {
+      @each $align in $align-contents {
+        &--#{$align} {
+          align-content: $align;
+        }
       }
     }
   }
@@ -40,10 +44,12 @@
   // Aligns a grid item inside a cell along the block (column) axis (as opposed
   // to justify-self which aligns along the inline (row) axis). This value 
   // applies to the content inside a single grid item.
-  &-self {
-    @each $align in $align-selfs {
-      &--#{$align} {
-        align-self: $align;
+  @if ($config-align-self) {
+    &-self {
+      @each $align in $align-selfs {
+        &--#{$align} {
+          align-self: $align;
+        }
       }
     }
   }

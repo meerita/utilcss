@@ -1,20 +1,26 @@
 .text {
   // align module
-  @each $text-align in $text-aligns {
-    &-align--#{$text-align} {
-      text-align: $text-align;
+  @if ($config-text-align) {
+    @each $text-align in $text-aligns {
+      &-align--#{$text-align} {
+        text-align: $text-align;
+      }
     }
   }
   // text overflow
-  // @each $text-overflow in $text-overflows {
-  //   &-overflow--#{$text-overflow} {
-  //     text-overflow: $text-overflow;
-  //   }
-  // }
+  @if ($config-text-overflow) {
+    @each $text-overflow in $text-overflows {
+      &-overflow--#{$text-overflow} {
+        text-overflow: $text-overflow;
+      }
+    }
+  }
   // text transform
-  // @each $text-transform in $text-transforms {
-  //   &-transform--#{$text-transform} {
-  //     text-transform: $text-transform;
-  //   }
-  // }
+  @if ($config-text-transform) {
+    @each $text-transform in $text-transforms {
+      &-transform--#{$text-transform} {
+        text-transform: $text-transform;
+      }
+    }
+  }
 }

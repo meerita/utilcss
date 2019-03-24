@@ -1,55 +1,65 @@
 .display {
-  @each $display in $displays {
-    &--#{$display} {
-      display: $display;
+  @if ($config-display) {
+    @each $display in $displays {
+      &--#{$display} {
+        display: $display;
+      }
     }
   }
 }
 
 // Hides elements by responsive steps
 
-@media (min-width: 100px) and (max-width: $device-md) {
-  .sm {
-    &-display {
-      @each $display in $displays {
-        &--#{$display} {
-          display: $display;
+@if ($config-display-sm) {
+  @media (min-width: 100px) and (max-width: $device-md) {
+    .sm {
+      &-display {
+        @each $display in $displays {
+          &--#{$display} {
+            display: $display;
+          }
         }
       }
     }
   }
 }
 
-@media (min-width: $device-md) and (max-width: $device-lg) {
-  .md {
-    &-display {
-      @each $display in $displays {
-        &--#{$display} {
-          display: $display;
+@if ($config-display-md) {
+  @media (min-width: $device-md) and (max-width: $device-lg) {
+    .md {
+      &-display {
+        @each $display in $displays {
+          &--#{$display} {
+            display: $display;
+          }
         }
       }
     }
   }
 }
 
-@media (min-width: $device-lg) and (max-width: $device-xl) {
-  .lg {
-    &-display {
-      @each $display in $displays {
-        &--#{$display} {
-          display: $display;
+@if ($config-display-lg) {
+  @media (min-width: $device-lg) and (max-width: $device-xl) {
+    .lg {
+      &-display {
+        @each $display in $displays {
+          &--#{$display} {
+            display: $display;
+          }
         }
       }
     }
   }
 }
 
-@media (min-width: $device-xl) {
-  .xl {
-    &-display {
-      @each $display in $displays {
-        &--#{$display} {
-          display: $display;
+@if ($config-display-xl) {
+  @media (min-width: $device-xl) {
+    .xl {
+      &-display {
+        @each $display in $displays {
+          &--#{$display} {
+            display: $display;
+          }
         }
       }
     }

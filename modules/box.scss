@@ -11,17 +11,21 @@
 //                   \|____|                              
 
 .box {
-  @each $deco in $box-decorations {
-    &-decoration-break {
-      &--#{$deco} {
-        box-decoration-break: $deco;
+  @if ($config-box-decoration-break) {
+    @each $deco in $box-decorations {
+      &-decoration-break {
+        &--#{$deco} {
+          box-decoration-break: $deco;
+        }
       }
     }
   }
-  @each $size in $box-sizings {
-    &-size {
-      &--#{$size} {
-        box-sizing: $size;
+  @if ($config-box-size) {
+    @each $size in $box-sizings {
+      &-size {
+        &--#{$size} {
+          box-sizing: $size;
+        }
       }
     }
   }

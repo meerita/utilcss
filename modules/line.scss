@@ -17,10 +17,12 @@
 
 
 .line {
-  &-height {
-    @each $height in $line-heights {
-      &--#{$height} {
-        line-height: #{$height}px;
+  @if ($config-line-height) {
+    &-height {
+      @each $height in $line-heights {
+        &--#{$height} {
+          line-height: #{$height}px;
+        }
       }
     }
   }

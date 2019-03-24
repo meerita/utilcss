@@ -1,8 +1,10 @@
 .list {
-  @each $style in $list-styles {
-    &-style {
-      &--#{$style} {
-        list-style: $style;
+  @if ($config-list-style) {
+    @each $style in $list-styles {
+      &-style {
+        &--#{$style} {
+          list-style: $style;
+        }
       }
     }
   }

@@ -1,7 +1,9 @@
 .visibility {
-  @each $visibility in $visibilities {
-    &--#{$visibility} {
-      visibility: $visibility;
+  @if ($config-visibility) {
+    @each $visibility in $visibilities {
+      &--#{$visibility} {
+        visibility: $visibility;
+      }
     }
   }
 }

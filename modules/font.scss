@@ -1,19 +1,25 @@
 .font {
-  &-size {
-    @each $size in $font-sizes {
-      &--#{$size} {
-        font-size: #{$size}px;
+  @if ($config-font-size) {
+    &-size {
+      @each $size in $font-sizes {
+        &--#{$size} {
+          font-size: #{$size}px;
+        }
       }
     }
   }
-  @each $style in $styles {
-    &-style--#{$style} {
-      font-style: $style;
+  @if ($config-font-style) {
+    @each $style in $styles {
+      &-style--#{$style} {
+        font-style: $style;
+      }
     }
   }
-  @each $weight in $weights {
-    &-weight--#{$weight} {
-      font-weight: $weight;
+  @if ($config-font-weight) {
+    @each $weight in $weights {
+      &-weight--#{$weight} {
+        font-weight: $weight;
+      }
     }
   }
 }

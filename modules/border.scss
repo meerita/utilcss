@@ -1,75 +1,87 @@
 .border {
-
   // will create a solid border in all directions or none
-  @each $width in $border-widths {
-    &--#{$width} {
-      border: #{$width}px;
-    } 
+  @if ($config-border) {
+    @each $width in $border-widths {
+      &--#{$width} {
+        border: #{$width}px;
+      } 
+    }
   }
-
   // Sides
   //
   // Specifies the border width of a particular side. Useful for definition in
   // your projects.
-  @each $side in $sides {
-    &-#{$side} {
-      @each $width in $border-widths {
-        &-width--#{$width} {
-          border-#{$side}-width: #{$width}px;
-        } 
+  @if ($config-border-sides) {
+    @each $side in $sides {
+      &-#{$side} {
+        @each $width in $border-widths {
+          &-width--#{$width} {
+            border-#{$side}-width: #{$width}px;
+          } 
+        }
       }
     }
   }
   // Border collapse
   //
   // Set the collapsing borders model for two tables
-  &-collapse {
-    @each $border in $border-collapses {
-      &--#{$border} {
-        border-collapse: $border;
+  @if ($config-border-collapse) {
+    &-collapse {
+      @each $border in $border-collapses {
+        &--#{$border} {
+          border-collapse: $border;
+        }
       }
     }
   }
   // Border color
   //
   // Set the color for borders
-  &-color {
-    @each $number, $color in $colors {
-      &--#{$number} {
-        border-color: $color;
+  @if ($config-border-color) {
+    &-color {
+      @each $number, $color in $colors {
+        &--#{$number} {
+          border-color: $color;
+        }
       }
     }
   }
   // Border radius
   //
   // Add rounded corners to divs.
-  // &-radius {
-  //   @each $border in $radius {
-  //     &--#{$border} {
-  //       border-radius: #{$border}px;
-  //     }
-  //   }
-  // }
+  @if ($config-border-radius) {
+    &-radius {
+      @each $border in $radius {
+        &--#{$border} {
+          border-radius: #{$border}px;
+        }
+      }
+    }
+  }
   // Border radius with sides
   //
   // Activate this option if you specifically work with radiuses and
   // need to apply them to specific places.
-  // @each $side in $sides {
-  //   &-#{$side} {
-  //     @each $radius in $radius {
-  //       &-radius--#{$radius} {
-  //         border-#{$side}-radius: #{$radius}px;
-  //       } 
-  //     }
-  //   }
-  // }
+  @if ($config-border-sides-radius) {
+    @each $side in $sides {
+      &-#{$side} {
+        @each $radius in $radius {
+          &-radius--#{$radius} {
+            border-#{$side}-radius: #{$radius}px;
+          } 
+        }
+      }
+    }
+  }
   // Border Style
   //
   // Set a style for the border
-  &-style {
-    @each $style in $borders {
-      &--#{$style} {
-        border-style: $style;
+  @if ($config-border-style) {
+    &-style {
+      @each $style in $borders {
+        &--#{$style} {
+          border-style: $style;
+        }
       }
     }
   }
@@ -77,10 +89,12 @@
   //
   // The border-width property sets the width of an element's four 
   // borders. This property can have from one to four values.
-  @each $width in $border-widths {
-    &-width {
-      &--#{$width} {
-      border-width: #{$width}px;
+  @if ($config-border-width) {
+    @each $width in $border-widths {
+      &-width {
+        &--#{$width} {
+        border-width: #{$width}px;
+        }
       }
     }
   }

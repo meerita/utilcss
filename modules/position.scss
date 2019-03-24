@@ -1,7 +1,9 @@
 .position {
-  @each $position in $positions {
-    &--#{$position} {
-      position: $position;
+  @if ($config-position) {
+    @each $position in $positions {
+      &--#{$position} {
+        position: $position;
+      }
     }
   }
 }
@@ -12,9 +14,11 @@
 // position.
 
 @each $side in $sides {
-  .#{$side} {
-    &--0 {
-      #{$side}: 0;
+  @if ($config-top-bottom-left-right-0) {
+    .#{$side} {
+      &--0 {
+        #{$side}: 0;
+      }
     }
   }
 }
