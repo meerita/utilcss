@@ -1,7 +1,9 @@
 .white-space {
-  @each $white-space in $white-spaces {
-    &--#{$white-space} {
-      white-space: $white-space;
+  @if ($config-white-space) {
+    @each $white-space in $white-spaces {
+      &--#{$white-space} {
+        white-space: $white-space;
+      }
     }
   }
 }
