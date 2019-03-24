@@ -1,20 +1,26 @@
 .overflow {
-  @each $overflow in $overflows {
-    &--#{$overflow} {
-      overflow: $overflow;
-    }
-  }
-  &-x {
+  @if ($config-overflow) {
     @each $overflow in $overflows {
       &--#{$overflow} {
-        overflow-x: $overflow;
+        overflow: $overflow;
       }
     }
   }
-  &-y {
-    @each $overflow in $overflows {
-      &--#{$overflow} {
-        overflow-y: $overflow;
+  @if ($config-overflow-x) {
+    &-x {
+      @each $overflow in $overflows {
+        &--#{$overflow} {
+          overflow-x: $overflow;
+        }
+      }
+    }
+  }
+  @if ($config-overflow-y) {
+    &-y {
+      @each $overflow in $overflows {
+        &--#{$overflow} {
+          overflow-y: $overflow;
+        }
       }
     }
   }

@@ -103,5 +103,20 @@ $config-xl-grid-template-columns:    true;
 $config-xl-grid-template-rows:       true;
 
 
+$config-justify-content:             false;
+$config-justify-items:               false;
+$config-justify-self:                false;
+
+$config-line-height:                 false;
+
+$config-list-style:                  false;
+
 $config-margin:                      false;    // all sides margins ex. margin--0
 $config-margin-side:                 false;    // only sides ex. margin-top--0
+
+$config-object-fit:                  false;    
+
+$config-overflow:                    false;    
+$config-overflow-x:                  false;    
+$config-overflow-y:                  false;    
+
