@@ -1,7 +1,9 @@
 .resize {
-  @each $resize in $resizes {
-    &--#{$resize} {
-      resize: $resize;
+  @if ($config-resize) {
+    @each $resize in $resizes {
+      &--#{$resize} {
+        resize: $resize;
+      }
     }
   }
 }
