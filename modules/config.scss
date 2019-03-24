@@ -67,5 +67,41 @@ $config-font-size:                   false;
 $config-font-style:                  false;
 $config-font-weight:                 false;
 
+$config-grid-auto-flow:              false; 
+$config-grid-flow-gap:               false;     // adds grid-row or column gap
+
+$config-grid-lg:                     false;
+$config-grid-xl:                     false;
+
+// GRID UTILITIES FOR MOBILE (SM)
+
+$config-grid-sm:                     false;    // If you want grid settings on mobile, activate this first. 
+$config-sm-grid-column:              true;
+$config-sm-grid-row:                 true;
+$config-sm-grid-template-columns:    true;
+$config-sm-grid-template-rows:       true;
+
+// GRID UTILITIES FOR MOBILE (TABLET)
+$config-grid-md:                     false;     // If you want grid settings on mobile, activate this first. 
+$config-md-grid-column:              true;
+$config-md-grid-row:                 true;
+$config-md-grid-template-columns:    true;
+$config-md-grid-template-rows:       true;
+
+// GRID UTILITIES FOR MOBILE (DESKTOP SMALL)
+$config-grid-lg:                     false;    // If you want grid settings on mobile, activate this first. 
+$config-lg-grid-column:              true;
+$config-lg-grid-row:                 true;
+$config-lg-grid-template-columns:    true;
+$config-lg-grid-template-rows:       true;
+
+// GRID UTILITIES FOR MOBILE (DESKTOP LARGE)
+$config-grid-xl:                     false;    // If you want grid settings on mobile, activate this first. 
+$config-xl-grid-column:              true;
+$config-xl-grid-row:                 true;
+$config-xl-grid-template-columns:    true;
+$config-xl-grid-template-rows:       true;
+
+
 $config-margin:                      false;    // all sides margins ex. margin--0
 $config-margin-side:                 false;    // only sides ex. margin-top--0
