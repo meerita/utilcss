@@ -10,9 +10,7 @@ $font-sizes: (
   48
   );
 
-$columns: 6;
-$column-gap: 16px;
-$row-gap: 16px;
+$columns: 2;
 
 // RESPONSIVE
 
@@ -35,7 +33,10 @@ $list-styles: (
 $colors: (
   1: #111,
   2: #666,
-  3: #ffd
+  3: #ffd,
+  4: #FF6,
+  5: #ccf6f6,
+  6: #ffffc9
   );
 
 $background-attachments: (
@@ -220,9 +221,9 @@ $text-overflows: (
   );
 
 $text-transforms: (
+  capitalize,
   uppercase,
   lowercase,
-  capitalize,
   none
   );
 
@@ -244,8 +245,10 @@ $visibilities: (
   );
 
 $weights: (
-  normal,
-  bold
+  normal
+  // bold,
+  // bolder,
+  // lighter
   );
 
 $white-spaces: (
@@ -270,8 +273,7 @@ $scales: (
   8,
   16,
   24,
-  32,
-  64
+  32
   );
 
 // GRID

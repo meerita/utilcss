@@ -1,0 +1,19 @@
+// Only bottom 0: most of the times;
+@if ($config-bottom) {
+  .bottom {
+    &--0 {
+      bottom: 0;
+    }
+  }
+}
+
+// bottom with scales ex. 0, 4, 8, 16
+@if ($config-bottom) {
+  .bottom {
+    @each $scale in $scales {
+      &--#{$scale} {
+        bottom: #{$scale}px;
+      }
+    }
+  }
+}

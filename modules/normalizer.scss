@@ -13,6 +13,13 @@
   }
 }
 
+@if ($normalize-document-legibility) {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+}
+
 // Sections
 //
 // Remove the margin in all browsers.
