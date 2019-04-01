@@ -142,6 +142,9 @@ $config-text-align:                  false;
 $config-text-overflow:               false;
 $config-text-transform:              true;
 
+$config-top:                         false;
+$config-top-with-scales:             false;    // deactivate the config-right first, if you want to profit.
+
 $config-vertical-align:              false;
 
 $config-width:                       false;
@@ -152,8 +155,7 @@ $config-visibility:                  false;
 
 $config-word-wrap:                   false;
 
-$config-top:                         false;
-$config-top-with-scales:             false;    // deactivate the config-right first, if you want to profit.
+$config-z-index:                     false;
 
 
 
