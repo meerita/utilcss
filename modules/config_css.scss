@@ -120,6 +120,8 @@ $config-list-style:                  true;
 $config-margin:                      true;    // all sides margins ex. margin--0
 $config-margin-side:                 true;    // only sides ex. margin-top--0
 
+$config-mix-blend-mode:              true;
+
 $config-object-fit:                  false;
 
 $config-outline-color:               false;
@@ -127,7 +129,7 @@ $config-outline-offset:              false;
 $config-outline-style:               false;
 $config-outline-width:               false;
 
-$config-opacity:                     true;    
+$config-opacity:                     false;    
 
 $config-order:                       false;
 
