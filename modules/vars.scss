@@ -345,10 +345,10 @@ $text-overflows: (
   );
 
 $text-transforms: (
-  capitalize,
-  uppercase,
-  lowercase,
-  none
+  capitalize
+  // uppercase,
+  // lowercase,
+  // none
   );
 
 $vertical-aligns: (
@@ -412,10 +412,18 @@ $user-selects: (
 
 $scales: (
   0,
-  4,
-  8,
   16,
-  24,
+  32
+  );
+
+$margin-scales: (
+  0,
+  8
+  );
+
+$padding-scales: (
+  0,
+  16,
   32
   );
 
