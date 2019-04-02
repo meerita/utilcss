@@ -19,6 +19,53 @@ $device-md:        768px;
 $device-lg:        960px;
 $device-xl:        1280px;
 
+$clears: (
+  left,
+  right,
+  both,
+  none
+  );
+
+$directions: (
+  ltr,
+  rtl
+  );
+
+$cursors: (
+  none,
+  pointer,
+  alias,
+  all-scroll,
+  auto,
+  cell,
+  context-menu,
+  col-resize,
+  copy,
+  crosshair,
+  default,
+  e-resize,
+  ew-resize,
+  grab,
+  grabbing,
+  help,
+  move,
+  n-resize,
+  ne-resize,
+  nswe-resize,
+  ns-resize,
+  nesw-resize,
+  sw-resize,
+  s-resize,
+  no-drop,
+  not-allowed,
+  text,
+  vertical-text,
+  w-resize,
+  wait,
+  zoom-in,
+  zoom-out
+  );
+
 $sides: (
   top,
   bottom,
@@ -29,6 +76,18 @@ $sides: (
 $list-styles: (
   none
 );
+
+$empty-cells: (
+  show,
+  hide
+);
+
+$floats: (
+  left,
+  right,
+  center,
+  none
+  );
 
 $orders: (
   1,
@@ -366,7 +425,7 @@ $writing-modes: (
 
 // FLEXBOX
 
-$directions: (
+$flex-directions: (
   row,
   row-reverse,
   column,

@@ -45,7 +45,9 @@ $config-bottom-with-scales:          false;
 $config-box-decoration-break:        false;
 $config-box-size:                    false;
 
+$config-clear:                       false;
 $config-color:                       false;
+$config-cursor:                      false;
 
 $config-column-count:                false;
 $config-column-fill:                 false;
@@ -59,12 +61,18 @@ $config-display-md:                  false;
 $config-display-lg:                  false;
 $config-display-xl:                  false;
 
+$config-direction:                   false;
+
+$config-empty-cells:                 false;
+
 $config-fill:                        false;
 $config-fill-rule:                   false;
 
 $config-flex-direction:              false;
 $config-flex-wrap:                   false;
 $config-flex-grow:                   false;
+
+$config-float:                       false;
 
 $config-font-kerning:                false;
 $config-font-size:                   false;

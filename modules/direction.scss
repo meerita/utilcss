@@ -1,0 +1,11 @@
+.direction {
+  @if ($config-direction) {
+    & {
+      @each $direction in $directions {
+        &--#{$direction} {
+          direction: $direction;
+        }
+      }
+    }
+  }
+}

@@ -22,7 +22,7 @@
 .flex {
   @if ($config-flex-direction) {
     &-direction {
-      @each $direction in $directions {
+      @each $direction in $flex-directions {
         &--#{$direction} {
           flex-direction: $direction;
         }
