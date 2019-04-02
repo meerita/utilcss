@@ -122,10 +122,14 @@ $config-margin-side:                 true;    // only sides ex. margin-top--0
 
 $config-object-fit:                  false;
 
-$config-outline-color:               true;
-$config-outline-offset:              true;
-$config-outline-style:               true;
-$config-outline-width:               true;
+$config-outline-color:               false;
+$config-outline-offset:              false;
+$config-outline-style:               false;
+$config-outline-width:               false;
+
+$config-opacity:                     true;    
+
+$config-order:                       false;
 
 $config-overflow:                    false;    
 $config-overflow-x:                  false;    

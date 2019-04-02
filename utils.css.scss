@@ -18,12 +18,13 @@
 // DON'T FORGET TO CHECK VARS AND COMMENT OR DELETE THOSE VALUES YOU WILL USE
 // CHECK https://github.com/meerita/utilcss FOR DOCUMENTATION
 
-@import 'modules/config';
+@import 'modules/config_css';
+@import 'modules/config_normalizer';
+
 @import 'modules/vars';
+
 @import 'modules/normalizer';
-//
-// MODULES
-// 
+
 @import 'modules/align';
 @import 'modules/background';
 @import 'modules/border';
@@ -42,6 +43,8 @@
 @import 'modules/list';
 @import 'modules/margin';
 @import 'modules/object';
+@import 'modules/opacity';
+@import 'modules/order';
 @import 'modules/outline';
 @import 'modules/overflow';
 @import 'modules/padding';
@@ -50,11 +53,11 @@
 @import 'modules/resize';
 @import 'modules/right';
 @import 'modules/scroll';
-@import 'modules/text';
 @import 'modules/table';
+@import 'modules/text';
 @import 'modules/top';
-@import 'modules/user';
 @import 'modules/unicode';
+@import 'modules/user';
 @import 'modules/vertical';
 @import 'modules/visibility';
 @import 'modules/white';
