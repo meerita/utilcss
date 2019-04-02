@@ -22,6 +22,8 @@ $config-align-items:                 false;
 $config-align-content:               false;
 $config-align-self:                  false;
 
+$config-backface-visibility:         false;
+
 $config-background-attachment:       false;
 $config-background-blend-mode:       false;
 $config-background-color:            true;
@@ -45,6 +47,7 @@ $config-bottom-with-scales:          false;
 $config-box-decoration-break:        false;
 $config-box-size:                    false;
 
+$config-caption-side:                false;
 $config-clear:                       false;
 $config-color:                       false;
 $config-cursor:                      false;

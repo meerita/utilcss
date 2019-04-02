@@ -26,6 +26,16 @@ $clears: (
   none
   );
 
+$backface-visibilities: (
+  visible,
+  hidden
+  );
+
+$caption-sides: (
+  top,
+  bottom
+  );
+
 $directions: (
   ltr,
   rtl
@@ -98,12 +108,10 @@ $orders: (
   );
 
 $colors: (
-  1: #111,
-  2: #666,
-  3: #ffd,
-  4: #FF6,
-  5: #ccf6f6,
-  6: #ffffc9
+  1: #ffd,
+  2: #ff6,
+  3: #ffffc9,
+  4: #ccf6f6
   );
 
 $opacities: (
@@ -227,11 +235,12 @@ $column-rule-styles: (
   );
 
 $displays: (
-  none,
-  block,
-  inline,
-  inline-block,
-  flex,
+  // none,
+  // block,
+  // block,
+  // inline,
+  // inline-block,
+  // flex,
   grid
   );
 
