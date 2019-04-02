@@ -269,6 +269,18 @@ $word-breaks: (
   normal
   );
 
+$unicode-bidis: (
+  embed,
+  bidi-override,
+  normal
+  );
+
+$user-selects: (
+  none,
+  text,
+  all
+  );
+
 // Pattern scales
 //
 // For designs that use patterns, this one is friendly with Android

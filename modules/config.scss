@@ -145,13 +145,17 @@ $config-text-transform:              true;
 $config-top:                         false;
 $config-top-with-scales:             false;    // deactivate the config-right first, if you want to profit.
 
+$config-unicode-bidi:                true;
+
+$config-user-select:                 false;
+
 $config-vertical-align:              false;
+
+$config-visibility:                  false;
 
 $config-width:                       false;
 
 $config-white-space:                 false;
-
-$config-visibility:                  false;
 
 $config-word-break:                  false;
 

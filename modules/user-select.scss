@@ -1,0 +1,9 @@
+.user-select {
+  @if ($config-user-select) {
+    @each $user-select in $user-selects {
+      &--#{$user-select} {
+        user-select: $user-select;
+      }
+    }
+  }
+}
