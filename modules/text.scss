@@ -7,6 +7,14 @@
       }
     }
   }
+  // text justify *This feature is behind the Enable Experimental Web Platform Features preference
+  @if ($config-text-justify) {
+    @each $text-justify in $text-justifies {
+      &-justify--#{$text-justify} {
+        text-justify: $text-justify;
+      }
+    }
+  }
   // text overflow
   @if ($config-text-overflow) {
     @each $text-overflow in $text-overflows {

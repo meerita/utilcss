@@ -1,0 +1,22 @@
+.word {
+
+  &-break {
+    @if ($config-word-break) {
+      @each $break in $word-breaks {
+        &--#{$break} {
+          word-break: $break;
+        }
+      }
+    }
+  }
+
+  &-wrap {
+  @if ($config-word-wrap) {
+    @each $word-wrap in $word-wraps {
+      &--#{$word-wrap} {
+        word-wrap: $word-wrap;
+        }
+      }
+    }
+  }
+}

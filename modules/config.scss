@@ -139,13 +139,16 @@ $config-right:                       false;
 $config-right-with-scales:           false;    // deactivate the config-right first, if you want to profit.
 
 $config-text-align:                  false;
+$config-text-justify:                false;
 $config-text-overflow:               false;
 $config-text-transform:              true;
+
+$config-table-layout:                false;
 
 $config-top:                         false;
 $config-top-with-scales:             false;    // deactivate the config-right first, if you want to profit.
 
-$config-unicode-bidi:                true;
+$config-unicode-bidi:                false;
 
 $config-user-select:                 false;
 

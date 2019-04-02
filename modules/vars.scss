@@ -208,11 +208,23 @@ $styles: (
   normal
   );
 
+
+$table-layouts: (
+  fixed,
+  auto
+  );
+
 $text-aligns: (
   left
   // center,
   // right,
   // justify
+  );
+
+$text-justifies: (
+  inter-word
+  // inter-character,
+  // none
   );
 
 $text-overflows: (

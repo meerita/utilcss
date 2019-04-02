@@ -1,0 +1,11 @@
+.table {
+  @if ($config-table-layout) {
+    &-layout {
+      @each $layout in $table-layouts {
+        &--#{$layout} {
+          table-layout: $layout;
+        }
+      }
+    }
+  }
+}
