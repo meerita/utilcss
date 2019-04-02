@@ -66,6 +66,7 @@ $config-flex-direction:              false;
 $config-flex-wrap:                   false;
 $config-flex-grow:                   false;
 
+$config-font-kerning:                false;
 $config-font-size:                   false;
 $config-font-style:                  false;
 $config-font-weight:                 true;
@@ -120,7 +121,7 @@ $config-list-style:                  true;
 $config-margin:                      true;    // all sides margins ex. margin--0
 $config-margin-side:                 true;    // only sides ex. margin-top--0
 
-$config-mix-blend-mode:              true;
+$config-mix-blend-mode:              false;
 
 $config-object-fit:                  false;
 

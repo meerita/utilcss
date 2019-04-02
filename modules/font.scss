@@ -8,6 +8,13 @@
       }
     }
   }
+  @if ($config-font-kerning) {
+    @each $kerning in $font-kernings {
+      &-kerning--#{$kerning} {
+        font-kerning: $kerning;
+      }
+    }
+  }
   @if ($config-font-style) {
     @each $style in $styles {
       &-style--#{$style} {
