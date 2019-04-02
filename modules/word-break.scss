@@ -1,0 +1,9 @@
+.word-break {
+  @if ($config-word-break) {
+    @each $break in $word-breaks {
+      &--#{$break} {
+        word-break: $break;
+      }
+    }
+  }
+}

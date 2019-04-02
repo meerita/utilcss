@@ -262,6 +262,13 @@ $word-wraps: (
   normal
   );
 
+$word-breaks: (
+  break-all,
+  keep-all,
+  break-word,
+  normal
+  );
+
 // Pattern scales
 //
 // For designs that use patterns, this one is friendly with Android
