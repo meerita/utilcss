@@ -120,7 +120,12 @@ $config-list-style:                  true;
 $config-margin:                      true;    // all sides margins ex. margin--0
 $config-margin-side:                 true;    // only sides ex. margin-top--0
 
-$config-object-fit:                  false;    
+$config-object-fit:                  false;
+
+$config-outline-color:               true;
+$config-outline-offset:              true;
+$config-outline-style:               true;
+$config-outline-width:               true;
 
 $config-overflow:                    false;    
 $config-overflow-x:                  false;    
@@ -137,6 +142,8 @@ $config-resize:                      false;
 
 $config-right:                       false;
 $config-right-with-scales:           false;    // deactivate the config-right first, if you want to profit.
+
+$config-scroll-behavior:             false;
 
 $config-text-align:                  false;
 $config-text-justify:                false;

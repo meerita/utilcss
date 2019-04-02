@@ -196,6 +196,19 @@ $object-fits: (
   scale-down
   );
 
+$outline-styles: (
+  hidden
+  // dotted,
+  // dashed,
+  // solid,
+  // double,
+  // groove,
+  // ridge,
+  // inset,
+  // outset
+  );
+
+
 $overflows: (
   scroll,
   hidden,
@@ -206,6 +219,10 @@ $overflows: (
 $styles: (
   italic,
   normal
+  );
+
+$scroll-behaviors: (
+  smooth
   );
 
 
