@@ -27,7 +27,7 @@
         }
       }
     }
-    @if ($config-text-decoration-line) {
+    @if ($config-text-decoration-style) {
       &-style {
         @each $style in $text-decoration-styles {
           &--#{$style} {

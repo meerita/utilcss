@@ -318,10 +318,10 @@ $border-widths: (
 $text-decoration-lines: (
   none,
   underline,
-  overline,
-  line-through,
-  initial,
-  inherit,
+  // overline,
+  // line-through,
+  // initial,
+  // inherit,
 );
 
 $text-decoration-styles: (
@@ -500,7 +500,7 @@ $text-justifies: (
   );
 
 $text-overflows: (
-  clip,
+  // clip,
   ellipsis
   );
 
