@@ -18,9 +18,9 @@
 // if you activate all, the CSS size will increase.
 
 
-$config-align-items:                 false;
+$config-align-items:                 true;
 $config-align-content:               false;
-$config-align-self:                  false;
+$config-align-self:                  true;
 
 $config-backface-visibility:         false;
 
@@ -32,14 +32,14 @@ $config-background-origin:           false;
 $config-background-repeat:           false;
 $config-background-size:             false;
 
-$config-border:                      false;
-$config-border-sides:                false;    // only sides ex. border-left--0
+$config-border:                      true;
+$config-border-sides:                true;    // only sides ex. border-left--0
 $config-border-collapse:             false;
-$config-border-color:                false;
-$config-border-radius:               false;
-$config-border-sides-radius:         false;    // only sides ex. border-top-radius--0
-$config-border-style:                false;
-$config-border-width:                false;
+$config-border-color:                true;
+$config-border-radius:               true;
+$config-border-sides-radius:         true;    // only sides ex. border-top-radius--0
+$config-border-style:                true;
+$config-border-width:                true;
 
 $config-bottom:                      false;
 $config-bottom-with-scales:          false;
@@ -48,9 +48,9 @@ $config-box-decoration-break:        false;
 $config-box-size:                    false;
 
 $config-caption-side:                false;
-$config-clear:                       false;
-$config-color:                       false;
-$config-cursor:                      false;
+$config-clear:                       true;
+$config-color:                       true;
+$config-cursor:                      true;
 
 $config-column-count:                false;
 $config-column-fill:                 false;
@@ -59,10 +59,10 @@ $config-column-rule-color:           false;
 $config-column-gap:                  false;
 
 $config-display:                     true;
-$config-display-sm:                  false;    // activates display--value for responsive steps. 
-$config-display-md:                  false;
-$config-display-lg:                  false;
-$config-display-xl:                  false;
+$config-display-sm:                  true;    // activates display--value for responsive steps. 
+$config-display-md:                  true;
+$config-display-lg:                  true;
+$config-display-xl:                  true;
 
 $config-direction:                   false;
 
@@ -71,15 +71,15 @@ $config-empty-cells:                 false;
 $config-fill:                        false;
 $config-fill-rule:                   false;
 
-$config-flex-direction:              false;
-$config-flex-wrap:                   false;
+$config-flex-direction:              true;
+$config-flex-wrap:                   true;
 $config-flex-grow:                   false;
 
-$config-float:                       false;
+$config-float:                       true;
 
 $config-font-kerning:                false;
-$config-font-size:                   false;
-$config-font-style:                  false;
+$config-font-size:                   true;
+$config-font-style:                  true;
 $config-font-weight:                 true;
 
 $config-grid-auto-flow:              false; 
@@ -97,7 +97,7 @@ $config-sm-grid-template-columns:    true;
 $config-sm-grid-template-rows:       true;
 
 // GRID UTILITIES FOR MOBILE (TABLET)
-$config-grid-md:                     true;     // If you want grid settings on mobile, activate this first. 
+$config-grid-md:                     false;     // If you want grid settings on mobile, activate this first. 
 $config-md-grid-column:              true;
 $config-md-grid-row:                 true;
 $config-md-grid-template-columns:    true;
@@ -118,14 +118,14 @@ $config-xl-grid-template-columns:    true;
 $config-xl-grid-template-rows:       true;
 
 
-$config-justify-content:             false;
+$config-justify-content:             true;
 $config-justify-items:               false;
 $config-justify-self:                false;
 
 $config-left:                        false;
 $config-left-with-scales:            false;    // deactivate the config-right first, if you want to profit.
 
-$config-line-height:                 false;
+$config-line-height:                 true;
 
 $config-list-style:                  true;
 
@@ -141,20 +141,20 @@ $config-outline-offset:              false;
 $config-outline-style:               false;
 $config-outline-width:               false;
 
-$config-opacity:                     false;    
+$config-opacity:                     true;    
 
 $config-order:                       false;
 
-$config-overflow:                    false;    
-$config-overflow-x:                  false;    
-$config-overflow-y:                  false;    
+$config-overflow:                    true;    
+$config-overflow-x:                  true;    
+$config-overflow-y:                  true;    
 
 $config-padding:                     true;    // for applying paddings to all sides ex. padding--10
 $config-padding-side:                true;
 
-$config-pointer-events:              false;
+$config-pointer-events:              true;
 
-$config-position:                    false;
+$config-position:                    true;
 
 $config-resize:                      false;
 
@@ -163,10 +163,13 @@ $config-right-with-scales:           false;    // deactivate the config-right fi
 
 $config-scroll-behavior:             false;
 
-$config-text-align:                  false;
+$config-text-align:                  true;
+$config-text-decoration-color:       true;
+$config-text-decoration-line:        true;
+$config-text-decoration-style:       true;
 $config-text-justify:                false;
 $config-text-overflow:               false;
-$config-text-transform:              true;
+$config-text-transform:              false;
 
 $config-table-layout:                false;
 
@@ -192,230 +195,3 @@ $config-word-wrap:                   false;
 $config-writing-mode:                false;
 
 $config-z-index:                     false;
-
-
-
-// NORMALIZER CONFIGURATION
-//
-// Usually people install normalizer.css, which adds an amount of rules that may not
-// apply to your project. Within this lines you can tie to the finest that normalizer
-// rules and only print those that matter to you.
-
-// Document
-// 1. Correct the line height in all browsers.
-// 2. Prevent adjustments of font size after orientation changes in iOS.
-//
-
-$normalize-document:                false;
-$normalize-document-legibility:     true;
-
-// Sections
-//
-// Remove the margin in all browsers.
-//
-
-$normalize-sections-all-margins:    true;
-
-//
-// Render the `main` element consistently in IE.
-//
-
-$normalize-sections-main-ie:        false;
-
-//
-// Correct the font size and margin on `h1` elements within `section` and
-// `article` contexts in Chrome, Firefox, and Safari.
-//
-
-$normalize-sections-margin-h1:      false;
-
-
-// Grouping content
-//
-// 1. Add the correct box sizing in Firefox.
-// 2. Show the overflow in Edge and IE.
-//
-
-$normalize-grouping-content-hr:     false;
-
-//
-// 1. Correct the inheritance and scaling of font size in all browsers.
-// 2. Correct the odd `em` font sizing in all browsers.
-//
-
-$normalize-grouping-content-pre:    true;
-
-// Text-level semantics
-//
-// Remove the gray background on active links in IE 10.
-//
-
-$normalize-text-level-a:            false;
-
-//
-// 1. Remove the bottom border in Chrome 57-
-// 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
-//
-
-$normalize-text-level-abbr:         false;
-
-//
-// Add the correct font weight in Chrome, Edge, and Safari.
-//
-
-$normalize-text-level-b-strong:     false;
-
-//
-// 1. Correct the inheritance and scaling of font size in all browsers.
-// 2. Correct the odd `em` font sizing in all browsers.
-//
-
-$normalize-text-level-code-kbd:     true;
-
-//
-// 1. Correct the inheritance and scaling of font size in all browsers.
-// 2. Correct the odd `em` font sizing in all browsers.
-//
-
-$normalize-text-level-small:        false;
-
-//
-// Prevent `sub` and `sup` elements from affecting the line height in
-// all browsers.
-//
-
-$normalize-text-level-sub-sup:      true;
-
-// Embedded content
-//
-// Remove the border on images inside links in IE 10.
-//
-
-$normalize-embedded-content:        false;
-
-// Forms
-//
-// 1. Change the font styles in all browsers.
-// 2. Remove the margin in Firefox and Safari.
-//
-
-$normalize-forms-change-fonts:   false;
-
-//
-// Show the overflow in IE.
-// 1. Show the overflow in Edge.
-//
-
-$normalize-forms-overflow-ie:    false;
-
-//
-// Remove the inheritance of text transform in Edge, Firefox, and IE.
-// 1. Remove the inheritance of text transform in Firefox.
-//
-
-$normalize-forms-text-transform: false;
-
-//
-// Correct the inability to style clickable types in iOS and Safari.
-//
-
-$normalize-forms-button-click:   false;
-
-//
-// Remove the inner border and padding in Firefox.
-//
-
-$normalize-forms-inner-border:   false;
-
-//
-// Restore the focus styles unset by the previous rule.
-//
-
-$normalize-forms-focusring:      false;
-
-//
-// Correct the padding in Firefox.
-//
-
-$normalize-forms-fieldset:       false;
-
-//
-// 1. Correct the text wrapping in Edge and IE.
-// 2. Correct the color inheritance from `fieldset` elements in IE.
-// 3. Remove the padding so developers are not caught out when they zero out
-//    `fieldset` elements in all browsers.
-//
-
-$normalize-forms-legend:         false;
-
-//
-// Add the correct vertical alignment in Chrome, Firefox, and Opera.
-//
-
-$normalize-forms-progress:       false;
-
-//
-// Remove the default vertical scrollbar in IE 10+.
-//
-
-$normalize-forms-textarea:       false;
-
-//
-// 1. Add the correct box sizing in IE 10.
-// 2. Remove the padding in IE 10.
-//
-
-$normalize-forms-checkbox-radio: false;
-
-//
-// Correct the cursor style of increment and decrement buttons in Chrome.
-//
-
-$normalize-forms-number:         false;
-
-//
-// 1. Correct the odd appearance in Chrome and Safari.
-// 2. Correct the outline style in Safari.
-//
-
-$normalize-forms-search:         false;
-
-//
-// Remove the inner padding in Chrome and Safari on macOS.
-//
-
-$normalize-forms-file-upload:    false;
-
-
-//
-// 1. Correct the inability to style clickable types in iOS and Safari.
-// 2. Change font properties to `inherit` in Safari.
-//
-
-$normalize-forms-file-button:    false;
-
-// Interactive
-//
-// Add the correct display in Edge, IE 10+, and Firefox.
-//
-
-$normalize-interactive-details:  false;
-
-//
-// Add the correct display in all browsers.
-//
-
-$normalize-interactive-summary:  false;
-
-// Misc
-//
-// Add the correct display in IE 10+.
-//
-
-$normalize-misc-template:        false;
-
-//
-// Add the correct display in IE 10.
-//
-
-$normalize-misc-hidden:          false;

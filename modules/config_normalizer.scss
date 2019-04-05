@@ -23,14 +23,14 @@
 //
 
 $normalize-document:                false;
-$normalize-document-legibility:     true;
+$normalize-document-legibility:     false;
 
 // Sections
 //
 // Remove the margin in all browsers.
 //
 
-$normalize-sections-all-margins:    true;
+$normalize-sections-all-margins:    false;
 
 //
 // Render the `main` element consistently in IE.
@@ -59,7 +59,7 @@ $normalize-grouping-content-hr:     false;
 // 2. Correct the odd `em` font sizing in all browsers.
 //
 
-$normalize-grouping-content-pre:    true;
+$normalize-grouping-content-pre:    false;
 
 // Text-level semantics
 //
@@ -86,7 +86,7 @@ $normalize-text-level-b-strong:     false;
 // 2. Correct the odd `em` font sizing in all browsers.
 //
 
-$normalize-text-level-code-kbd:     true;
+$normalize-text-level-code-kbd:     false;
 
 //
 // 1. Correct the inheritance and scaling of font size in all browsers.
@@ -100,7 +100,7 @@ $normalize-text-level-small:        false;
 // all browsers.
 //
 
-$normalize-text-level-sub-sup:      true;
+$normalize-text-level-sub-sup:      false;
 
 // Embedded content
 //

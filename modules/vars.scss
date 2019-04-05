@@ -3,11 +3,40 @@ $font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxy
 $font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Arial, sans-serif;
 
 $font-sizes: (
+  9,
+  10,
+  11,
   12,
+  13,
+  14,
+  15,
   16,
+  17,
   18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
   28,
-  48
+  29,
+  30,
+  32,
+  34,
+  35,
+  36,
+  38,
+  40,
+  42,
+  45,
+  46,
+  48,
+  50,
+  28,
+  110
   );
 
 $columns: 2;
@@ -42,38 +71,38 @@ $directions: (
   );
 
 $cursors: (
-  none,
+  // none,
   pointer,
-  alias,
-  all-scroll,
-  auto,
-  cell,
-  context-menu,
-  col-resize,
-  copy,
-  crosshair,
+  // alias,
+  // all-scroll,
+  // auto,
+  // cell,
+  // context-menu,
+  // col-resize,
+  // copy,
+  // crosshair,
   default,
-  e-resize,
-  ew-resize,
-  grab,
-  grabbing,
+  // e-resize,
+  // ew-resize,
+  // grab,
+  // grabbing,
   help,
-  move,
-  n-resize,
-  ne-resize,
-  nswe-resize,
-  ns-resize,
-  nesw-resize,
-  sw-resize,
-  s-resize,
-  no-drop,
-  not-allowed,
-  text,
-  vertical-text,
-  w-resize,
-  wait,
-  zoom-in,
-  zoom-out
+  // move,
+  // n-resize,
+  // ne-resize,
+  // nswe-resize,
+  // ns-resize,
+  // nesw-resize,
+  // sw-resize,
+  // s-resize,
+  // no-drop,
+  // not-allowed,
+  // text,
+  // vertical-text,
+  // w-resize,
+  // wait,
+  // zoom-in,
+  // zoom-out
   );
 
 $sides: (
@@ -84,7 +113,10 @@ $sides: (
   );
 
 $list-styles: (
-  none
+  none,
+  decimal,
+  disc,
+  square
 );
 
 $empty-cells: (
@@ -95,7 +127,7 @@ $empty-cells: (
 $floats: (
   left,
   right,
-  center,
+  // center,
   none
   );
 
@@ -108,10 +140,81 @@ $orders: (
   );
 
 $colors: (
-  1: #ffd,
-  2: #ff6,
-  3: #ffffc9,
-  4: #ccf6f6
+  1: #000,
+  2: #0072d8,
+  3: #00b200,
+  4: #00c18d,
+  5: #01143c,
+  6: #03a3d8,
+  7: #141d25,
+  8: #1c75bc,
+  9: #1f0087,
+  10: #1f2b38,
+  11: #221f1f,
+  12: #222,
+  13: #27ae60,
+  14: #293A4b,
+  15: #2e6d9d,
+  16: #303,
+  17: #333,
+  18: #3498d8,
+  19: #390,
+  20: #393939,
+  21: #3b5998,
+  22: #444,
+  23: #44619d,
+  24: #555,
+  26: #55acee,
+  27: #55b97f,
+  28: #63a1e3,
+  29: #737373,
+  30: #7A0000,
+  31: #8c0000,
+  32: #999,
+  33: #a3a3a3,
+  34: #ae1365,
+  35: #af0000,
+  36: #c00,
+  37: #c3c3c3,
+  38: #c8c8c8,
+  39: #CB4379,
+  40: #ccc,
+  41: #d0d2d3,
+  42: #d35400,
+  43: #d5890b,
+  45: #d6dbdf,
+  46: #d73d32,
+  47: #d7c700,
+  48: #d96d00,
+  49: #e2e2e2,
+  50: #e5e3e3,
+  55: #e6e6e6,
+  56: #edf0ef,
+  57: #eecf00,
+  58: #eee,
+  59: #ef4a81,
+  60: #efefef,
+  61: #f1f1f1,
+  62: #f2f2f2,
+  63: #f7f7f7,
+  65: #f8f8f8,
+  66: #f90,
+  67: #fabb00,
+  68: #ffbad6,
+  69: gray,
+  70: inherit,
+  71: initial,
+  72: transparent,
+  73: red,
+  74: rgba(0,0,0,0.5),
+  75: rgba(174,182,191,0.5),
+  76: rgba(20,29,37,0.9),
+  77: rgba(214,219,223,0.98),
+  78: rgba(239,237,236,0.7),
+  79: rgba(255,255,255,0.8),
+  80: rgba(62,83,99,0.15),
+  81: transparent,
+  82: whitesmoke
   );
 
 $opacities: (
@@ -174,7 +277,15 @@ $background-sizes: (
 
 $radius: (
   0,
-  2
+  2,
+  5,
+  8,
+  18,
+  20,
+  22,
+  25,
+  32,
+  512
   );
 
 $borders: (
@@ -195,8 +306,33 @@ $borders: (
 $border-widths: (
   0,
   1,
-  2
+  2,
+  3,
+  4,
+  5,
+  8,
+  9,
+  20
   );
+
+$text-decoration-lines: (
+  none,
+  underline,
+  overline,
+  line-through,
+  initial,
+  inherit,
+);
+
+$text-decoration-styles: (
+  solid,
+  double,
+  dotted,
+  dashed,
+  wavy,
+  initial,
+  inherit,
+);
 
 $box-decorations: (
   slice,
@@ -235,12 +371,12 @@ $column-rule-styles: (
   );
 
 $displays: (
-  // none,
-  // block,
-  // block,
-  // inline,
-  // inline-block,
-  // flex,
+  none,
+  block,
+  block,
+  inline,
+  inline-block,
+  flex,
   grid
   );
 
@@ -250,25 +386,49 @@ $fill-rules: (
 );
 
 $line-heights: (
+  12,
+  13,
+  14,
+  15,
   16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
   24,
+  25,
+  28,
+  30,
   32,
-  40,
-  64
+  35,
+  36,
+  37,
+  38,
+  42,
+  44,
+  50,
+  54,
+  55,
+  56,
+  60
   );
 
 $pointer-events: (
   none,
-  auto
+  // auto
   );
 
 $positions: (
-  sticky
-  // absolute,
-  // relative,
-  // static,
-  // relative,
-  // fixed
+  // sticky,
+  absolute,
+  relative,
+  static,
+  fixed,
+  initial,
+  inherit
   );
 
 $resizes: (
@@ -300,7 +460,7 @@ $outline-styles: (
 
 
 $overflows: (
-  scroll,
+  // scroll,
   hidden,
   auto,
   visible
@@ -312,7 +472,7 @@ $font-kernings: (
   );
 
 $styles: (
-  italic,
+  // italic,
   normal
   );
 
@@ -327,9 +487,9 @@ $table-layouts: (
   );
 
 $text-aligns: (
-  left
-  // center,
-  // right,
+  left,
+  center,
+  right,
   // justify
   );
 
@@ -369,8 +529,11 @@ $visibilities: (
   );
 
 $weights: (
-  normal
-  // bold,
+  200,
+  400,
+  800,
+  normal,
+  bold,
   // bolder,
   // lighter
   );
@@ -418,13 +581,27 @@ $scales: (
 
 $margin-scales: (
   0,
-  8
+  4,
+  8,
+  15,
+  20,
+  30,
+  45,
+  56,
+  -5,
+  -10,
+  -40,
+  -50,
+  -70
   );
 
 $padding-scales: (
   0,
+  15,
   16,
-  32
+  20,
+  32,
+  44
   );
 
 // GRID
@@ -444,9 +621,9 @@ $writing-modes: (
 
 $flex-directions: (
   row,
-  row-reverse,
+  // row-reverse,
   column,
-  column-reverse
+  // column-reverse
   );
 
 $wraps: (
@@ -464,14 +641,14 @@ $grows: (
 
 $justify-contents: (
   center,
-  end,
+  // end,
   flex-end,
-  flex-start,
-  space-around,
+  // flex-start,
+  // space-around,
   space-between,
-  space-evenly,
-  start,
-  stretch,
+  // space-evenly,
+  // start,
+  // stretch,
   );
 
 $justify-selfs: (
@@ -490,10 +667,10 @@ $justify-items: (
 
 $align-items: (
   flex-start,
-  flex-end,
-  center,
-  stretch,
-  baseline
+  // flex-end,
+  center
+  // stretch,
+  // baseline
   );
 
 $align-contents: (
@@ -508,10 +685,10 @@ $align-contents: (
   ); 
 
 $align-selfs: (
-  auto,
-  flex-start,
-  flex-end,
-  center,
-  stretch,
-  baseline
+  stretch
+  // auto,
+  // flex-start,
+  // flex-end,
+  // center,
+  // baseline
   );
