@@ -1,9 +1,9 @@
 .font {
   @if ($config-font-size) {
     &-size {
-      @each $size in $font-sizes {
-        &--#{$size} {
-          font-size: #{$size}px;
+      @each $value, $size in $font-sizes {
+        &--#{$value} {
+          font-size: #{$size};
         }
       }
     }
