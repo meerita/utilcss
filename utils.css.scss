@@ -50,6 +50,7 @@
 @import 'modules/list';
 @import 'modules/margin';
 @import 'modules/mix';
+@import 'modules/max';
 @import 'modules/object';
 @import 'modules/opacity';
 @import 'modules/order';
@@ -75,3 +76,8 @@
 @import 'modules/z';
 
 
+@media screen {
+  .c-article {
+    color: red;
+  }
+}

@@ -1,0 +1,11 @@
+.max {
+  @if ($config-max-width) {
+    &-width {
+      @each $key, $width in $max-widths {
+        &--#{$key} {
+          max-width: $width;
+        }
+      }
+    }
+  }
+}

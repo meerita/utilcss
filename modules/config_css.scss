@@ -18,9 +18,9 @@
 // if you activate all, the CSS size will increase.
 
 
-$config-align-items:                 true;
+$config-align-items:                 false;
 $config-align-content:               false;
-$config-align-self:                  true;
+$config-align-self:                  false;
 
 $config-backface-visibility:         false;
 
@@ -34,11 +34,12 @@ $config-background-size:             false;
 
 $config-border:                      true;
 $config-border-sides:                true;    // only sides ex. border-left--0
-$config-border-collapse:             false;
+$config-border-collapse:             true;
 $config-border-color:                true;
-$config-border-radius:               true;
-$config-border-sides-radius:         true;    // only sides ex. border-top-radius--0
+$config-border-radius:               false;
+$config-border-sides-radius:         false;    // only sides ex. border-top-radius--0
 $config-border-style:                true;
+$config-border-sides-style:          true;
 $config-border-width:                true;
 
 $config-bottom:                      false;
@@ -48,9 +49,9 @@ $config-box-decoration-break:        false;
 $config-box-size:                    false;
 
 $config-caption-side:                false;
-$config-clear:                       true;
-$config-color:                       true;
-$config-cursor:                      true;
+$config-clear:                       false;
+$config-color:                       false;
+$config-cursor:                      false;
 
 $config-column-count:                false;
 $config-column-fill:                 false;
@@ -59,10 +60,10 @@ $config-column-rule-color:           false;
 $config-column-gap:                  false;
 
 $config-display:                     true;
-$config-display-sm:                  true;    // activates display--value for responsive steps. 
-$config-display-md:                  true;
-$config-display-lg:                  true;
-$config-display-xl:                  true;
+$config-display-sm:                  false;    // activates display--value for responsive steps. 
+$config-display-md:                  false;
+$config-display-lg:                  false;
+$config-display-xl:                  false;
 
 $config-direction:                   false;
 
@@ -71,15 +72,15 @@ $config-empty-cells:                 false;
 $config-fill:                        false;
 $config-fill-rule:                   false;
 
-$config-flex-direction:              true;
-$config-flex-wrap:                   true;
+$config-flex-direction:              false;
+$config-flex-wrap:                   false;
 $config-flex-grow:                   false;
 
-$config-float:                       true;
+$config-float:                       false;
 
 $config-font-kerning:                false;
-$config-font-size:                   true;
-$config-font-style:                  true;
+$config-font-size:                   false;
+$config-font-style:                  false;
 $config-font-weight:                 true;
 
 $config-grid-auto-flow:              false; 
@@ -91,46 +92,48 @@ $config-grid-xl:                     false;
 // GRID UTILITIES FOR MOBILE (SM)
 
 $config-grid-sm:                     false;    // If you want grid settings on mobile, activate this first. 
-$config-sm-grid-column:              true;
-$config-sm-grid-row:                 true;
-$config-sm-grid-template-columns:    true;
-$config-sm-grid-template-rows:       true;
+$config-sm-grid-column:              false;
+$config-sm-grid-row:                 false;
+$config-sm-grid-template-columns:    false;
+$config-sm-grid-template-rows:       false;
 
 // GRID UTILITIES FOR MOBILE (TABLET)
-$config-grid-md:                     false;     // If you want grid settings on mobile, activate this first. 
+$config-grid-md:                     true;     // If you want grid settings on mobile, activate this first. 
 $config-md-grid-column:              true;
-$config-md-grid-row:                 true;
+$config-md-grid-row:                 false;
 $config-md-grid-template-columns:    true;
-$config-md-grid-template-rows:       true;
+$config-md-grid-template-rows:       false;
 
 // GRID UTILITIES FOR MOBILE (DESKTOP SMALL)
 $config-grid-lg:                     false;    // If you want grid settings on mobile, activate this first. 
-$config-lg-grid-column:              true;
-$config-lg-grid-row:                 true;
-$config-lg-grid-template-columns:    true;
-$config-lg-grid-template-rows:       true;
+$config-lg-grid-column:              false;
+$config-lg-grid-row:                 false;
+$config-lg-grid-template-columns:    false;
+$config-lg-grid-template-rows:       false;
 
 // GRID UTILITIES FOR MOBILE (DESKTOP LARGE)
 $config-grid-xl:                     false;    // If you want grid settings on mobile, activate this first. 
-$config-xl-grid-column:              true;
-$config-xl-grid-row:                 true;
-$config-xl-grid-template-columns:    true;
-$config-xl-grid-template-rows:       true;
+$config-xl-grid-column:              false;
+$config-xl-grid-row:                 false;
+$config-xl-grid-template-columns:    false;
+$config-xl-grid-template-rows:       false;
 
 
-$config-justify-content:             true;
+$config-justify-content:             false;
 $config-justify-items:               false;
 $config-justify-self:                false;
 
 $config-left:                        false;
 $config-left-with-scales:            false;    // deactivate the config-right first, if you want to profit.
 
-$config-line-height:                 true;
+$config-line-height:                 false;
 
 $config-list-style:                  true;
 
 $config-margin:                      true;    // all sides margins ex. margin--0
 $config-margin-side:                 true;    // only sides ex. margin-top--0
+
+$config-max-width:                   true;
 
 $config-mix-blend-mode:              false;
 
@@ -141,20 +144,20 @@ $config-outline-offset:              false;
 $config-outline-style:               false;
 $config-outline-width:               false;
 
-$config-opacity:                     true;    
+$config-opacity:                     false;    
 
 $config-order:                       false;
 
-$config-overflow:                    true;    
-$config-overflow-x:                  true;    
-$config-overflow-y:                  true;    
+$config-overflow:                    false;    
+$config-overflow-x:                  false;    
+$config-overflow-y:                  false;    
 
 $config-padding:                     true;    // for applying paddings to all sides ex. padding--10
 $config-padding-side:                true;
 
-$config-pointer-events:              true;
+$config-pointer-events:              false;
 
-$config-position:                    true;
+$config-position:                    false;
 
 $config-resize:                      false;
 
@@ -165,11 +168,11 @@ $config-scroll-behavior:             false;
 
 $config-text-align:                  true;
 $config-text-decoration-color:       false;
-$config-text-decoration-line:        true;
+$config-text-decoration-line:        false;
 $config-text-decoration-style:       false;
 $config-text-justify:                false;
-$config-text-overflow:               true;
-$config-text-transform:              false;
+$config-text-overflow:               false;
+$config-text-transform:              true;
 
 $config-table-layout:                false;
 
@@ -184,7 +187,7 @@ $config-vertical-align:              false;
 
 $config-visibility:                  false;
 
-$config-width:                       false;
+$config-width:                       true;
 
 $config-white-space:                 false;
 
