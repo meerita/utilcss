@@ -1,9 +1,9 @@
 .font {
-  @if ($config-font-size) {
-    &-size {
-      @each $value, $size in $font-sizes {
+  @if ($config-font-family) {
+    &-family {
+      @each $value, $size in $font-families {
         &--#{$value} {
-          font-size: #{$size};
+          font-family: #{$size};
         }
       }
     }
@@ -12,6 +12,15 @@
     @each $kerning in $font-kernings {
       &-kerning--#{$kerning} {
         font-kerning: $kerning;
+      }
+    }
+  }
+  @if ($config-font-size) {
+    &-size {
+      @each $value, $size in $font-sizes {
+        &--#{$value} {
+          font-size: #{$size};
+        }
       }
     }
   }

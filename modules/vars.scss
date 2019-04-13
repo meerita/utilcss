@@ -30,6 +30,12 @@ $align-selfs: (
   // baseline
   );
 
+$font-families: (
+  serif: $font-family-serif,
+  sans: $font-family-sans,
+  mono: $font-family-mono
+  );
+
 $font-sizes: (
   10: 10px,
   14: 14px,
