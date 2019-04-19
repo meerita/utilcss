@@ -25,14 +25,14 @@
     }
   }
   @if ($config-font-style) {
-    @each $style in $styles {
+    @each $style in $font-styles {
       &-style--#{$style} {
         font-style: $style;
       }
     }
   }
   @if ($config-font-weight) {
-    @each $weight in $weights {
+    @each $weight in $font-weights {
       &-weight--#{$weight} {
         font-weight: $weight;
       }
