@@ -35,7 +35,7 @@ $config-background-size:             false;
 $config-border:                      true;
 $config-border-sides:                true;    // only sides ex. border-left--0
 $config-border-collapse:             true;
-$config-border-color:                true;
+$config-border-color:                false;
 $config-border-radius:               false;
 $config-border-sides-radius:         false;    // only sides ex. border-top-radius--0
 $config-border-style:                true;
@@ -78,6 +78,7 @@ $config-flex-grow:                   false;
 
 $config-float:                       false;
 
+$config-font-family:                 true;
 $config-font-kerning:                false;
 $config-font-size:                   false;
 $config-font-style:                  false;
@@ -189,7 +190,7 @@ $config-visibility:                  false;
 
 $config-width:                       true;
 
-$config-white-space:                 false;
+$config-white-space:                 true;
 
 $config-word-break:                  false;
 
