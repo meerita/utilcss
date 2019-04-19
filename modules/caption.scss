@@ -1,0 +1,11 @@
+.caption {
+  &-side {
+    @if ($config-caption-side) {
+      @each $side in $caption-sides {
+        &--#{$side} {
+          caption-side: $side;
+        }
+      }
+    }
+  } 
+}

@@ -1,0 +1,9 @@
+.writing-mode {
+  @if ($config-writing-mode) {
+    @each $mode in $writing-modes {
+      &--#{$mode} {
+        writing-mode: $mode;
+      }
+    }
+  }
+}

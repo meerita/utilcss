@@ -7,6 +7,44 @@
       }
     }
   }
+  // text decoration
+  &-decoration {
+    @if ($config-text-decoration-color) {
+      &-color {
+        @each $number, $color in $colors {
+          &--#{$number} {
+            text-decoration-color: $color;
+          }
+        }
+      }
+    }
+    @if ($config-text-decoration-line) {
+      &-line {
+        @each $line in $text-decoration-lines {
+          &--#{$line} {
+            text-decoration-line: $line;
+          }
+        }
+      }
+    }
+    @if ($config-text-decoration-style) {
+      &-style {
+        @each $style in $text-decoration-styles {
+          &--#{$style} {
+            text-decoration-style: $style;
+          }
+        }
+      }
+    }
+  }
+  // text justify *This feature is behind the Enable Experimental Web Platform Features preference
+  @if ($config-text-justify) {
+    @each $text-justify in $text-justifies {
+      &-justify--#{$text-justify} {
+        text-justify: $text-justify;
+      }
+    }
+  }
   // text overflow
   @if ($config-text-overflow) {
     @each $text-overflow in $text-overflows {

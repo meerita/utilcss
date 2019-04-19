@@ -1,10 +1,9 @@
 .width {
   @if ($config-width) {
-    &--auto {
-      width: auto;
-    }
-    &--100 {
-      width: 100%;
+    @each $width, $value in $widths {
+      &--#{$width} {
+        width: $value;
+      }
     }
   }
 }

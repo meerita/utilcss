@@ -12,7 +12,7 @@
 
 .padding {
   @if ($config-padding) {
-    @each $scale in $scales {
+    @each $scale in $padding-scales {
       &--#{$scale} {
         padding: #{$scale}px;
       }
@@ -21,7 +21,7 @@
   @if ($config-padding-side) {
     @each $side in $sides {
       &-#{$side} {
-        @each $scale in $scales {
+        @each $scale in $padding-scales {
           &--#{$scale} {
             padding-#{$side}: #{$scale}px;
           }

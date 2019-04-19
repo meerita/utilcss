@@ -17,7 +17,7 @@
   // The background-blend-mode property defines the blending mode
   // of each background layer (color and/or image).
   @if ($config-background-blend-mode) {
-    @each $blend in $background-blend-modes {
+    @each $blend in $blend-modes {
       &-blend-mode {
         &--#{$blend} {
           background-blend-mode: $blend;

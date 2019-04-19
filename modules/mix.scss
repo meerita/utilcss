@@ -1,0 +1,11 @@
+.mix {
+  @if ($config-mix-blend-mode) {
+    &-blend-mode {
+      @each $mode in $blend-modes {
+        &--#{$mode} {
+          mix-blend-mode: $mode;
+        }
+      }
+    }
+  }
+}

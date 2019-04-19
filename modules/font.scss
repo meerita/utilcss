@@ -1,22 +1,38 @@
 .font {
+  @if ($config-font-family) {
+    &-family {
+      @each $value, $size in $font-families {
+        &--#{$value} {
+          font-family: #{$size};
+        }
+      }
+    }
+  }
+  @if ($config-font-kerning) {
+    @each $kerning in $font-kernings {
+      &-kerning--#{$kerning} {
+        font-kerning: $kerning;
+      }
+    }
+  }
   @if ($config-font-size) {
     &-size {
-      @each $size in $font-sizes {
-        &--#{$size} {
-          font-size: #{$size}px;
+      @each $value, $size in $font-sizes {
+        &--#{$value} {
+          font-size: #{$size};
         }
       }
     }
   }
   @if ($config-font-style) {
-    @each $style in $styles {
+    @each $style in $font-styles {
       &-style--#{$style} {
         font-style: $style;
       }
     }
   }
   @if ($config-font-weight) {
-    @each $weight in $weights {
+    @each $weight in $font-weights {
       &-weight--#{$weight} {
         font-weight: $weight;
       }

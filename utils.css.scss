@@ -18,36 +18,66 @@
 // DON'T FORGET TO CHECK VARS AND COMMENT OR DELETE THOSE VALUES YOU WILL USE
 // CHECK https://github.com/meerita/utilcss FOR DOCUMENTATION
 
-@import 'modules/config';
+@import 'modules/config_css';
+@import 'modules/config_normalizer';
+
 @import 'modules/vars';
+
 @import 'modules/normalizer';
-//
-// MODULES
-// 
+
+@import 'modules/empty';
 @import 'modules/align';
 @import 'modules/background';
+@import 'modules/backface';
 @import 'modules/border';
+@import 'modules/bottom';
 @import 'modules/box';
 @import 'modules/color';
+@import 'modules/cursor';
+@import 'modules/caption';
+@import 'modules/clear';
 @import 'modules/column';
 @import 'modules/display';
+@import 'modules/direction';
 @import 'modules/fill';
 @import 'modules/flex';
 @import 'modules/font';
+@import 'modules/float';
 @import 'modules/grid';
 @import 'modules/justify';
+@import 'modules/left';
 @import 'modules/line';
 @import 'modules/list';
 @import 'modules/margin';
-@import 'modules/object-fit';
+@import 'modules/mix';
+@import 'modules/max';
+@import 'modules/object';
+@import 'modules/opacity';
+@import 'modules/order';
+@import 'modules/outline';
 @import 'modules/overflow';
 @import 'modules/padding';
-@import 'modules/pointer-event';
+@import 'modules/pointer';
 @import 'modules/position';
 @import 'modules/resize';
+@import 'modules/right';
+@import 'modules/scroll';
+@import 'modules/table';
 @import 'modules/text';
-@import 'modules/vertical-align';
+@import 'modules/top';
+@import 'modules/unicode';
+@import 'modules/user';
+@import 'modules/vertical';
 @import 'modules/visibility';
-@import 'modules/white-space';
+@import 'modules/white';
 @import 'modules/width';
-@import 'modules/word-wrap';
+@import 'modules/word';
+@import 'modules/writing';
+@import 'modules/z';
+
+
+@media screen {
+  .c-article {
+    color: red;
+  }
+}

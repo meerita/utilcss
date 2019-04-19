@@ -75,12 +75,28 @@
   }
   // Border Style
   //
-  // Set a style for the border
+  // Set a style for the border (all of the sides)
   @if ($config-border-style) {
     &-style {
       @each $style in $borders {
         &--#{$style} {
           border-style: $style;
+        }
+      }
+    }
+  }
+  // Border Style with sides
+  //
+  // Set a style for the border (all of the sides)
+  @if ($config-border-sides-style) {
+    @each $side in $sides {
+      &-#{$side} {
+        &-style {
+          @each $style in $borders {
+            &--#{$style} {
+              border-#{$side}-style: $style;
+            }
+          }
         }
       }
     }

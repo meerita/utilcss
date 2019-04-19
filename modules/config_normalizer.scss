@@ -11,142 +11,6 @@
 //     \/__/         \/__/         \/__/         \/__/         \/__/       \/__/    
 //
 //
-// UTILITARIAN CSS FRAMEWORK CONFIGURATION FILE
-//
-// Here you can activate every single aspect of your CSS. From margins to other functions
-// without having to comment code on your file. Just "true" everything you need. Beware
-// if you activate all, the CSS size will increase.
-
-
-$config-align-items:                 false;
-$config-align-content:               false;
-$config-align-self:                  false;
-
-$config-background-attachment:       false;
-$config-background-blend-mode:       false;
-$config-background-color:            false;
-$config-background-clip:             false;
-$config-background-origin:           false;
-$config-background-repeat:           false;
-$config-background-size:             false;
-
-$config-border:                      false;
-$config-border-sides:                false;    // only sides ex. border-left--0
-$config-border-collapse:             false;
-$config-border-color:                false;
-$config-border-radius:               false;
-$config-border-sides-radius:         false;    // only sides ex. border-top-radius--0
-$config-border-style:                false;
-$config-border-width:                false;
-
-$config-box-decoration-break:        false;
-$config-box-size:                    false;
-
-$config-color:                       false;
-
-$config-column-count:                false;
-$config-column-fill:                 false;
-$config-column-rule-style:           false;
-$config-column-rule-color:           false;
-$config-column-gap:                  false;
-
-$config-display:                     false;
-$config-display-sm:                  false;    // activates display--value for responsive steps. 
-$config-display-md:                  false;
-$config-display-lg:                  false;
-$config-display-xl:                  false;
-
-$config-fill:                        false;
-$config-fill-rule:                   false;
-
-$config-flex-direction:              false;
-$config-flex-wrap:                   false;
-$config-flex-grow:                   false;
-
-$config-font-size:                   false;
-$config-font-style:                  false;
-$config-font-weight:                 false;
-
-$config-grid-auto-flow:              false; 
-$config-grid-flow-gap:               false;     // adds grid-row or column gap
-
-$config-grid-lg:                     false;
-$config-grid-xl:                     false;
-
-// GRID UTILITIES FOR MOBILE (SM)
-
-$config-grid-sm:                     false;    // If you want grid settings on mobile, activate this first. 
-$config-sm-grid-column:              true;
-$config-sm-grid-row:                 true;
-$config-sm-grid-template-columns:    true;
-$config-sm-grid-template-rows:       true;
-
-// GRID UTILITIES FOR MOBILE (TABLET)
-$config-grid-md:                     false;     // If you want grid settings on mobile, activate this first. 
-$config-md-grid-column:              true;
-$config-md-grid-row:                 true;
-$config-md-grid-template-columns:    true;
-$config-md-grid-template-rows:       true;
-
-// GRID UTILITIES FOR MOBILE (DESKTOP SMALL)
-$config-grid-lg:                     false;    // If you want grid settings on mobile, activate this first. 
-$config-lg-grid-column:              true;
-$config-lg-grid-row:                 true;
-$config-lg-grid-template-columns:    true;
-$config-lg-grid-template-rows:       true;
-
-// GRID UTILITIES FOR MOBILE (DESKTOP LARGE)
-$config-grid-xl:                     false;    // If you want grid settings on mobile, activate this first. 
-$config-xl-grid-column:              true;
-$config-xl-grid-row:                 true;
-$config-xl-grid-template-columns:    true;
-$config-xl-grid-template-rows:       true;
-
-
-$config-justify-content:             false;
-$config-justify-items:               false;
-$config-justify-self:                false;
-
-$config-line-height:                 false;
-
-$config-list-style:                  false;
-
-$config-margin:                      false;    // all sides margins ex. margin--0
-$config-margin-side:                 false;    // only sides ex. margin-top--0
-
-$config-object-fit:                  false;    
-
-$config-overflow:                    false;    
-$config-overflow-x:                  false;    
-$config-overflow-y:                  false;    
-
-$config-padding:                     false;    // for applying paddings to all sides ex. padding--10
-$config-padding-side:                false;
-
-$config-pointer-events:              false;
-
-$config-position:                    false;
-
-$config-top-bottom-left-right-0:     false;
-
-$config-resize:                      false;
-
-$config-text-align:                  false;
-$config-text-overflow:               false;
-$config-text-transform:              false;
-
-$config-vertical-align:              false;
-
-$config-width:                       false;
-
-$config-white-space:                 false;
-
-$config-visibility:                  false;
-
-$config-word-wrap:                   false;
-
-
-
 // NORMALIZER CONFIGURATION
 //
 // Usually people install normalizer.css, which adds an amount of rules that may not
@@ -159,6 +23,7 @@ $config-word-wrap:                   false;
 //
 
 $normalize-document:                false;
+$normalize-document-legibility:     true;
 
 // Sections
 //
@@ -194,7 +59,7 @@ $normalize-grouping-content-hr:     false;
 // 2. Correct the odd `em` font sizing in all browsers.
 //
 
-$normalize-grouping-content-pre:    false;
+$normalize-grouping-content-pre:    true;
 
 // Text-level semantics
 //
@@ -221,7 +86,7 @@ $normalize-text-level-b-strong:     false;
 // 2. Correct the odd `em` font sizing in all browsers.
 //
 
-$normalize-text-level-code-kbd:     false;
+$normalize-text-level-code-kbd:     true;
 
 //
 // 1. Correct the inheritance and scaling of font size in all browsers.
@@ -235,7 +100,7 @@ $normalize-text-level-small:        false;
 // all browsers.
 //
 
-$normalize-text-level-sub-sup:      false;
+$normalize-text-level-sub-sup:      true;
 
 // Embedded content
 //

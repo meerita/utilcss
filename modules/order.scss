@@ -1,0 +1,9 @@
+.order {
+  @if ($config-order) {
+    @each $order in $orders {
+      &--#{$order} {
+        order: $order;
+      }
+    }
+  }
+}

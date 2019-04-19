@@ -1,0 +1,9 @@
+.float {
+  @if ($config-float) {
+    @each $float in $floats {
+      &--#{$float} {
+        float: $float;
+      }
+    }
+  }
+}

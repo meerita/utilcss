@@ -1,0 +1,19 @@
+// Only top 0: most of the times;
+@if ($config-top) {
+  .top {
+    &--0 {
+      top: 0;
+    }
+  }
+}
+
+// top with scales ex. 0, 4, 8, 16
+@if ($config-top) {
+  .top {
+    @each $scale in $scales {
+      &--#{$scale} {
+        top: #{$scale}px;
+      }
+    }
+  }
+}

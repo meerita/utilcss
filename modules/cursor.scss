@@ -1,0 +1,9 @@
+.cursor {
+  @if ($config-cursor) {
+    @each $cursor in $cursors {
+      &--#{$cursor} {
+        cursor: $cursor;
+      }
+    }
+  }
+}

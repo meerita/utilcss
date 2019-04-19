@@ -1,0 +1,201 @@
+//      ___           ___           ___           ___                       ___     
+//     /\__\         /\  \         /\  \         /\__\                     /\__\    
+//    /:/  /        /::\  \        \:\  \       /:/ _/_       ___         /:/ _/_   
+//   /:/  /        /:/\:\  \        \:\  \     /:/ /\__\     /\__\       /:/ /\  \  
+//  /:/  /  ___   /:/  \:\  \   _____\:\  \   /:/ /:/  /    /:/__/      /:/ /::\  \ 
+// /:/__/  /\__\ /:/__/ \:\__\ /::::::::\__\ /:/_/:/  /    /::\  \     /:/__\/\:\__\
+// \:\  \ /:/  / \:\  \ /:/  / \:\~~\~~\/__/ \:\/:/  /     \/\:\  \__  \:\  \ /:/  /
+//  \:\  /:/  /   \:\  /:/  /   \:\  \        \::/__/       ~~\:\/\__\  \:\  /:/  / 
+//   \:\/:/  /     \:\/:/  /     \:\  \        \:\  \          \::/  /   \:\/:/  /  
+//    \::/  /       \::/  /       \:\__\        \:\__\         /:/  /     \::/  /   
+//     \/__/         \/__/         \/__/         \/__/         \/__/       \/__/    
+//
+//
+// UTILITARIAN CSS FRAMEWORK CONFIGURATION FILE
+//
+// Here you can activate every single aspect of your CSS. From margins to other functions
+// without having to comment code on your file. Just "true" everything you need. Beware
+// if you activate all, the CSS size will increase.
+
+
+$config-align-items:                 false;
+$config-align-content:               false;
+$config-align-self:                  false;
+
+$config-backface-visibility:         false;
+
+$config-background-attachment:       false;
+$config-background-blend-mode:       false;
+$config-background-color:            true;
+$config-background-clip:             false;
+$config-background-origin:           false;
+$config-background-repeat:           false;
+$config-background-size:             false;
+
+$config-border:                      true;
+$config-border-sides:                true;    // only sides ex. border-left--0
+$config-border-collapse:             true;
+$config-border-color:                false;
+$config-border-radius:               false;
+$config-border-sides-radius:         false;    // only sides ex. border-top-radius--0
+$config-border-style:                true;
+$config-border-sides-style:          true;
+$config-border-width:                true;
+
+$config-bottom:                      false;
+$config-bottom-with-scales:          false;
+
+$config-box-decoration-break:        false;
+$config-box-size:                    false;
+
+$config-caption-side:                false;
+$config-clear:                       false;
+$config-color:                       false;
+$config-cursor:                      false;
+
+$config-column-count:                false;
+$config-column-fill:                 false;
+$config-column-rule-style:           false;
+$config-column-rule-color:           false;
+$config-column-gap:                  false;
+
+$config-display:                     true;
+$config-display-sm:                  false;    // activates display--value for responsive steps. 
+$config-display-md:                  false;
+$config-display-lg:                  false;
+$config-display-xl:                  false;
+
+$config-direction:                   false;
+
+$config-empty-cells:                 false;
+
+$config-fill:                        false;
+$config-fill-rule:                   false;
+
+$config-flex-direction:              false;
+$config-flex-wrap:                   false;
+$config-flex-grow:                   false;
+
+$config-float:                       false;
+
+$config-font-family:                 true;
+$config-font-kerning:                false;
+$config-font-size:                   false;
+$config-font-style:                  false;
+$config-font-weight:                 true;
+
+$config-grid-auto-flow:              false; 
+$config-grid-flow-gap:               false;     // adds grid-row or column gap
+
+$config-grid-lg:                     false;
+$config-grid-xl:                     false;
+
+// GRID UTILITIES FOR MOBILE (SM)
+
+$config-grid-sm:                     false;    // If you want grid settings on mobile, activate this first. 
+$config-sm-grid-column:              false;
+$config-sm-grid-row:                 false;
+$config-sm-grid-template-columns:    false;
+$config-sm-grid-template-rows:       false;
+
+// GRID UTILITIES FOR MOBILE (TABLET)
+$config-grid-md:                     true;     // If you want grid settings on mobile, activate this first. 
+$config-md-grid-column:              true;
+$config-md-grid-row:                 false;
+$config-md-grid-template-columns:    true;
+$config-md-grid-template-rows:       false;
+
+// GRID UTILITIES FOR MOBILE (DESKTOP SMALL)
+$config-grid-lg:                     false;    // If you want grid settings on mobile, activate this first. 
+$config-lg-grid-column:              false;
+$config-lg-grid-row:                 false;
+$config-lg-grid-template-columns:    false;
+$config-lg-grid-template-rows:       false;
+
+// GRID UTILITIES FOR MOBILE (DESKTOP LARGE)
+$config-grid-xl:                     false;    // If you want grid settings on mobile, activate this first. 
+$config-xl-grid-column:              false;
+$config-xl-grid-row:                 false;
+$config-xl-grid-template-columns:    false;
+$config-xl-grid-template-rows:       false;
+
+
+$config-justify-content:             false;
+$config-justify-items:               false;
+$config-justify-self:                false;
+
+$config-left:                        false;
+$config-left-with-scales:            false;    // deactivate the config-right first, if you want to profit.
+
+$config-line-height:                 false;
+
+$config-list-style:                  true;
+
+$config-margin:                      true;    // all sides margins ex. margin--0
+$config-margin-side:                 true;    // only sides ex. margin-top--0
+
+$config-max-width:                   true;
+
+$config-mix-blend-mode:              false;
+
+$config-object-fit:                  false;
+
+$config-outline-color:               false;
+$config-outline-offset:              false;
+$config-outline-style:               false;
+$config-outline-width:               false;
+
+$config-opacity:                     false;    
+
+$config-order:                       false;
+
+$config-overflow:                    false;    
+$config-overflow-x:                  false;    
+$config-overflow-y:                  false;    
+
+$config-padding:                     true;    // for applying paddings to all sides ex. padding--10
+$config-padding-side:                true;
+
+$config-pointer-events:              false;
+
+$config-position:                    false;
+
+$config-resize:                      false;
+
+$config-right:                       false;
+$config-right-with-scales:           false;    // deactivate the config-right first, if you want to profit.
+
+$config-scroll-behavior:             false;
+
+$config-text-align:                  true;
+$config-text-decoration-color:       false;
+$config-text-decoration-line:        false;
+$config-text-decoration-style:       false;
+$config-text-justify:                false;
+$config-text-overflow:               false;
+$config-text-transform:              true;
+
+$config-table-layout:                false;
+
+$config-top:                         false;
+$config-top-with-scales:             false;    // deactivate the config-right first, if you want to profit.
+
+$config-unicode-bidi:                false;
+
+$config-user-select:                 false;
+
+$config-vertical-align:              false;
+
+$config-visibility:                  false;
+
+$config-width:                       true;
+
+$config-white-space:                 true;
+
+$config-word-break:                  false;
+
+$config-word-wrap:                   false;
+
+$config-writing-mode:                false;
+
+$config-z-index:                     false;

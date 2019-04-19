@@ -2,17 +2,47 @@ $font-family-serif:     Times New Roman;
 $font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 $font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Arial, sans-serif;
 
-$font-sizes: (
-  12,
-  16,
-  18,
-  28,
-  48
+$align-items: (
+  flex-start,
+  // flex-end,
+  center
+  // stretch,
+  // baseline
   );
 
-$columns: 6;
-$column-gap: 16px;
-$row-gap: 16px;
+$align-contents: (
+  center,
+  end,
+  flex-end,
+  flex-start,
+  space-around,
+  space-between,
+  start,
+  stretch
+  ); 
+
+$align-selfs: (
+  stretch
+  // auto,
+  // flex-start,
+  // flex-end,
+  // center,
+  // baseline
+  );
+
+$font-families: (
+  // serif: $font-family-serif,
+  sans: $font-family-sans,
+  // mono: $font-family-mono
+  );
+
+$font-sizes: (
+  10: 10px,
+  14: 14px,
+  16: 16px
+  );
+
+$columns: 2;
 
 // RESPONSIVE
 
@@ -20,6 +50,63 @@ $device-sm:        320px;
 $device-md:        768px;
 $device-lg:        960px;
 $device-xl:        1280px;
+
+$clears: (
+  left,
+  right,
+  both,
+  none
+  );
+
+$backface-visibilities: (
+  visible,
+  hidden
+  );
+
+$caption-sides: (
+  top,
+  bottom
+  );
+
+$directions: (
+  ltr,
+  rtl
+  );
+
+$cursors: (
+  // none,
+  pointer,
+  // alias,
+  // all-scroll,
+  // auto,
+  // cell,
+  // context-menu,
+  // col-resize,
+  // copy,
+  // crosshair,
+  default,
+  // e-resize,
+  // ew-resize,
+  // grab,
+  // grabbing,
+  help,
+  // move,
+  // n-resize,
+  // ne-resize,
+  // nswe-resize,
+  // ns-resize,
+  // nesw-resize,
+  // sw-resize,
+  // s-resize,
+  // no-drop,
+  // not-allowed,
+  // text,
+  // vertical-text,
+  // w-resize,
+  // wait,
+  // zoom-in,
+  // zoom-out
+  );
 
 $sides: (
   top,
@@ -29,13 +116,53 @@ $sides: (
   );
 
 $list-styles: (
-  none
+  none,
+  // decimal,
+  // disc,
+  // square
 );
 
+$empty-cells: (
+  show,
+  hide
+);
+
+$floats: (
+  left,
+  right,
+  // center,
+  none
+  );
+
+$orders: (
+  1,
+  2,
+  3,
+  4,
+  5
+  );
+
 $colors: (
-  1: #111,
-  2: #666,
-  3: #ffd
+  1: #ffd,
+  2: #ff6,
+  3: #ffffc9,
+  4: #ccf6f6,
+  5: #000,
+  6: #999
+  );
+
+$opacities: (
+  0: 0,
+  1: 0.1,
+  2: 0.2,
+  3: 0.3,
+  4: 0.4,
+  5: 0.5,
+  6: 0.6,
+  7: 0.7,
+  8: 0.8,
+  9: 0.9,
+  10: 1
   );
 
 $background-attachments: (
@@ -44,7 +171,7 @@ $background-attachments: (
   local
 );
 
-$background-blend-modes: (
+$blend-modes: (
   normal,
   multiply,
   screen,
@@ -84,7 +211,15 @@ $background-sizes: (
 
 $radius: (
   0,
-  2
+  2,
+  5,
+  8,
+  18,
+  20,
+  22,
+  25,
+  32,
+  512
   );
 
 $borders: (
@@ -105,8 +240,26 @@ $borders: (
 $border-widths: (
   0,
   1,
-  2
   );
+
+$text-decoration-lines: (
+  none,
+  underline,
+  // overline,
+  // line-through,
+  // initial,
+  // inherit,
+);
+
+$text-decoration-styles: (
+  solid,
+  double,
+  dotted,
+  dashed,
+  wavy,
+  initial,
+  inherit,
+);
 
 $box-decorations: (
   slice,
@@ -145,11 +298,11 @@ $column-rule-styles: (
   );
 
 $displays: (
-  none,
+  // none,
   block,
-  inline,
-  inline-block,
-  flex,
+  // inline,
+  // inline-block,
+  // flex,
   grid
   );
 
@@ -159,25 +312,49 @@ $fill-rules: (
 );
 
 $line-heights: (
+  12,
+  13,
+  14,
+  15,
   16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
   24,
+  25,
+  28,
+  30,
   32,
-  40,
-  64
+  35,
+  36,
+  37,
+  38,
+  42,
+  44,
+  50,
+  54,
+  55,
+  56,
+  60
   );
 
 $pointer-events: (
   none,
-  auto
+  // auto
   );
 
 $positions: (
-  sticky
-  // absolute,
-  // relative,
-  // static,
-  // relative,
-  // fixed
+  // sticky,
+  absolute,
+  relative,
+  static,
+  fixed,
+  initial,
+  inherit
   );
 
 $resizes: (
@@ -195,35 +372,69 @@ $object-fits: (
   scale-down
   );
 
+$outline-styles: (
+  hidden
+  // dotted,
+  // dashed,
+  // solid,
+  // double,
+  // groove,
+  // ridge,
+  // inset,
+  // outset
+  );
+
+
 $overflows: (
-  scroll,
+  // scroll,
   hidden,
   auto,
   visible
   );
 
-$styles: (
-  italic,
+$font-kernings: (
+  normal,
+  none
+  );
+
+$font-styles: (
+  // italic,
   normal
   );
 
+$scroll-behaviors: (
+  smooth
+  );
+
+
+$table-layouts: (
+  fixed,
+  auto
+  );
+
 $text-aligns: (
-  left
-  // center,
+  // left,
+  center,
   // right,
   // justify
   );
 
+$text-justifies: (
+  inter-word
+  // inter-character,
+  // none
+  );
+
 $text-overflows: (
-  clip,
+  // clip,
   ellipsis
   );
 
 $text-transforms: (
-  uppercase,
-  lowercase,
-  capitalize,
-  none
+  capitalize
+  // uppercase,
+  // lowercase,
+  // none
   );
 
 $vertical-aligns: (
@@ -243,13 +454,19 @@ $visibilities: (
   collapse
   );
 
-$weights: (
-  normal,
-  bold
+$font-weights: (
+  // 200,
+  // 400,
+  // 800,
+  // normal,
+  bold,
+  // bolder,
+  // lighter
   );
 
 $white-spaces: (
-  nowrap
+  pre-line,
+  // nowrap,
   // pre,
   // normal
   );
@@ -259,6 +476,25 @@ $word-wraps: (
   normal
   );
 
+$word-breaks: (
+  break-all,
+  keep-all,
+  break-word,
+  normal
+  );
+
+$unicode-bidis: (
+  embed,
+  bidi-override,
+  normal
+  );
+
+$user-selects: (
+  none,
+  text,
+  all
+  );
+
 // Pattern scales
 //
 // For designs that use patterns, this one is friendly with Android
@@ -266,12 +502,26 @@ $word-wraps: (
 
 $scales: (
   0,
-  4,
+  16,
+  32
+  );
+
+$margin-scales: (
+  0,
+  // 8
+  );
+
+$max-widths: (
+  // 50: 50%,
+  75: 75%,
+  // 100: 100%
+  );
+
+$padding-scales: (
+  0,
   8,
   16,
-  24,
   32,
-  64
   );
 
 // GRID
@@ -281,13 +531,19 @@ $flows: (
   column
 );
 
+$writing-modes: (
+  horizontal-tb,
+  vertical-rl,
+  vertical-lr
+);
+
 // FLEXBOX
 
-$directions: (
+$flex-directions: (
   row,
-  row-reverse,
+  // row-reverse,
   column,
-  column-reverse
+  // column-reverse
   );
 
 $wraps: (
@@ -305,14 +561,14 @@ $grows: (
 
 $justify-contents: (
   center,
-  end,
+  // end,
   flex-end,
-  flex-start,
-  space-around,
+  // flex-start,
+  // space-around,
   space-between,
-  space-evenly,
-  start,
-  stretch,
+  // space-evenly,
+  // start,
+  // stretch,
   );
 
 $justify-selfs: (
@@ -329,30 +585,7 @@ $justify-items: (
   stretch
   );
 
-$align-items: (
-  flex-start,
-  flex-end,
-  center,
-  stretch,
-  baseline
-  );
-
-$align-contents: (
-  center,
-  end,
-  flex-end,
-  flex-start,
-  space-around,
-  space-between,
-  start,
-  stretch
-  ); 
-
-$align-selfs: (
-  auto,
-  flex-start,
-  flex-end,
-  center,
-  stretch,
-  baseline
+$widths: (
+  100: 100%,
+  auto: auto
   );

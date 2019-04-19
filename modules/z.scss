@@ -1,0 +1,9 @@
+.z-index {
+  @if ($config-z-index) {
+    @each $scale in $scales {
+      &--#{$scale} {
+        z-index: $scale;
+      }
+    }
+  }
+}

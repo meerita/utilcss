@@ -1,0 +1,45 @@
+.outline {
+  // outline-color based on all defined colors in vars
+  @if ($config-outline-color) {
+    &-color {
+      @each $number, $color in $colors {
+        &--#{$number} {
+          outline-color: $color;
+        }
+      }
+    }
+  }
+
+  //outline offset based on all scales
+  @if ($config-outline-offset) {
+    &-offset {
+      @each $scale in $scales {
+        &--#{$scale} {
+          outline-offset: #{$scale}px;
+        }
+      }
+    }
+  }
+
+  //outline style based on all scales
+  @if ($config-outline-style) {
+    &-style {
+      @each $style in $outline-styles {
+        &--#{$style} {
+          outline-style: $style;
+        }
+      }
+    }
+  }
+
+  // outline style based on all scales
+  @if ($config-outline-width) {
+    &-width {
+      @each $width in $scales {
+        &--#{$width} {
+          outline-width: #{$width}px;
+        }
+      }
+    }
+  }
+}
