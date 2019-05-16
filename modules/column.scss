@@ -28,8 +28,19 @@
     }
   }
   @if ($config-column-gap) {
-    &-column-gap {
-      column-gap: $column-gap;
+    @each $gap in $gap-scales {
+      &-gap {
+        column-gap: #{$gap}px;
+      }
+    }
+  }
+  @if ($config-grid-column-gap) {
+    @each $gap in $gap-scales {
+      &-gap {
+        &--#{$gap} {
+          grid-column-gap: #{$gap}px;
+        }
+      }
     }
   }
 }

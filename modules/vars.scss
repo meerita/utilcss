@@ -42,7 +42,7 @@ $font-sizes: (
   16: 16px
   );
 
-$columns: 2;
+$columns: 4;
 
 // RESPONSIVE
 
@@ -143,12 +143,15 @@ $orders: (
   );
 
 $colors: (
-  1: #ffd,
-  2: #ff6,
-  3: #ffffc9,
-  4: #ccf6f6,
-  5: #000,
-  6: #999
+  1: #000,
+  2: #5538D3,
+  3: #372B6B,
+  4: #7714A1,
+  5: #D6DAFF,
+  6: #F7F7F7,
+  7: #767676,
+  8: #fff,
+  9: #E9D709
   );
 
 $opacities: (
@@ -298,11 +301,11 @@ $column-rule-styles: (
   );
 
 $displays: (
-  // none,
+  none,
   block,
   // inline,
   // inline-block,
-  // flex,
+  flex,
   grid
   );
 
@@ -465,8 +468,8 @@ $font-weights: (
   );
 
 $white-spaces: (
-  pre-line,
-  // nowrap,
+  // pre-line,
+  nowrap,
   // pre,
   // normal
   );
@@ -502,8 +505,17 @@ $user-selects: (
 
 $scales: (
   0,
+  4,
+  8,
   16,
   32
+  );
+
+$gap-scales: (
+  0,
+  4,
+  8,
+  16
   );
 
 $margin-scales: (
@@ -572,10 +584,10 @@ $justify-contents: (
   );
 
 $justify-selfs: (
-  start,
+  // start,
   end,
-  center,
-  stretch
+  // center,
+  // stretch
 );
 
 $justify-items: (
