@@ -32,15 +32,15 @@ $config-background-origin:           false;
 $config-background-repeat:           false;
 $config-background-size:             false;
 
-$config-border:                      false;
+$config-border:                      true;
 $config-border-sides:                false;    // only sides ex. border-left--0
 $config-border-collapse:             false;
-$config-border-color:                false;
+$config-border-color:                true;
 $config-border-radius:               true;
 $config-border-sides-radius:         false;    // only sides ex. border-top-radius--0
-$config-border-style:                flase;
-$config-border-sides-style:          flase;
-$config-border-width:                flase;
+$config-border-style:                true;
+$config-border-sides-style:          false;
+$config-border-width:                true;
 
 $config-bottom:                      false;
 $config-bottom-with-scales:          false;
@@ -124,6 +124,7 @@ $config-xl-grid-template-columns:    false;
 $config-xl-grid-template-rows:       false;
 
 
+$config-height:                      true;
 $config-justify-content:             true;
 $config-justify-items:               true;
 $config-justify-self:                true;
@@ -136,7 +137,7 @@ $config-line-height:                 true;
 $config-list-style:                  true;
 
 $config-margin:                      true;    // all sides margins ex. margin--0
-$config-margin-side:                 false;    // only sides ex. margin-top--0
+$config-margin-side:                 true;    // only sides ex. margin-top--0
 
 $config-max-width:                   false;
 
@@ -162,7 +163,7 @@ $config-padding-side:                true;
 
 $config-pointer-events:              false;
 
-$config-position:                    false;
+$config-position:                    true;
 
 $config-resize:                      false;
 
@@ -192,7 +193,7 @@ $config-vertical-align:              false;
 
 $config-visibility:                  false;
 
-$config-width:                       false;
+$config-width:                       true;
 
 $config-white-space:                 true;
 

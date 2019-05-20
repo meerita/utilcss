@@ -153,7 +153,8 @@ $colors: (
   6: #F7F7F7,
   7: #767676,
   8: #fff,
-  9: #E9D709
+  9: #E9D709,
+  10: #F0F2FF
   );
 
 $opacities: (
@@ -321,12 +322,12 @@ $pointer-events: (
 
 $positions: (
   // sticky,
-  absolute,
+  // absolute,
   relative,
-  static,
-  fixed,
-  initial,
-  inherit
+  // static,
+  // fixed,
+  // initial,
+  // inherit
   );
 
 $resizes: (
@@ -374,6 +375,11 @@ $font-styles: (
   normal
   );
 
+$heights: (
+  38: 38px,
+  44: 44px
+  );
+
 $scroll-behaviors: (
   smooth
   );
@@ -385,7 +391,7 @@ $table-layouts: (
   );
 
 $text-aligns: (
-  // left,
+  left,
   center,
   right,
   // justify
@@ -489,7 +495,8 @@ $gap-scales: (
 
 $margin-scales: (
   0,
-  8
+  8,
+  32
   // 8
   );
 
@@ -555,9 +562,9 @@ $justify-contents: (
   );
 
 $justify-selfs: (
-  // start,
+  start,
   end,
-  // center,
+  center,
   // stretch
 );
 

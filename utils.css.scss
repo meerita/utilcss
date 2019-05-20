@@ -45,6 +45,7 @@
 @import 'modules/float';
 @import 'modules/gap';
 @import 'modules/grid';
+@import 'modules/height';
 @import 'modules/justify';
 @import 'modules/left';
 @import 'modules/line';
@@ -76,10 +77,3 @@
 @import 'modules/word';
 @import 'modules/writing';
 @import 'modules/z';
-
-
-@media screen {
-  .c-article {
-    color: red;
-  }
-}

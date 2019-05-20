@@ -1,0 +1,9 @@
+.height {
+  @if ($config-height) {
+    @each $height, $value in $heights {
+      &--#{$height} {
+        height: $value;
+      }
+    }
+  }
+}
