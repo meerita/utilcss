@@ -115,7 +115,16 @@ $normalize-embedded-content:        false;
 // 2. Remove the margin in Firefox and Safari.
 //
 
-$normalize-forms-change-fonts:   false;
+$normalize-forms-change-fonts:   true;
+
+
+// Remove Select Webkit appearance
+//
+// 1. Change the font styles in all browsers.
+// 2. Remove the margin in Firefox and Safari.
+//
+
+$normalize-forms-remove-select:   true;
 
 //
 // Show the overflow in IE.

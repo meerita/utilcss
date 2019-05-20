@@ -193,6 +193,14 @@
   }
 }
 
+@if ($normalize-forms-remove-select) {
+  select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+}
+
 //
 // Show the overflow in IE.
 // 1. Show the overflow in Edge.
