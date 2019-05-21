@@ -154,7 +154,9 @@ $colors: (
   7: #767676,
   8: #fff,
   9: #E9D709,
-  10: #F0F2FF
+  10: #F0F2FF,
+  11: #D33838,
+  12: #FFD6D6
   );
 
 $opacities: (
@@ -312,7 +314,8 @@ $fill-rules: (
 );
 
 $line-heights: (
-  22
+  22,
+  28
   );
 
 $pointer-events: (
@@ -496,14 +499,14 @@ $gap-scales: (
 $margin-scales: (
   0,
   8,
-  32
-  // 8
+  32,
+  64
   );
 
 $max-widths: (
   // 50: 50%,
-  75: 75%,
-  // 100: 100%
+  // 75: 75%,
+  100: 100%
   );
 
 $padding-scales: (
