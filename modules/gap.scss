@@ -1,0 +1,9 @@
+@if ($config-gap) {
+  .gap {
+    @each $gap in $gap-scales {
+      &--#{$gap} {
+        grid-gap: #{$gap}px;
+      }
+    }
+  }
+}

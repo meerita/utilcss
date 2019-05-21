@@ -1,0 +1,11 @@
+@if ($config-grid-row-gap) {
+  .row {
+    @each $gap in $gap-scales {
+      &-gap {
+        &--#{$gap} {
+          grid-row-gap: #{$gap}px;
+        }
+      }
+    }
+  }
+}

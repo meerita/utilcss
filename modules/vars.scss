@@ -3,7 +3,7 @@ $font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxy
 $font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Arial, sans-serif;
 
 $align-items: (
-  flex-start,
+  // flex-start,
   // flex-end,
   center
   // stretch,
@@ -37,12 +37,14 @@ $font-families: (
   );
 
 $font-sizes: (
-  10: 10px,
-  14: 14px,
-  16: 16px
+  12: 12px,
+  16: 16px,
+  18: 18px,
+  22: 22px,
+  45: 45px
   );
 
-$columns: 2;
+$columns: 6;
 
 // RESPONSIVE
 
@@ -143,12 +145,18 @@ $orders: (
   );
 
 $colors: (
-  1: #ffd,
-  2: #ff6,
-  3: #ffffc9,
-  4: #ccf6f6,
-  5: #000,
-  6: #999
+  1: #000,
+  2: #5538D3,
+  3: #372B6B,
+  4: #7714A1,
+  5: #D6DAFF,
+  6: #F7F7F7,
+  7: #767676,
+  8: #fff,
+  9: #E9D709,
+  10: #F0F2FF,
+  11: #D33838,
+  12: #FFD6D6
   );
 
 $opacities: (
@@ -211,14 +219,8 @@ $background-sizes: (
 
 $radius: (
   0,
-  2,
+  3,
   5,
-  8,
-  18,
-  20,
-  22,
-  25,
-  32,
   512
   );
 
@@ -244,7 +246,7 @@ $border-widths: (
 
 $text-decoration-lines: (
   none,
-  underline,
+  // underline,
   // overline,
   // line-through,
   // initial,
@@ -298,11 +300,11 @@ $column-rule-styles: (
   );
 
 $displays: (
-  // none,
+  none,
   block,
   // inline,
   // inline-block,
-  // flex,
+  flex,
   grid
   );
 
@@ -312,34 +314,8 @@ $fill-rules: (
 );
 
 $line-heights: (
-  12,
-  13,
-  14,
-  15,
-  16,
-  17,
-  18,
-  19,
-  20,
-  21,
   22,
-  23,
-  24,
-  25,
-  28,
-  30,
-  32,
-  35,
-  36,
-  37,
-  38,
-  42,
-  44,
-  50,
-  54,
-  55,
-  56,
-  60
+  28
   );
 
 $pointer-events: (
@@ -349,12 +325,12 @@ $pointer-events: (
 
 $positions: (
   // sticky,
-  absolute,
+  // absolute,
   relative,
-  static,
-  fixed,
-  initial,
-  inherit
+  // static,
+  // fixed,
+  // initial,
+  // inherit
   );
 
 $resizes: (
@@ -402,6 +378,11 @@ $font-styles: (
   normal
   );
 
+$heights: (
+  38: 38px,
+  44: 44px
+  );
+
 $scroll-behaviors: (
   smooth
   );
@@ -413,9 +394,9 @@ $table-layouts: (
   );
 
 $text-aligns: (
-  // left,
+  left,
   center,
-  // right,
+  right,
   // justify
   );
 
@@ -431,8 +412,8 @@ $text-overflows: (
   );
 
 $text-transforms: (
-  capitalize
-  // uppercase,
+  // capitalize
+  uppercase,
   // lowercase,
   // none
   );
@@ -465,8 +446,8 @@ $font-weights: (
   );
 
 $white-spaces: (
-  pre-line,
-  // nowrap,
+  // pre-line,
+  nowrap,
   // pre,
   // normal
   );
@@ -502,23 +483,35 @@ $user-selects: (
 
 $scales: (
   0,
+  4,
+  8,
   16,
   32
   );
 
+$gap-scales: (
+  0,
+  4,
+  8,
+  16
+  );
+
 $margin-scales: (
   0,
-  // 8
+  8,
+  32,
+  64
   );
 
 $max-widths: (
   // 50: 50%,
-  75: 75%,
-  // 100: 100%
+  // 75: 75%,
+  100: 100%
   );
 
 $padding-scales: (
   0,
+  4,
   8,
   16,
   32,
@@ -560,12 +553,12 @@ $grows: (
   );
 
 $justify-contents: (
-  center,
+  // center,
   // end,
   flex-end,
   // flex-start,
   // space-around,
-  space-between,
+  // space-between,
   // space-evenly,
   // start,
   // stretch,
@@ -575,14 +568,14 @@ $justify-selfs: (
   start,
   end,
   center,
-  stretch
+  // stretch
 );
 
 $justify-items: (
-  start,
+  // start,
   end,
-  center,
-  stretch
+  // center,
+  // stretch
   );
 
 $widths: (

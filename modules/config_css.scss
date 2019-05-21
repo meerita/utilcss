@@ -18,7 +18,7 @@
 // if you activate all, the CSS size will increase.
 
 
-$config-align-items:                 false;
+$config-align-items:                 true;
 $config-align-content:               false;
 $config-align-self:                  false;
 
@@ -33,13 +33,13 @@ $config-background-repeat:           false;
 $config-background-size:             false;
 
 $config-border:                      true;
-$config-border-sides:                true;    // only sides ex. border-left--0
-$config-border-collapse:             true;
-$config-border-color:                false;
-$config-border-radius:               false;
+$config-border-sides:                false;    // only sides ex. border-left--0
+$config-border-collapse:             false;
+$config-border-color:                true;
+$config-border-radius:               true;
 $config-border-sides-radius:         false;    // only sides ex. border-top-radius--0
 $config-border-style:                true;
-$config-border-sides-style:          true;
+$config-border-sides-style:          false;
 $config-border-width:                true;
 
 $config-bottom:                      false;
@@ -50,7 +50,7 @@ $config-box-size:                    false;
 
 $config-caption-side:                false;
 $config-clear:                       false;
-$config-color:                       false;
+$config-color:                       true;
 $config-cursor:                      false;
 
 $config-column-count:                false;
@@ -60,8 +60,8 @@ $config-column-rule-color:           false;
 $config-column-gap:                  false;
 
 $config-display:                     true;
-$config-display-sm:                  false;    // activates display--value for responsive steps. 
-$config-display-md:                  false;
+$config-display-sm:                  true;    // activates display--value for responsive steps. 
+$config-display-md:                  true;
 $config-display-lg:                  false;
 $config-display-xl:                  false;
 
@@ -80,22 +80,26 @@ $config-float:                       false;
 
 $config-font-family:                 true;
 $config-font-kerning:                false;
-$config-font-size:                   false;
+$config-font-size:                   true;
 $config-font-style:                  false;
 $config-font-weight:                 true;
 
+$config-gap:                         true; 
+
 $config-grid-auto-flow:              false; 
+$config-grid-column-gap:             false; 
 $config-grid-flow-gap:               false;     // adds grid-row or column gap
 
 $config-grid-lg:                     false;
+$config-grid-row-gap:                false;
 $config-grid-xl:                     false;
 
 // GRID UTILITIES FOR MOBILE (SM)
 
-$config-grid-sm:                     false;    // If you want grid settings on mobile, activate this first. 
+$config-grid-sm:                     true;    // If you want grid settings on mobile, activate this first. 
 $config-sm-grid-column:              false;
 $config-sm-grid-row:                 false;
-$config-sm-grid-template-columns:    false;
+$config-sm-grid-template-columns:    true;
 $config-sm-grid-template-rows:       false;
 
 // GRID UTILITIES FOR MOBILE (TABLET)
@@ -120,14 +124,15 @@ $config-xl-grid-template-columns:    false;
 $config-xl-grid-template-rows:       false;
 
 
-$config-justify-content:             false;
-$config-justify-items:               false;
-$config-justify-self:                false;
+$config-height:                      true;
+$config-justify-content:             true;
+$config-justify-items:               true;
+$config-justify-self:                true;
 
 $config-left:                        false;
 $config-left-with-scales:            false;    // deactivate the config-right first, if you want to profit.
 
-$config-line-height:                 false;
+$config-line-height:                 true;
 
 $config-list-style:                  true;
 
@@ -158,7 +163,7 @@ $config-padding-side:                true;
 
 $config-pointer-events:              false;
 
-$config-position:                    false;
+$config-position:                    true;
 
 $config-resize:                      false;
 
@@ -198,4 +203,4 @@ $config-word-wrap:                   false;
 
 $config-writing-mode:                false;
 
-$config-z-index:                     false;
+$config-z-index:                     true;
