@@ -22,7 +22,8 @@ $align-contents: (
   ); 
 
 $align-selfs: (
-  stretch
+  start,
+  // stretch
   // auto,
   // flex-start,
   // flex-end,
@@ -156,7 +157,11 @@ $colors: (
   9: #E9D709,
   10: #F0F2FF,
   11: #D33838,
-  12: #FFD6D6
+  12: #FFD6D6,
+  13: #FFFDE0,
+  14: #D36938,
+  15: #E3FFE0,
+  16: #28B326
   );
 
 $opacities: (
@@ -498,6 +503,7 @@ $gap-scales: (
 
 $margin-scales: (
   0,
+  4,
   8,
   32,
   64
