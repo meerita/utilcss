@@ -159,7 +159,7 @@ $colors: (
   11: #D33838,
   12: #FFD6D6,
   13: #FFFDE0,
-  14: #D36938,
+  14: #FF6600,
   15: #E3FFE0,
   16: #28B326
   );
@@ -308,7 +308,7 @@ $displays: (
   none,
   block,
   // inline,
-  // inline-block,
+  inline-block,
   flex,
   grid
   );
@@ -425,13 +425,13 @@ $text-transforms: (
 
 $vertical-aligns: (
   middle,
-  top,
-  text-top,
-  bottom,
-  text-bottom,
-  sub,
-  super,
-  baseline
+  // top,
+  // text-top,
+  // bottom,
+  // text-bottom,
+  // sub,
+  // super,
+  // baseline
   );
 
 $visibilities: (
