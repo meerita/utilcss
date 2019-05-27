@@ -3,7 +3,7 @@
     @each $key, $space in $letter-spacings {
       &-spacing {
         &--#{$key} {
-          letter-spacing: $value;
+          letter-spacing: $value
         }
       }
     }

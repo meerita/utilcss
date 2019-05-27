@@ -451,13 +451,21 @@ $justify-contents: (
   // inherit
   );
 
-// define your letter spacings values
+// define your letter spacings writing an id and any output value
 
 $letter-spacings: (
   // 1: -1px,
   // 2: -2px,
   // 3: -3em
 );
+
+// define your line-heights writing an identifiable and any output value
+
+$line-heights: (
+  // 12: 12px,
+  // 14: 14px,
+  // 18: 18px
+  );
 
 $list-styles: (
   // none,
@@ -531,10 +539,7 @@ $fill-rules: (
   evenodd
 );
 
-$line-heights: (
-  22,
-  28
-  );
+
 
 $pointer-events: (
   none,

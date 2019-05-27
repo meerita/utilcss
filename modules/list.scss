@@ -3,7 +3,7 @@
     @each $style in $list-styles {
       &-style {
         &--#{$style} {
-          list-style: $style;
+          list-style: $style
         }
       }
     }
