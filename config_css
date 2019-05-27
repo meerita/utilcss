@@ -193,9 +193,11 @@ $config-right-with-scales:           false;    // deactivate the config-right fi
 $config-scroll-behavior:             false;
 
 $config-text-align:                  false;
+$config-text-align-last:             false;
 $config-text-decoration-color:       false;
 $config-text-decoration-line:        false;
 $config-text-decoration-style:       false;
+$config-text-indent:                 false;
 $config-text-justify:                false;
 $config-text-overflow:               false;
 $config-text-transform:              false;
@@ -218,7 +220,7 @@ $config-width:                       false;
 $config-white-space:                 false;
 
 $config-word-break:                  false;
-
+$config-word-spacing:                false;
 $config-word-wrap:                   false;
 
 $config-writing-mode:                false;

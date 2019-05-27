@@ -395,6 +395,13 @@ $font-weights: (
   // lighter
   );
 
+$gap-scales: (
+  // 0,
+  // 4,
+  // 8,
+  // 16
+  );
+
 $grid-auto-columns: (
   // auto,
   // max-content,
@@ -494,8 +501,6 @@ $justify-selfs: (
   // unset
 );
 
-
-
 // define your letter spacings writing an id and any output value
 
 $letter-spacings: (
@@ -546,6 +551,14 @@ $list-style-types: (
   // inherit
 );
 
+$object-fits: (
+  // fill,
+  // contain,
+  // cover,  
+  // none,
+  // scale-down
+  );
+
 $opacities: (
   // 0: 0,
   // 1: 0.1,
@@ -568,8 +581,61 @@ $orders: (
   // 5
   );
 
+$outline-styles: (
+  // hidden
+  // dotted,
+  // dashed,
+  // solid,
+  // double,
+  // groove,
+  // ridge,
+  // inset,
+  // outset
+  );
 
+$overflows: (
+  // visible,
+  // hidden,
+  // clip,
+  // scroll,
+  // auto,
+  // hidden visible,
+  // inherit,
+  // initial,
+  // unset
+  );
 
+$padding-scales: (
+  // 0,
+  // 4,
+  // 8,
+  // 16,
+  // 32,
+  );
+
+$pointer-events: (
+  // none,
+  // auto
+  );
+
+$positions: (
+  // static,
+  // absolute,
+  // fixed,
+  // relative,
+  // sticky,
+  // initial,
+  // inherit
+  );
+
+$resizes: (
+  // none,
+  // both,
+  // horizontal,
+  // vertical,
+  // initial,
+  // inherit
+  );
 
 // these values will be used for paddings, margins, etc.
 
@@ -580,9 +646,40 @@ $sides: (
   // right
   );
 
+$scroll-behaviors: (
+  // auto,
+  // smooth,
+  // initial,
+  // inherit
+  );
 
+$table-layouts: (
+  // auto,
+  // fixed,
+  // initial,
+  // inherit
+  );
 
+$text-aligns: (
+  // left,
+  // right,
+  // center,
+  // justify,
+  // initial,
+  // inherit
+  );
 
+$text-align-lasts: (
+  // auto,
+  // left,
+  // right,
+  // center,
+  // justify,
+  // start,
+  // end,
+  // initial,
+  // inherit
+  );
 
 $text-decoration-lines: (
   none,
@@ -594,132 +691,105 @@ $text-decoration-lines: (
 );
 
 $text-decoration-styles: (
-  solid,
-  double,
-  dotted,
-  dashed,
-  wavy,
-  initial,
-  inherit,
+  // none,
+  // underline,
+  // overline,
+  // line-through,
+  // initial,
+  // inherit
 );
 
+$text-indents: (
+  // 1: -10px,
+  // 2: 10px,
+  // 3: -2000px
+);
 
-
-
-
-
-
-
-$pointer-events: (
-  none,
-  // auto
+$text-justifies: (
+  // auto,
+  // inter-word,
+  // inter-character,
+  // none,
+  // initial,
+  // inherit
   );
-
-$positions: (
-  // sticky,
-  // absolute,
-  relative,
-  // static,
-  // fixed,
+  
+$text-overflows: (
+  // clip,
+  // ellipsis,
+  // string,
   // initial,
   // inherit
   );
 
-$resizes: (
-  vertical,
-  horizontal,
-  both,
-  none
-  );
-
-$object-fits: (
-  none,
-  fill,
-  contain,
-  cover,
-  scale-down
-  );
-
-$outline-styles: (
-  hidden
-  // dotted,
-  // dashed,
-  // solid,
-  // double,
-  // groove,
-  // ridge,
-  // inset,
-  // outset
-  );
-
-
-$overflows: (
-  // scroll,
-  hidden,
-  auto,
-  visible
-  );
-
-
-
-
-$scroll-behaviors: (
-  smooth
-  );
-
-
-$table-layouts: (
-  fixed,
-  auto
-  );
-
-$text-aligns: (
-  left,
-  center,
-  right,
-  // justify
-  );
-
-$text-justifies: (
-  inter-word
-  // inter-character,
-  // none
-  );
-
-$text-overflows: (
-  // clip,
-  ellipsis
-  );
-
 $text-transforms: (
-  // capitalize
-  uppercase,
+  // none,
+  // capitalize,
+  // uppercase,
   // lowercase,
-  // none
+  // initial,
+  // inherit
+  );
+
+$unicode-bidis: (
+  // normal,
+  // embed,
+  // bidi-override,
+  // initial,
+  // inherit
+  );
+
+$user-selects: (
+  // auto,
+  // none,
+  // text,
+  // all
   );
 
 $vertical-aligns: (
-  middle,
-  // top,
-  // text-top,
-  // bottom,
-  // text-bottom,
+  // baseline,
   // sub,
   // super,
-  // baseline
+  // top,
+  // text-top,
+  // middle,
+  // bottom,
+  // text-bottom,
+  // initial,
+  // inherit
   );
 
 $visibilities: (
-  visible,
-  hidden,
-  collapse
+  // visible,
+  // hidden,
+  // collapse,
+  // initial,
+  // inherit
   );
 
 $white-spaces: (
-  // pre-line,
-  nowrap,
+  // normal,
+  // nowrap,
   // pre,
-  // normal
+  // pre-line,
+  // pre-wrap,
+  // initial,
+  // inherit
+  );
+
+$word-breaks: (
+  // normal,
+  // break-all,
+  // keep-all,
+  // break-word,
+  // initial,
+  // inherit
+  );
+
+$word-spacings: (
+  // 10: 10px,
+  // 1: -1px,
+  // 20: 20px
   );
 
 $word-wraps: (
@@ -727,24 +797,10 @@ $word-wraps: (
   normal
   );
 
-$word-breaks: (
-  break-all,
-  keep-all,
-  break-word,
-  normal
-  );
 
-$unicode-bidis: (
-  embed,
-  bidi-override,
-  normal
-  );
 
-$user-selects: (
-  none,
-  text,
-  all
-  );
+
+
 
 // Pattern scales
 //
@@ -759,12 +815,7 @@ $scales: (
   32
   );
 
-$gap-scales: (
-  0,
-  4,
-  8,
-  16
-  );
+
 
 $margin-scales: (
   0,
@@ -780,13 +831,7 @@ $max-widths: (
   100: 100%
   );
 
-$padding-scales: (
-  0,
-  4,
-  8,
-  16,
-  32,
-  );
+
 
 // GRID
 

@@ -7,6 +7,14 @@
       }
     }
   }
+  // align last module
+  @if ($config-text-align-last) {
+    @each $text-align in $text-align-lasts {
+      &-align-last--#{$text-align} {
+        text-align-last: $text-align
+      }
+    }
+  }
   // text decoration
   &-decoration {
     @if ($config-text-decoration-color) {
@@ -34,6 +42,14 @@
             text-decoration-style: $style
           }
         }
+      }
+    }
+  }
+  // text indent
+  @if ($config-text-indent) {
+    @each $key, $text-indent in $text-indents {
+      &-indent--#{$key} {
+        text-indent: $text-indent
       }
     }
   }
