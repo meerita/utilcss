@@ -7,7 +7,7 @@
   }
 }
 
-// left with scales ex. 0, 4, 8, 16
+// left using $scales in config_vars: ex. 2, 4, 8, 16
 @if ($config-left) {
   .left {
     @each $scale in $scales {

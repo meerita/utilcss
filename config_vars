@@ -430,6 +430,34 @@ $hyphens: (
   // inherit
   );
 
+$isolations: (
+  // auto,
+  // isolate,
+  // initial,
+  // inherit
+  );
+
+$justify-contents: (
+  // start,
+  // end,
+  // stretch,
+  // space-evenly,
+  // flex-start,
+  // flex-end,
+  // center,
+  // space-between,
+  // space-around,
+  // initial,
+  // inherit
+  );
+
+// define your letter spacings values
+
+$letter-spacings: (
+  // 1: -1px,
+  // 2: -2px,
+  // 3: -3em
+);
 
 $list-styles: (
   // none,
@@ -694,17 +722,7 @@ $writing-modes: (
   vertical-lr
 );
 
-$justify-contents: (
-  // center,
-  // end,
-  flex-end,
-  // flex-start,
-  // space-around,
-  // space-between,
-  // space-evenly,
-  // start,
-  // stretch,
-  );
+
 
 $justify-selfs: (
   start,

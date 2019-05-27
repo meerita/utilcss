@@ -1,0 +1,11 @@
+.letter {
+  @if ($config-letter-spacing) {
+    @each $key, $space in $letter-spacings {
+      &-spacing {
+        &--#{$key} {
+          letter-spacing: $value;
+        }
+      }
+    }
+  }
+}

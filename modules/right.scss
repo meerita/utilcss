@@ -7,7 +7,7 @@
   }
 }
 
-// right with scales ex. 0, 4, 8, 16
+// right using $scales in config_vars: ex. 2, 4, 8, 16
 @if ($config-right) {
   .right {
     @each $scale in $scales {

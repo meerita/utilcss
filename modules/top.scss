@@ -7,7 +7,7 @@
   }
 }
 
-// top with scales ex. 0, 4, 8, 16
+// top using $scales in config_vars: ex. 2, 4, 8, 16
 @if ($config-top) {
   .top {
     @each $scale in $scales {

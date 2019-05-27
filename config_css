@@ -141,12 +141,15 @@ $config-xl-grid-template-rows:       false;
 
 $config-height:                      false;
 $config-hyphen:                      false;
+$config-isolation:                   false;
 $config-justify-content:             false;
 $config-justify-items:               false;
 $config-justify-self:                false;
 
 $config-left:                        false;
 $config-left-with-scales:            false;    // deactivate the config-right first, if you want to profit.
+
+$config-letter-spacing:              false;
 
 $config-line-height:                 false;
 
