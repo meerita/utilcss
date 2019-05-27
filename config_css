@@ -101,6 +101,7 @@ $config-gap:                         false;
 
 $config-grid-auto-columns:           false; 
 $config-grid-auto-flow:              false; 
+$config-grid-auto-rows:              false;
 $config-grid-column-gap:             false; 
 $config-grid-flow-gap:               false;     // adds grid-row or column gap
 

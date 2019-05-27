@@ -34,16 +34,25 @@
       }
     }
   }
-  // Autoflow
+  // Auto-flow
   @if ($config-grid-auto-flow) {
     &-auto-flow {
-      @each $flow in $flows {
-        &--#{$flow} {
+      @each $key, $flow in $grid-auto-flows {
+        &--#{$key} {
           grid-auto-flow: $flow;
         }
       }
     }
-  }  
+  }
+  @if ($config-grid-auto-rows) {
+    &-auto-rows {
+      @each $rows in $grid-auto-rows {
+        &--#{$flow} {
+          grid-auto-rows: $rows;
+        }
+      }
+    }
+  }
   // Gap
   //
   // Specifies the size of the grid lines. You can think of it like setting the width 
