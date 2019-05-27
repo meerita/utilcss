@@ -551,6 +551,20 @@ $list-style-types: (
   // inherit
 );
 
+$margin-scales: (
+  // 0,
+  // 4,
+  // 8,
+  // 32,
+  // 64
+  );
+
+$max-widths: (
+  // 50: 50%,
+  // 75: 75%,
+  // 100: 100%
+  );
+
 $object-fits: (
   // fill,
   // contain,
@@ -637,6 +651,19 @@ $resizes: (
   // inherit
   );
 
+// Pattern scales
+//
+// For designs that use patterns, this one is friendly with Android
+// PC and Macs screens
+
+$scales: (
+  // 0,
+  // 4,
+  // 8,
+  // 16,
+  // 32
+  );
+
 // these values will be used for paddings, margins, etc.
 
 $sides: (
@@ -682,7 +709,7 @@ $text-align-lasts: (
   );
 
 $text-decoration-lines: (
-  none,
+  // none,
   // underline,
   // overline,
   // line-through,
@@ -793,55 +820,19 @@ $word-spacings: (
   );
 
 $word-wraps: (
-  break-word,
-  normal
+  // normal,
+  // break-word,
+  // initial,
+  // inherit
   );
-
-
-
-
-
-
-// Pattern scales
-//
-// For designs that use patterns, this one is friendly with Android
-// PC and Macs screens
-
-$scales: (
-  0,
-  4,
-  8,
-  16,
-  32
-  );
-
-
-
-$margin-scales: (
-  0,
-  4,
-  8,
-  32,
-  64
-  );
-
-$max-widths: (
-  // 50: 50%,
-  // 75: 75%,
-  100: 100%
-  );
-
-
-
-// GRID
-
-$writing-modes: (
-  horizontal-tb,
-  vertical-rl,
-  vertical-lr
-);
 
 $widths: (
-  100: 100%,
-  auto: auto
+  // 100: 100%,
+  // auto: auto
   );
+
+$writing-modes: (
+  // horizontal-tb,
+  // vertical-rl,
+  // vertical-lr
+);
