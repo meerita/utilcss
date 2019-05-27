@@ -28,19 +28,19 @@ Unlike other similar projects such as Bootstrap or BEM, UCSSM focuses on the [ut
 Websites and apps that were made with UCSSM have generally offered higher performance results: the painting speed will be reduced by half or more than that; the rendering time will be around 400% faster and the size of CSS files will remain smaller and easy to maintain.
 
 ## Installation
-(
-1. Clone this repo on your `/stylesheet/` folder. (This folder must compile SCSS)
-2. Create a new file as a main `.scss`, ex. styles.scss.
+
+1. Clone this repo on your `/stylesheet/` folder.
+2. Create a new file as a main `.scss`, ex. `styles.scss`.
 3. Append `.scss` to the template files: `config_css`, `config_normalizer` and `config_vars`.
 4. Open your main `styles.scss` and `@import` each template.
 
 The correct order in your `styles.scss` must be:
 
 <pre>
-@import 'utilcss/config_vars';
-@import 'utilcss/config_css';
-@import 'utilcss/config_normalizer';
-@import 'utilcss/util.css.scss';
+@import 'utilcss/config_vars.scss';
+@import 'utilcss/config_css.scss';
+@import 'utilcss/config_normalizer.scss';
+@import 'utilcss/util.scss';
 </pre>
 
 
