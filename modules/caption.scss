@@ -3,7 +3,7 @@
     @if ($config-caption-side) {
       @each $side in $caption-sides {
         &--#{$side} {
-          caption-side: $side;
+          caption-side: $side
         }
       }
     }

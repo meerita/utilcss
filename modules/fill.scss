@@ -2,14 +2,14 @@
   @if ($config-fill) {
     @each $value, $color in $colors {
       &--#{$value} {
-        fill: $color;
+        fill: $color
       }
     }
   }
   @if ($config-fill-rule) {
     @each $rule in $fill-rules {
       &-rule {
-        fill-rule: $rule;
+        fill-rule: $rule
       }
     }
   }

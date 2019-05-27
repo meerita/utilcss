@@ -3,7 +3,7 @@
     &-layout {
       @each $layout in $table-layouts {
         &--#{$layout} {
-          table-layout: $layout;
+          table-layout: $layout
         }
       }
     }

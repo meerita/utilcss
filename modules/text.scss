@@ -3,7 +3,7 @@
   @if ($config-text-align) {
     @each $text-align in $text-aligns {
       &-align--#{$text-align} {
-        text-align: $text-align;
+        text-align: $text-align
       }
     }
   }
@@ -13,7 +13,7 @@
       &-color {
         @each $number, $color in $colors {
           &--#{$number} {
-            text-decoration-color: $color;
+            text-decoration-color: $color
           }
         }
       }
@@ -22,7 +22,7 @@
       &-line {
         @each $line in $text-decoration-lines {
           &--#{$line} {
-            text-decoration-line: $line;
+            text-decoration-line: $line
           }
         }
       }
@@ -31,7 +31,7 @@
       &-style {
         @each $style in $text-decoration-styles {
           &--#{$style} {
-            text-decoration-style: $style;
+            text-decoration-style: $style
           }
         }
       }
@@ -41,7 +41,7 @@
   @if ($config-text-justify) {
     @each $text-justify in $text-justifies {
       &-justify--#{$text-justify} {
-        text-justify: $text-justify;
+        text-justify: $text-justify
       }
     }
   }
@@ -49,7 +49,7 @@
   @if ($config-text-overflow) {
     @each $text-overflow in $text-overflows {
       &-overflow--#{$text-overflow} {
-        text-overflow: $text-overflow;
+        text-overflow: $text-overflow
       }
     }
   }
@@ -57,7 +57,7 @@
   @if ($config-text-transform) {
     @each $text-transform in $text-transforms {
       &-transform--#{$text-transform} {
-        text-transform: $text-transform;
+        text-transform: $text-transform
       }
     }
   }

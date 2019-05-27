@@ -2,7 +2,7 @@
   @if ($config-clear) {
     @each $clear in $clears {
       &--#{$clear} {
-        clear: $clear;
+        clear: $clear
       }
     }
   }

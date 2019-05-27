@@ -15,7 +15,7 @@
     @each $deco in $box-decorations {
       &-decoration-break {
         &--#{$deco} {
-          box-decoration-break: $deco;
+          box-decoration-break: $deco
         }
       }
     }
@@ -24,7 +24,7 @@
     @each $size in $box-sizings {
       &-size {
         &--#{$size} {
-          box-sizing: $size;
+          box-sizing: $size
         }
       }
     }

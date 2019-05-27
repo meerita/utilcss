@@ -3,7 +3,7 @@
   @if ($config-border) {
     @each $width in $border-widths {
       &--#{$width} {
-        border: #{$width}px;
+        border: #{$width}px
       } 
     }
   }
@@ -16,7 +16,7 @@
       &-#{$side} {
         @each $width in $border-widths {
           &-width--#{$width} {
-            border-#{$side}-width: #{$width}px;
+            border-#{$side}-width: #{$width}px
           } 
         }
       }
@@ -29,7 +29,7 @@
     &-collapse {
       @each $border in $border-collapses {
         &--#{$border} {
-          border-collapse: $border;
+          border-collapse: $border
         }
       }
     }
@@ -41,7 +41,7 @@
     &-color {
       @each $number, $color in $colors {
         &--#{$number} {
-          border-color: $color;
+          border-color: $color
         }
       }
     }
@@ -53,7 +53,7 @@
     &-radius {
       @each $border in $radius {
         &--#{$border} {
-          border-radius: #{$border}px;
+          border-radius: #{$border}px
         }
       }
     }
@@ -67,7 +67,7 @@
       &-#{$side} {
         @each $radius in $border-radius {
           &-radius--#{$radius} {
-            border-#{$side}-radius: #{$radius}px;
+            border-#{$side}-radius: #{$radius}px
           } 
         }
       }
@@ -80,7 +80,7 @@
     &-style {
       @each $style in $border-styles {
         &--#{$style} {
-          border-style: $style;
+          border-style: $style
         }
       }
     }
@@ -94,7 +94,7 @@
         &-style {
           @each $style in $borders {
             &--#{$style} {
-              border-#{$side}-style: $style;
+              border-#{$side}-style: $style
             }
           }
         }
@@ -109,7 +109,7 @@
     @each $width in $border-widths {
       &-width {
         &--#{$width} {
-        border-width: #{$width}px;
+        border-width: #{$width}px
         }
       }
     }

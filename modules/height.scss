@@ -2,7 +2,7 @@
   @if ($config-height) {
     @each $height, $value in $heights {
       &--#{$height} {
-        height: $value;
+        height: $value
       }
     }
   }

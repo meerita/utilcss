@@ -2,7 +2,7 @@
   @if ($config-vertical-align) {
     @each $vertical-align in $vertical-aligns {
       &--#{$vertical-align} {
-        vertical-align: $vertical-align;
+        vertical-align: $vertical-align
       }
     }
   }

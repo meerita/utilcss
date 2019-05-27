@@ -2,7 +2,7 @@
   @if ($config-hyphen) {
     @each $hyphen in $hyphens {
       &--#{$hyphen} {
-        hyphens: $hyphen;
+        hyphens: $hyphen
       }
     }
   }

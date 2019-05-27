@@ -24,7 +24,7 @@
     &-direction {
       @each $direction in $flex-directions {
         &--#{$direction} {
-          flex-direction: $direction;
+          flex-direction: $direction
         }
       }
     }
@@ -33,7 +33,7 @@
     &-wrap {
       @each $wrap in $flex-wraps {
         &--#{$wrap} {
-          flex-wrap: $wrap;
+          flex-wrap: $wrap
         }
       }
     }
@@ -42,7 +42,7 @@
     &-grow {
       @each $grow in $grows {
         &--#{$grow} {
-          flex-grow: $grow;
+          flex-grow: $grow
         }
       }
     }

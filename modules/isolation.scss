@@ -2,7 +2,7 @@
   @if ($config-isolation) {
     @each $isolation in $isolations {
       &--#{$isolation} {
-        isolation: $isolation;
+        isolation: $isolation
       }
     }
   }

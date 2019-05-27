@@ -2,7 +2,7 @@
   @if ($config-unicode-bidi) {
     @each $unicode-bidi in $unicode-bidis {
       &--#{$unicode-bidi} {
-        unicode-bidi: $unicode-bidi;
+        unicode-bidi: $unicode-bidi
       }
     }
   }

@@ -2,7 +2,7 @@
 @if ($config-bottom) {
   .bottom {
     &--0 {
-      bottom: 0;
+      bottom: 0
     }
   }
 }
@@ -12,7 +12,7 @@
   .bottom {
     @each $scale in $scales {
       &--#{$scale} {
-        bottom: #{$scale}px;
+        bottom: #{$scale}px
       }
     }
   }

@@ -2,7 +2,7 @@
   @if ($config-object-fit) {
     @each $object-fit in $object-fits {
       &--#{$object-fit} {
-        object-fit: $object-fit;
+        object-fit: $object-fit
       }
     }
   }

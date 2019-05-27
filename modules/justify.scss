@@ -15,7 +15,7 @@
     &-content {
       @each $justify in $justify-contents {
         &--#{$justify} {
-          justify-content: $justify;
+          justify-content: $justify
         }
       }
     }
@@ -29,7 +29,7 @@
     &-items {
       @each $justify in $justify-items {
         &--#{$justify} {
-          justify-items: $justify;
+          justify-items: $justify
         }
       }
     }
@@ -44,7 +44,7 @@
     &-self {
       @each $justify in $justify-selfs {
         &--#{$justify} {
-          justify-self: $justify;
+          justify-self: $justify
         }
       }
     }

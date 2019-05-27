@@ -4,7 +4,7 @@
     &-color {
       @each $number, $color in $colors {
         &--#{$number} {
-          outline-color: $color;
+          outline-color: $color
         }
       }
     }
@@ -15,7 +15,7 @@
     &-offset {
       @each $scale in $scales {
         &--#{$scale} {
-          outline-offset: #{$scale}px;
+          outline-offset: #{$scale}px
         }
       }
     }
@@ -26,7 +26,7 @@
     &-style {
       @each $style in $outline-styles {
         &--#{$style} {
-          outline-style: $style;
+          outline-style: $style
         }
       }
     }
@@ -37,7 +37,7 @@
     &-width {
       @each $width in $scales {
         &--#{$width} {
-          outline-width: #{$width}px;
+          outline-width: #{$width}px
         }
       }
     }
