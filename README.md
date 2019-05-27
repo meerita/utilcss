@@ -45,6 +45,8 @@ The correct order in your `styles.scss` must be:
 
 ## Usage
 
+You can read an introductory [article about the Utilitarian CSS Methodology](http://minid.net/2019/04/07/the-css-utilitarian-methodology/) to learn how to build with this new approach.
+
 Once you have imported all the files into your main `styles.scss` you can open `config_css.scss` in order to start activating all the CSS properties you need for your project. You can start with the basic one, `display`, by searching the variable `$config-display` and change its value to `true`:
 
 <pre>
@@ -84,6 +86,12 @@ Refresh your website and open the compiled version of `styles.css` it must compi
 .display--block { display: block }
 .display--flex { display: flex }
 .display--grid { display: grid }
+</pre>
+
+Now you can add this classes to your project:
+
+<pre>
+   &lt;span class="display--block"&gt;This is a block now &lt;/span&gt;
 </pre>
 
 You can comment/uncomment any map value and Compass will compile automatically the CSS for you on the next build making easy to check which properties are you supporting for your projects.
