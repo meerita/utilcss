@@ -19,7 +19,7 @@
 // GENERAL VARIABLES
 
 $font-family-serif:     Times New Roman;
-$font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+$font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Droid Sans, Helvetica Neue, sans-serif;
 $font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Arial, sans-serif;
 
 
@@ -314,6 +314,11 @@ $empty-cells: (
   // inherit
 );
 
+$fill-rules: (
+  // nonzero,
+  // evenodd
+);
+
 $flex-directions: (
   // row,
   // row-reverse,
@@ -451,6 +456,46 @@ $justify-contents: (
   // inherit
   );
 
+$justify-items: (
+  // auto,
+  // normal,
+  // stretch,
+  // center,
+  // start,
+  // end,
+  // flex-start,
+  // flex-end,
+  // self-start,
+  // self-end,
+  // left,
+  // right,
+  // baseline,
+  // inherit,
+  // initial,
+  // unset
+  );
+
+$justify-selfs: (
+  // auto,
+  // normal,
+  // stretch,
+  // center,
+  // start,
+  // end,
+  // flex-start,
+  // flex-end,
+  // self-start,
+  // self-end,
+  // left,
+  // right,
+  // baseline,
+  // inherit,
+  // initial,
+  // unset
+);
+
+
+
 // define your letter spacings writing an id and any output value
 
 $letter-spacings: (
@@ -561,10 +606,7 @@ $text-decoration-styles: (
 
 
 
-$fill-rules: (
-  nonzero,
-  evenodd
-);
+
 
 
 
@@ -753,22 +795,6 @@ $writing-modes: (
   vertical-rl,
   vertical-lr
 );
-
-
-
-$justify-selfs: (
-  start,
-  end,
-  center,
-  // stretch
-);
-
-$justify-items: (
-  // start,
-  end,
-  // center,
-  // stretch
-  );
 
 $widths: (
   100: 100%,
