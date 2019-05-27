@@ -40,7 +40,7 @@
   }
   @if ($config-flex-grow) {
     &-grow {
-      @each $grow in $grows {
+      @each $grow in $flex-grows {
         &--#{$grow} {
           flex-grow: $grow
         }

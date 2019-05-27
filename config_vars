@@ -141,7 +141,6 @@ $background-repeats: (
 
 $background-sizes: (
   // auto,
-  // length,
   // cover,
   // contain,
   // initial,

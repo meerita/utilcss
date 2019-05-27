@@ -28,7 +28,7 @@
   @if ($config-grid-auto-columns) {
     &-auto-columns {
       @each $columns in $grid-auto-columns {
-        &--#{$flow} {
+        &--#{$columns} {
           grid-auto-columns: $columns
         }
       }
@@ -47,7 +47,7 @@
   @if ($config-grid-auto-rows) {
     &-auto-rows {
       @each $rows in $grid-auto-rows {
-        &--#{$flow} {
+        &--#{$rows} {
           grid-auto-rows: $rows
         }
       }

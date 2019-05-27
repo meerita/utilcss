@@ -51,7 +51,7 @@
   // Add rounded corners to divs.
   @if ($config-border-radius) {
     &-radius {
-      @each $border in $radius {
+      @each $border in $border-radius {
         &--#{$border} {
           border-radius: #{$border}px
         }
@@ -92,7 +92,7 @@
     @each $side in $sides {
       &-#{$side} {
         &-style {
-          @each $style in $borders {
+          @each $style in $border-styles {
             &--#{$style} {
               border-#{$side}-style: $style
             }

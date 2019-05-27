@@ -98,8 +98,8 @@
 
 @if ($normalize-text-level-abbr) {
   abbr[title] {
-    border-bottom: none // 1
-    text-decoration: underline // 2
+    border-bottom: none; // 1
+    text-decoration: underline; // 2
     text-decoration: underline dotted // 2
   }
 }

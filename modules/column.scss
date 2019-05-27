@@ -7,9 +7,11 @@
     }
   }
   @if ($config-column-fill) {
-    @each $column-fill in $column-fills {
-      &-fill--#{$column-fill} {
-        column-fill: $column-fills
+    @each $fill in $column-fills {
+        &-fill {
+          &--#{$fill} {
+            column-fill: $fill
+        }
       }
     }
   }
