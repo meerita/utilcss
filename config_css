@@ -140,6 +140,7 @@ $config-xl-grid-template-rows:       false;
 
 
 $config-height:                      false;
+$config-hyphen:                      false;
 $config-justify-content:             false;
 $config-justify-items:               false;
 $config-justify-self:                false;

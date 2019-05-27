@@ -58,7 +58,7 @@
   // Specifies the size of the grid lines. You can think of it like setting the width 
   // of the gutters between the columns/rows.
   @if ($config-grid-flow-gap) {
-    @each $flow in $flows {
+    @each $flow in $grid-flow-gaps {
       &-#{$flow}-gap {
         @each $scale in $scales {
           &--#{$scale} {

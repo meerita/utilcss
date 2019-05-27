@@ -403,60 +403,74 @@ $grid-auto-rows: (
   );
 
 $grid-auto-flows: (
-  row: row,
-  column: column,
-  dense: dense,
-  row-dense: row dense,
-  column-dense: column dense
+  // row: row,
+  // column: column,
+  // dense: dense,
+  // row-dense: row dense,
+  // column-dense: column dense
 );
 
-$sides: (
-  top,
-  bottom,
-  left,
-  right
+$grid-flow-gaps: (
+  // row,
+  // column
+);
+
+// Scale heights as much as you want
+
+$heights: (
+  // 38: 38px,
+  // 44: 44px
   );
 
+$hyphens: (
+  // none,
+  // manual,
+  // auto,
+  // initial,
+  // inherit
+  );
+
+
 $list-styles: (
-  none,
+  // none,
   // decimal,
   // disc,
   // square
 );
 
-
-
-
+$opacities: (
+  // 0: 0,
+  // 1: 0.1,
+  // 2: 0.2,
+  // 3: 0.3,
+  // 4: 0.4,
+  // 5: 0.5,
+  // 6: 0.6,
+  // 7: 0.7,
+  // 8: 0.8,
+  // 9: 0.9,
+  // 10: 1
+  );
 
 $orders: (
-  1,
-  2,
-  3,
-  4,
-  5
-  );
-
-
-
-$opacities: (
-  0: 0,
-  1: 0.1,
-  2: 0.2,
-  3: 0.3,
-  4: 0.4,
-  5: 0.5,
-  6: 0.6,
-  7: 0.7,
-  8: 0.8,
-  9: 0.9,
-  10: 1
+  // 1,
+  // 2,
+  // 3,
+  // 4,
+  // 5
   );
 
 
 
 
+// these values will be used for paddings, margins, etc.
 
-
+$sides: (
+  // top,
+  // bottom,
+  // left,
+  // right
+  );
 
 
 
@@ -546,10 +560,6 @@ $overflows: (
 
 
 
-$heights: (
-  38: 38px,
-  44: 44px
-  );
 
 $scroll-behaviors: (
   smooth
