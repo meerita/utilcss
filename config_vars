@@ -1,0 +1,707 @@
+// VARIABLES TEMPLATE
+//
+// INSTALLATION:
+//
+// Before compilation, you must rename this file to config_vars.scss and import it
+// before ANY FILE in your project. If you don't do this, the project will not 
+// compiled adequately, like in this example:
+//
+// @import 'mycssfolder/config_vars.scss'; <--- First than any other file
+// @import 'mycssfolder/config_css.scss';
+// @import 'mycssfolder/config_normalizer.scss';
+// @import 'mycssfolder/utilcss/util.css.scss';
+
+// VARIABLES
+//
+// Start uncommenting all the properties you need for your project
+
+
+// GENERAL VARIABLES
+
+$font-family-serif:     Times New Roman;
+$font-family-sans:      -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+$font-family-mono:      ".SFMono-Semibold", San Francisco Mono, Roboto Mono, Arial, sans-serif;
+
+
+// GRID COLUMNS
+//
+// This will setup the columns for grid-template-columns
+
+$columns: 12;
+
+// RESPONSIVE
+//
+// This will define the mininums widths in many jumps, do not edit if you want to preserve
+// the standards jumps in responsive design
+
+$device-sm:        320px;
+$device-md:        768px;
+$device-lg:        960px;
+$device-xl:        1280px;
+
+
+$align-items: (
+  // stretch,
+  // center,
+  // flex-start,
+  // flex-end,
+  // baseline,
+  // initial,
+  // inherit
+  );
+
+$align-contents: (
+  // stretch,
+  // center,
+  // flex-start,
+  // flex-end,
+  // space-between,
+  // space-around,
+  // initial,
+  // inherit
+  ); 
+
+$align-selfs: (
+  // auto,
+  // stretch,
+  // center,
+  // flex-start,
+  // flex-end,
+  // baseline,
+  // initial,
+  // inherit
+  );
+
+$backface-visibilities: (
+  // visible,
+  // hidden,
+  // initial,
+  // inherit
+  );
+
+$background-attachments: (
+  // scroll,
+  // fixed,
+  // local,
+  // initial,
+  // inherit
+);
+
+$blend-modes: (
+  // normal,
+  // multiply,
+  // screen,
+  // overlay,
+  // darken,
+  // lighten,
+  // color-dodge,
+  // saturation,
+  // color,
+  // luminosity
+);
+
+$background-clips: (
+  // border-box,
+  // padding-box,
+  // content-box,
+  // initial,
+  // inherit
+);
+
+$background-origins: (
+  // padding-box,
+  // border-box,
+  // content-box,
+  // initial,
+  // inherit
+);
+
+$border-collapses: (
+  // separate,
+  // collapse,
+  // initial,
+  // inherit
+  );
+
+$border-radius: (
+  // 0,
+  // 3,
+  // 5,
+  // 512
+  );
+
+$background-repeats: (
+  // repeat,
+  // repeat-x,
+  // repeat-y,
+  // no-repeat,
+  // initial,
+  // inherit
+);
+
+$background-sizes: (
+  // auto,
+  // length,
+  // cover,
+  // contain,
+  // initial,
+  // inherit
+);
+
+$border-styles: (
+  // none,
+  // solid,
+  // hidden,
+  // dotted,
+  // dashed,
+  // double,
+  // groove,
+  // ridge,
+  // inset,
+  // outset,
+  // initial,
+  // inherit
+  );
+
+$border-widths: (
+  // 0,
+  // 1,
+  // 2,
+  // 4
+  );
+
+$box-decorations: (
+  // slice,
+  // clone,
+  // initial,
+  // inherit,
+  // unset
+);
+
+$box-sizings: (
+  // content-box,
+  // border-box,
+  // initial,
+  // inherit
+);
+
+$caption-sides: (
+  // top,
+  // bottom,
+  // initial,
+  // inherit
+  );
+
+$clears: (
+  // none,
+  // left,
+  // right,
+  // both,
+  // initial,
+  // inherit
+  );
+
+$column-fills: (
+  // balance,
+  // auto,
+  // initial,
+  // inherit
+  );
+
+$column-rule-styles: (
+  // none,
+  // hidden,
+  // dotted,
+  // dashed,
+  // solid,
+  // double,
+  // groove,
+  // ridge,
+  // inset,
+  // outset,
+  // initial,
+  // inherit
+  );
+
+$column-spans: (
+  // none,
+  // all,
+  // initial,
+  // inherit
+  );
+
+
+// Add all the colors values as you want, remember create the key, ex. 1: #000 will be
+// .color--1 { color: #000 } in the compiled version
+
+$colors: (
+  // 1: #000,
+  // 2: #fff,
+  // 3: #333
+  );
+
+$cursors: (
+  // none,
+  // pointer,
+  // alias,
+  // all-scroll,
+  // auto,
+  // cell,
+  // context-menu,
+  // col-resize,
+  // copy,
+  // crosshair,
+  // default,
+  // e-resize,
+  // ew-resize,
+  // grab,
+  // grabbing,
+  // help,
+  // move,
+  // n-resize,
+  // ne-resize,
+  // nswe-resize,
+  // ns-resize,
+  // nesw-resize,
+  // sw-resize,
+  // s-resize,
+  // no-drop,
+  // not-allowed,
+  // text,
+  // vertical-text,
+  // w-resize,
+  // wait,
+  // zoom-in,
+  // zoom-out,
+  // initial,
+  // inherit
+  );
+
+$directions: (
+  // ltr,
+  // rtl,
+  // initial,
+  // inherit
+  );
+
+$displays: (
+  // inline,
+  // block,
+  // contents,
+  // flex,
+  // grid,
+  // inline-block,
+  // inline-flex,
+  // inline-grid,
+  // inline-table,
+  // list-item,
+  // run-in,
+  // table,
+  // table-caption,
+  // table-column-group,
+  // table-header-group,
+  // table-row-group,
+  // table-cell,
+  // none,
+  // initial,
+  // inherit
+  );
+
+$empty-cells: (
+  // show,
+  // hide,
+  // initial,
+  // inherit
+);
+
+$flex-directions: (
+  // row,
+  // row-reverse,
+  // column,
+  // column-reverse,
+  // initial,
+  // inherit
+  );
+
+$flex-wraps: (
+  // nowrap,
+  // wrap,
+  // wrap-reverse,
+  // initial,
+  // inherit
+  );
+
+$flex-grows: (
+  // 1,
+  // 2,
+  // 3,
+  // 4
+  );
+
+$floats: (
+  // none,
+  // left,
+  // right,
+  // initial,
+  // inherit
+  );
+
+$font-families: (
+  // serif: $font-family-serif,
+  // sans: $font-family-sans,
+  // mono: $font-family-mono
+  );
+
+$font-kernings: (
+  // auto,
+  // normal,
+  // none
+  );
+
+$font-sizes: (
+  // 12: 12px,
+  // 16: 16px,
+  // 18: 18px,
+  // 22: 22px
+  );
+
+$font-styles: (
+  // normal,
+  // italic,
+  // oblique,
+  // initial,
+  // inherit
+  );
+
+$font-variants: (
+  // normal,
+  // small-caps,
+  // initial,
+  // inherit
+  );
+
+$font-weights: (
+  // 200,
+  // 400,
+  // 800,
+  // normal,
+  // bold,
+  // bolder,
+  // lighter
+  );
+
+$grid-auto-columns: (
+  // auto,
+  // max-content,
+  // min-content,
+  );
+
+$sides: (
+  top,
+  bottom,
+  left,
+  right
+  );
+
+$list-styles: (
+  none,
+  // decimal,
+  // disc,
+  // square
+);
+
+
+
+
+
+$orders: (
+  1,
+  2,
+  3,
+  4,
+  5
+  );
+
+
+
+$opacities: (
+  0: 0,
+  1: 0.1,
+  2: 0.2,
+  3: 0.3,
+  4: 0.4,
+  5: 0.5,
+  6: 0.6,
+  7: 0.7,
+  8: 0.8,
+  9: 0.9,
+  10: 1
+  );
+
+
+
+
+
+
+
+
+
+
+
+$text-decoration-lines: (
+  none,
+  // underline,
+  // overline,
+  // line-through,
+  // initial,
+  // inherit,
+);
+
+$text-decoration-styles: (
+  solid,
+  double,
+  dotted,
+  dashed,
+  wavy,
+  initial,
+  inherit,
+);
+
+
+
+
+$fill-rules: (
+  nonzero,
+  evenodd
+);
+
+$line-heights: (
+  22,
+  28
+  );
+
+$pointer-events: (
+  none,
+  // auto
+  );
+
+$positions: (
+  // sticky,
+  // absolute,
+  relative,
+  // static,
+  // fixed,
+  // initial,
+  // inherit
+  );
+
+$resizes: (
+  vertical,
+  horizontal,
+  both,
+  none
+  );
+
+$object-fits: (
+  none,
+  fill,
+  contain,
+  cover,
+  scale-down
+  );
+
+$outline-styles: (
+  hidden
+  // dotted,
+  // dashed,
+  // solid,
+  // double,
+  // groove,
+  // ridge,
+  // inset,
+  // outset
+  );
+
+
+$overflows: (
+  // scroll,
+  hidden,
+  auto,
+  visible
+  );
+
+
+
+$heights: (
+  38: 38px,
+  44: 44px
+  );
+
+$scroll-behaviors: (
+  smooth
+  );
+
+
+$table-layouts: (
+  fixed,
+  auto
+  );
+
+$text-aligns: (
+  left,
+  center,
+  right,
+  // justify
+  );
+
+$text-justifies: (
+  inter-word
+  // inter-character,
+  // none
+  );
+
+$text-overflows: (
+  // clip,
+  ellipsis
+  );
+
+$text-transforms: (
+  // capitalize
+  uppercase,
+  // lowercase,
+  // none
+  );
+
+$vertical-aligns: (
+  middle,
+  // top,
+  // text-top,
+  // bottom,
+  // text-bottom,
+  // sub,
+  // super,
+  // baseline
+  );
+
+$visibilities: (
+  visible,
+  hidden,
+  collapse
+  );
+
+$white-spaces: (
+  // pre-line,
+  nowrap,
+  // pre,
+  // normal
+  );
+
+$word-wraps: (
+  break-word,
+  normal
+  );
+
+$word-breaks: (
+  break-all,
+  keep-all,
+  break-word,
+  normal
+  );
+
+$unicode-bidis: (
+  embed,
+  bidi-override,
+  normal
+  );
+
+$user-selects: (
+  none,
+  text,
+  all
+  );
+
+// Pattern scales
+//
+// For designs that use patterns, this one is friendly with Android
+// PC and Macs screens
+
+$scales: (
+  0,
+  4,
+  8,
+  16,
+  32
+  );
+
+$gap-scales: (
+  0,
+  4,
+  8,
+  16
+  );
+
+$margin-scales: (
+  0,
+  4,
+  8,
+  32,
+  64
+  );
+
+$max-widths: (
+  // 50: 50%,
+  // 75: 75%,
+  100: 100%
+  );
+
+$padding-scales: (
+  0,
+  4,
+  8,
+  16,
+  32,
+  );
+
+// GRID
+
+$flows: (
+  row,
+  column
+);
+
+$writing-modes: (
+  horizontal-tb,
+  vertical-rl,
+  vertical-lr
+);
+
+$justify-contents: (
+  // center,
+  // end,
+  flex-end,
+  // flex-start,
+  // space-around,
+  // space-between,
+  // space-evenly,
+  // start,
+  // stretch,
+  );
+
+$justify-selfs: (
+  start,
+  end,
+  center,
+  // stretch
+);
+
+$justify-items: (
+  // start,
+  end,
+  // center,
+  // stretch
+  );
+
+$widths: (
+  100: 100%,
+  auto: auto
+  );

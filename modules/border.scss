@@ -65,7 +65,7 @@
   @if ($config-border-sides-radius) {
     @each $side in $sides {
       &-#{$side} {
-        @each $radius in $radius {
+        @each $radius in $border-radius {
           &-radius--#{$radius} {
             border-#{$side}-radius: #{$radius}px;
           } 
@@ -78,7 +78,7 @@
   // Set a style for the border (all of the sides)
   @if ($config-border-style) {
     &-style {
-      @each $style in $borders {
+      @each $style in $border-styles {
         &--#{$style} {
           border-style: $style;
         }

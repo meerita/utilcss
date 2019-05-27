@@ -43,4 +43,11 @@
       }
     }
   }
+  @if ($config-column-span) {
+    @each $span in $column-spans {
+      &-span {
+        column-span: $span;
+      }
+    }
+  }
 }

@@ -24,6 +24,16 @@
 
 
 .grid {
+  // Auto column
+  @if ($config-grid-auto-columns) {
+    &-auto-columns {
+      @each $columns in $grid-auto-columns {
+        &--#{$flow} {
+          grid-auto-columns: $columns;
+        }
+      }
+    }
+  }
   // Autoflow
   @if ($config-grid-auto-flow) {
     &-auto-flow {
@@ -33,7 +43,7 @@
         }
       }
     }
-  }
+  }  
   // Gap
   //
   // Specifies the size of the grid lines. You can think of it like setting the width 
