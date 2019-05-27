@@ -19,7 +19,7 @@
   @if ($config-margin) {
     @each $scale in $margin-scales {
       &--#{$scale} {
-        margin: #{$scale}px;
+        margin: #{$scale}px
       }
     }
   }
@@ -32,7 +32,7 @@
       &-#{$side} {
         @each $scale in $margin-scales {
           &--#{$scale} {
-            margin-#{$side}: #{$scale}px;
+            margin-#{$side}: #{$scale}px
           }
         }
       }

@@ -1,9 +1,20 @@
 .list {
-  @if ($config-list-style) {
-    @each $style in $list-styles {
+  // list-style-position
+  @if ($config-list-style-position) {
+    @each $position in $list-style-positions {
       &-style {
-        &--#{$style} {
-          list-style: $style;
+        &--#{$position} {
+          list-style-position: $position
+        }
+      }
+    }
+  }
+  // list-style-type
+  @if ($config-list-style-type) {
+    @each $type in $list-style-types {
+      &-style {
+        &--#{$type} {
+          list-style-type: $type
         }
       }
     }

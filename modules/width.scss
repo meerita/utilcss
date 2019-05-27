@@ -2,7 +2,7 @@
   @if ($config-width) {
     @each $width, $value in $widths {
       &--#{$width} {
-        width: $value;
+        width: $value
       }
     }
   }

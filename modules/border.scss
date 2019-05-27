@@ -3,7 +3,7 @@
   @if ($config-border) {
     @each $width in $border-widths {
       &--#{$width} {
-        border: #{$width}px;
+        border: #{$width}px
       } 
     }
   }
@@ -16,7 +16,7 @@
       &-#{$side} {
         @each $width in $border-widths {
           &-width--#{$width} {
-            border-#{$side}-width: #{$width}px;
+            border-#{$side}-width: #{$width}px
           } 
         }
       }
@@ -29,7 +29,7 @@
     &-collapse {
       @each $border in $border-collapses {
         &--#{$border} {
-          border-collapse: $border;
+          border-collapse: $border
         }
       }
     }
@@ -41,7 +41,7 @@
     &-color {
       @each $number, $color in $colors {
         &--#{$number} {
-          border-color: $color;
+          border-color: $color
         }
       }
     }
@@ -51,9 +51,9 @@
   // Add rounded corners to divs.
   @if ($config-border-radius) {
     &-radius {
-      @each $border in $radius {
+      @each $border in $border-radius {
         &--#{$border} {
-          border-radius: #{$border}px;
+          border-radius: #{$border}px
         }
       }
     }
@@ -65,9 +65,9 @@
   @if ($config-border-sides-radius) {
     @each $side in $sides {
       &-#{$side} {
-        @each $radius in $radius {
+        @each $radius in $border-radius {
           &-radius--#{$radius} {
-            border-#{$side}-radius: #{$radius}px;
+            border-#{$side}-radius: #{$radius}px
           } 
         }
       }
@@ -78,9 +78,9 @@
   // Set a style for the border (all of the sides)
   @if ($config-border-style) {
     &-style {
-      @each $style in $borders {
+      @each $style in $border-styles {
         &--#{$style} {
-          border-style: $style;
+          border-style: $style
         }
       }
     }
@@ -92,9 +92,9 @@
     @each $side in $sides {
       &-#{$side} {
         &-style {
-          @each $style in $borders {
+          @each $style in $border-styles {
             &--#{$style} {
-              border-#{$side}-style: $style;
+              border-#{$side}-style: $style
             }
           }
         }
@@ -109,7 +109,7 @@
     @each $width in $border-widths {
       &-width {
         &--#{$width} {
-        border-width: #{$width}px;
+        border-width: #{$width}px
         }
       }
     }

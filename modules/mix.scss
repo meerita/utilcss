@@ -3,7 +3,7 @@
     &-blend-mode {
       @each $mode in $blend-modes {
         &--#{$mode} {
-          mix-blend-mode: $mode;
+          mix-blend-mode: $mode
         }
       }
     }

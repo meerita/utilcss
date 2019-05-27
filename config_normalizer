@@ -11,11 +11,25 @@
 //     \/__/         \/__/         \/__/         \/__/         \/__/       \/__/    
 //
 //
-// NORMALIZER CONFIGURATION
+// NORMALIZER CONFIGURATION FILE
 //
 // Usually people install normalizer.css, which adds an amount of rules that may not
 // apply to your project. Within this lines you can tie to the finest that normalizer
 // rules and only print those that matter to you.
+//
+// INSTALLATION:
+//
+// Before compilation, you must rename this file to config_normalizer.scss and import it
+// before the util.css.scss in your project. If you don't do this, the project will not 
+// compiled adequately, like in this example:
+//
+// @import 'mycssfolder/config_vars.scss';
+// @import 'mycssfolder/config_css.scss';
+// @import 'mycssfolder/config_normalizer.scss'; <-- this position is ok
+// @import 'mycssfolder/utilcss/util.css.scss';
+
+
+
 
 // Document
 // 1. Correct the line height in all browsers.
@@ -23,27 +37,27 @@
 //
 
 $normalize-document:                false;
-$normalize-document-legibility:     true;
+$normalize-document-legibility:     false;
 
 // Sections
 //
 // Remove the margin in all browsers.
 //
 
-$normalize-sections-all-margins:    true;
+$normalize-sections-all-margins:    false;
 
 //
 // Render the `main` element consistently in IE.
 //
 
-$normalize-sections-main-ie:        true;
+$normalize-sections-main-ie:        false;
 
 //
 // Correct the font size and margin on `h1` elements within `section` and
 // `article` contexts in Chrome, Firefox, and Safari.
 //
 
-$normalize-sections-margin-h1:      true;
+$normalize-sections-margin-h1:      false;
 
 
 // Grouping content
@@ -115,7 +129,7 @@ $normalize-embedded-content:        false;
 // 2. Remove the margin in Firefox and Safari.
 //
 
-$normalize-forms-change-fonts:   true;
+$normalize-forms-change-fonts:   false;
 
 
 // Remove Select Webkit appearance
@@ -124,7 +138,7 @@ $normalize-forms-change-fonts:   true;
 // 2. Remove the margin in Firefox and Safari.
 //
 
-$normalize-forms-remove-select:   true;
+$normalize-forms-remove-select:   false;
 
 //
 // Show the overflow in IE.

@@ -3,7 +3,7 @@
     &-family {
       @each $value, $size in $font-families {
         &--#{$value} {
-          font-family: #{$size};
+          font-family: #{$size}
         }
       }
     }
@@ -11,7 +11,7 @@
   @if ($config-font-kerning) {
     @each $kerning in $font-kernings {
       &-kerning--#{$kerning} {
-        font-kerning: $kerning;
+        font-kerning: $kerning
       }
     }
   }
@@ -19,7 +19,7 @@
     &-size {
       @each $value, $size in $font-sizes {
         &--#{$value} {
-          font-size: #{$size};
+          font-size: #{$size}
         }
       }
     }
@@ -27,14 +27,21 @@
   @if ($config-font-style) {
     @each $style in $font-styles {
       &-style--#{$style} {
-        font-style: $style;
+        font-style: $style
+      }
+    }
+  }
+  @if ($config-font-variant) {
+    @each $variant in $font-variants {
+      &-variant--#{$variant} {
+        font-variant: $variant
       }
     }
   }
   @if ($config-font-weight) {
     @each $weight in $font-weights {
       &-weight--#{$weight} {
-        font-weight: $weight;
+        font-weight: $weight
       }
     }
   }

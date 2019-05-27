@@ -7,7 +7,7 @@
     @each $attachment in $background-attachments {
       &-attachment {
         &--#{$attachment} {
-          background-attachment: $attachment;
+          background-attachment: $attachment
         }
       }
     }
@@ -20,7 +20,7 @@
     @each $blend in $blend-modes {
       &-blend-mode {
         &--#{$blend} {
-          background-blend-mode: $blend;
+          background-blend-mode: $blend
         }
       }
     }
@@ -33,7 +33,7 @@
     @each $value, $color in $colors {
       &-color {
         &--#{$value} {
-          background-color: $color;
+          background-color: $color
         }
       }
     }
@@ -46,7 +46,7 @@
     @each $clip in $background-clips {
       &-clip {
         &--#{$clip} {
-          background-clip: $clip;
+          background-clip: $clip
         }
       }
     }
@@ -59,7 +59,7 @@
     @each $origin in $background-origins {
       &-origin {
         &--#{$origin} {
-          background-origin: $origin;
+          background-origin: $origin
         }
       }
     }
@@ -72,7 +72,7 @@
     @each $repeat in $background-repeats {
       &-repeat {
         &--#{$repeat} {
-          background-repeat: $repeat;
+          background-repeat: $repeat
         }
       }
     }
@@ -84,7 +84,7 @@
     @each $size in $background-sizes {
       &-size {
         &--#{$size} {
-          background-size: $size;
+          background-size: $size
         }
       }
     }

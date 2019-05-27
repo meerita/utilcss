@@ -2,7 +2,7 @@
   .gap {
     @each $gap in $gap-scales {
       &--#{$gap} {
-        grid-gap: #{$gap}px;
+        grid-gap: #{$gap}px
       }
     }
   }

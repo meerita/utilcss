@@ -2,7 +2,7 @@
   @if ($config-pointer-events) {
     @each $pointer-event in $pointer-events {
       &--#{$pointer-event} {
-        pointer-events: $pointer-event;
+        pointer-events: $pointer-event
       }
     }
   }

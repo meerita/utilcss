@@ -24,12 +24,31 @@
 
 
 .grid {
-  // Autoflow
+  // Auto column
+  @if ($config-grid-auto-columns) {
+    &-auto-columns {
+      @each $columns in $grid-auto-columns {
+        &--#{$columns} {
+          grid-auto-columns: $columns
+        }
+      }
+    }
+  }
+  // Auto-flow
   @if ($config-grid-auto-flow) {
     &-auto-flow {
-      @each $flow in $flows {
-        &--#{$flow} {
-          grid-auto-flow: $flow;
+      @each $key, $flow in $grid-auto-flows {
+        &--#{$key} {
+          grid-auto-flow: $flow
+        }
+      }
+    }
+  }
+  @if ($config-grid-auto-rows) {
+    &-auto-rows {
+      @each $rows in $grid-auto-rows {
+        &--#{$rows} {
+          grid-auto-rows: $rows
         }
       }
     }
@@ -39,11 +58,11 @@
   // Specifies the size of the grid lines. You can think of it like setting the width 
   // of the gutters between the columns/rows.
   @if ($config-grid-flow-gap) {
-    @each $flow in $flows {
+    @each $flow in $grid-flow-gaps {
       &-#{$flow}-gap {
         @each $scale in $scales {
           &--#{$scale} {
-            grid-#{$flow}-gap: #{$scale}px;
+            grid-#{$flow}-gap: #{$scale}px
           }
         }
       }
@@ -64,7 +83,7 @@
           &-column {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-column: span $column / span $column;
+                grid-column: span $column / span $column
               }
             }
           }
@@ -73,7 +92,7 @@
           &-row {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-row: span $column / span $column;
+                grid-row: span $column / span $column
               }
             }
           }
@@ -82,7 +101,7 @@
           &-template-columns {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-template-columns: repeat($column, 1fr);
+                grid-template-columns: repeat($column, 1fr)
               }
             }
           }
@@ -95,7 +114,7 @@
           &-template-rows {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-template-rows: repeat($column, auto);
+                grid-template-rows: repeat($column, auto)
               }
             }
           }
@@ -118,7 +137,7 @@
           &-column {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-column: span $column / span $column;
+                grid-column: span $column / span $column
               }
             }
           }
@@ -127,7 +146,7 @@
           &-row {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-row: span $column / span $column;
+                grid-row: span $column / span $column
               }
             }
           }
@@ -136,7 +155,7 @@
           &-template-columns {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-template-columns: repeat($column, 1fr);
+                grid-template-columns: repeat($column, 1fr)
               }
             }
           }
@@ -149,7 +168,7 @@
           &-template-rows {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-template-rows: repeat($column, auto);
+                grid-template-rows: repeat($column, auto)
               }
             }
           }
@@ -172,7 +191,7 @@
           &-column {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-column: span $column / span $column;
+                grid-column: span $column / span $column
               }
             }
           }
@@ -181,7 +200,7 @@
           &-row {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-row: span $column / span $column;
+                grid-row: span $column / span $column
               }
             }
           }
@@ -190,7 +209,7 @@
           &-template-columns {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-template-columns: repeat($column, 1fr);
+                grid-template-columns: repeat($column, 1fr)
               }
             }
           }
@@ -203,7 +222,7 @@
           &-template-rows {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-template-rows: repeat($column, auto);
+                grid-template-rows: repeat($column, auto)
               }
             }
           }
@@ -226,7 +245,7 @@
           &-column {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-column: span $column / span $column;
+                grid-column: span $column / span $column
               }
             }
           }
@@ -235,7 +254,7 @@
           &-row {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-row: span $column / span $column;
+                grid-row: span $column / span $column
               }
             }
           }
@@ -244,7 +263,7 @@
           &-template-columns {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-template-columns: repeat($column, 1fr);
+                grid-template-columns: repeat($column, 1fr)
               }
             }
           }
@@ -257,7 +276,7 @@
           &-template-rows {
             @for $column from 1 through $columns {
               &--#{$column} {
-                grid-template-rows: repeat($column, auto);
+                grid-template-rows: repeat($column, auto)
               }
             }
           }

@@ -3,7 +3,7 @@
     &-width {
       @each $key, $width in $max-widths {
         &--#{$key} {
-          max-width: $width;
+          max-width: $width
         }
       }
     }

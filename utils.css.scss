@@ -18,41 +18,37 @@
 // DON'T FORGET TO CHECK VARS AND COMMENT OR DELETE THOSE VALUES YOU WILL USE
 // CHECK https://github.com/meerita/utilcss FOR DOCUMENTATION
 
-@import 'modules/config_css';
-@import 'modules/config_normalizer';
-
-@import 'modules/vars';
-
 @import 'modules/normalizer';
 
-@import 'modules/empty';
 @import 'modules/align';
-@import 'modules/background';
 @import 'modules/backface';
+@import 'modules/background';
 @import 'modules/border';
 @import 'modules/bottom';
 @import 'modules/box';
-@import 'modules/color';
-@import 'modules/cursor';
 @import 'modules/caption';
 @import 'modules/clear';
+@import 'modules/color';
 @import 'modules/column';
-@import 'modules/display';
+@import 'modules/cursor';
 @import 'modules/direction';
+@import 'modules/display';
+@import 'modules/empty';
 @import 'modules/fill';
 @import 'modules/flex';
-@import 'modules/font';
 @import 'modules/float';
+@import 'modules/font';
 @import 'modules/gap';
 @import 'modules/grid';
 @import 'modules/height';
+@import 'modules/hyphens';
 @import 'modules/justify';
 @import 'modules/left';
 @import 'modules/line';
 @import 'modules/list';
 @import 'modules/margin';
-@import 'modules/mix';
 @import 'modules/max';
+@import 'modules/mix';
 @import 'modules/object';
 @import 'modules/opacity';
 @import 'modules/order';

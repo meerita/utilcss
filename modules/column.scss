@@ -2,35 +2,37 @@
   @if ($config-column-count) {
     @for $column from 1 through $columns {
       &-count--#{$column} {
-        column-count: $column;
+        column-count: $column
       }
     }
   }
   @if ($config-column-fill) {
-    @each $column-fill in $column-fills {
-      &-fill--#{$column-fill} {
-        column-fill: $column-fills;
+    @each $fill in $column-fills {
+        &-fill {
+          &--#{$fill} {
+            column-fill: $fill
+        }
       }
     }
   }
   @if ($config-column-rule-style) {
     @each $column-rule-style in $column-rule-styles {
       &-rule-style--#{$column-rule-style} {
-        column-rule-style: $column-rule-style;
+        column-rule-style: $column-rule-style
       }
     }
   }
   @if ($config-column-rule-color) {
     @each $number, $column-rule-color in $colors {
       &-rule-color--#{$number} {
-        column-rule-color: $column-rule-color;
+        column-rule-color: $column-rule-color
       }
     }
   }
   @if ($config-column-gap) {
     @each $gap in $gap-scales {
       &-gap {
-        column-gap: #{$gap}px;
+        column-gap: #{$gap}px
       }
     }
   }
@@ -38,8 +40,15 @@
     @each $gap in $gap-scales {
       &-gap {
         &--#{$gap} {
-          grid-column-gap: #{$gap}px;
+          grid-column-gap: #{$gap}px
         }
+      }
+    }
+  }
+  @if ($config-column-span) {
+    @each $span in $column-spans {
+      &-span {
+        column-span: $span
       }
     }
   }
