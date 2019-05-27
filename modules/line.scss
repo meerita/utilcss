@@ -19,9 +19,9 @@
 .line {
   @if ($config-line-height) {
     &-height {
-      @each $height in $line-heights {
-        &--#{$height} {
-          line-height: #{$height}px;
+      @each $key, $height in $line-heights {
+        &--#{$key} {
+          line-height: #{$height}
         }
       }
     }

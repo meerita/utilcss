@@ -2,7 +2,7 @@
   @if ($config-opacity) {
     @each $level, $opacity in $opacities {
       &--#{$level} {
-        opacity: $opacity;
+        opacity: $opacity
       }
     }
   }

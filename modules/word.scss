@@ -1,10 +1,20 @@
 .word {
-
+  // word-break
   &-break {
     @if ($config-word-break) {
       @each $break in $word-breaks {
         &--#{$break} {
-          word-break: $break;
+          word-break: $break
+        }
+      }
+    }
+  }
+  // word-spacing
+  &-spacing {
+  @if ($config-word-spacing) {
+    @each $key, $spacing in $word-spacings {
+      &--#{$key} {
+        word-spacing: $spacing
         }
       }
     }
@@ -14,7 +24,7 @@
   @if ($config-word-wrap) {
     @each $word-wrap in $word-wraps {
       &--#{$word-wrap} {
-        word-wrap: $word-wrap;
+        word-wrap: $word-wrap
         }
       }
     }

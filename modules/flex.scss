@@ -24,25 +24,25 @@
     &-direction {
       @each $direction in $flex-directions {
         &--#{$direction} {
-          flex-direction: $direction;
+          flex-direction: $direction
         }
       }
     }
   }
   @if ($config-flex-wrap) {
     &-wrap {
-      @each $wrap in $wraps {
+      @each $wrap in $flex-wraps {
         &--#{$wrap} {
-          flex-wrap: $wrap;
+          flex-wrap: $wrap
         }
       }
     }
   }
   @if ($config-flex-grow) {
     &-grow {
-      @each $grow in $grows {
+      @each $grow in $flex-grows {
         &--#{$grow} {
-          flex-grow: $grow;
+          flex-grow: $grow
         }
       }
     }

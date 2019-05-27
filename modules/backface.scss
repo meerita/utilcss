@@ -3,7 +3,7 @@
     @if ($config-backface-visibility) {
       @each $face in $backface-visibilities {
         &--#{$face} {
-          backface-visibility: $face;
+          backface-visibility: $face
         }
       }
     }

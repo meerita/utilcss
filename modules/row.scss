@@ -3,7 +3,7 @@
     @each $gap in $gap-scales {
       &-gap {
         &--#{$gap} {
-          grid-row-gap: #{$gap}px;
+          grid-row-gap: #{$gap}px
         }
       }
     }

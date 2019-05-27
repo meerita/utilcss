@@ -20,7 +20,7 @@
     &-items {
       @each $align in $align-items {
         &--#{$align} {
-          align-items: $align;
+          align-items: $align
         }
       }
     }
@@ -33,7 +33,7 @@
     &-content {
       @each $align in $align-contents {
         &--#{$align} {
-          align-content: $align;
+          align-content: $align
         }
       }
     }
@@ -48,7 +48,7 @@
     &-self {
       @each $align in $align-selfs {
         &--#{$align} {
-          align-self: $align;
+          align-self: $align
         }
       }
     }

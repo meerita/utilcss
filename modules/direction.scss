@@ -3,7 +3,7 @@
     & {
       @each $direction in $directions {
         &--#{$direction} {
-          direction: $direction;
+          direction: $direction
         }
       }
     }

@@ -3,7 +3,7 @@
     &-cells {
       @each $empty in $empty-cells {
         &--#{$empty} {
-          empty-cells: $empty;
+          empty-cells: $empty
         }
       }
     }

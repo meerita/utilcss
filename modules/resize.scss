@@ -2,7 +2,7 @@
   @if ($config-resize) {
     @each $resize in $resizes {
       &--#{$resize} {
-        resize: $resize;
+        resize: $resize
       }
     }
   }

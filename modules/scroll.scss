@@ -3,7 +3,7 @@
     @each $behavior in $scroll-behaviors {
       &-behavior {
         &--#{$behavior} {
-          scroll-behavior: $behavior;
+          scroll-behavior: $behavior
         }
       }
     }

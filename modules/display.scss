@@ -2,7 +2,7 @@
   @if ($config-display) {
     @each $display in $displays {
       &--#{$display} {
-        display: $display;
+        display: $display
       }
     }
   }
@@ -16,7 +16,7 @@
       &-display {
         @each $display in $displays {
           &--#{$display} {
-            display: $display;
+            display: $display
           }
         }
       }
@@ -30,7 +30,7 @@
       &-display {
         @each $display in $displays {
           &--#{$display} {
-            display: $display;
+            display: $display
           }
         }
       }
@@ -44,7 +44,7 @@
       &-display {
         @each $display in $displays {
           &--#{$display} {
-            display: $display;
+            display: $display
           }
         }
       }
@@ -58,7 +58,7 @@
       &-display {
         @each $display in $displays {
           &--#{$display} {
-            display: $display;
+            display: $display
           }
         }
       }
