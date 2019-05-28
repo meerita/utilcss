@@ -12,7 +12,7 @@
   // list-style-type
   @if ($config-list-style-type) {
     @each $type in $list-style-types {
-      &-type {
+      &-style-type {
         &--#{$type} {
           list-style-type: $type
         }
