@@ -39,8 +39,8 @@
   // Set the color for borders
   @if ($config-border-color) {
     &-color {
-      @each $number, $color in $colors {
-        &--#{$number} {
+      @each $name, $color in $colors {
+        &--#{$name} {
           border-color: $color
         }
       }
@@ -81,6 +81,22 @@
       @each $style in $border-styles {
         &--#{$style} {
           border-style: $style
+        }
+      }
+    }
+  }
+  // Border color with sides
+  //
+  // Set a style for the border (all of the sides)
+  @if ($config-border-sides-color) {
+    @each $side in $sides {
+      &-#{$side} {
+        &-color {
+          @each $name, $color in $colors {
+            &--#{$name} {
+              border-#{$side}-color: $color
+            }
+          }
         }
       }
     }
