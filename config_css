@@ -47,6 +47,7 @@ $config-border:                      false;
 $config-border-sides:                false;    // only sides ex. border-left--0
 $config-border-collapse:             false;
 $config-border-color:                false;
+$config-border-sides-color:          false;
 $config-border-radius:               false;
 $config-border-sides-radius:         false;    // only sides ex. border-top-radius--0
 $config-border-style:                false;
