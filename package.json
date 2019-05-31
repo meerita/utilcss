@@ -1,12 +1,13 @@
 {
   "name": "utilcssm",
   "description": "UCSSM is a CSS framework and a methodology for developing responsive, mobile first projects on the web",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Diego M. Lafuente",
   "bugs": {
     "url": "https://github.com/meerita/utilcss/issues"
   },
   "files": [
+    "modules/*",
     "utils.css.scss",
     "LICENSE"
   ],
