@@ -30,44 +30,42 @@
   // Definition of the media type
     .sm {
       // starts the grid-template-columns
-      &-grid {
-        @if ($config-sm-grid-column) {
-          &-column {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-column: span $column / span $column
-              }
+      @if ($config-sm-grid-column) {
+        &-column {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-column: span $column / span $column
             }
           }
         }
-        @if ($config-sm-grid-row) {
-          &-row {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-row: span $column / span $column
-              }
+      }
+      @if ($config-sm-grid-row) {
+        &-row {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-row: span $column / span $column
             }
           }
         }
-        @if ($config-sm-grid-template-columns) {
-          &-template-columns {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-template-columns: repeat($column, 1fr)
-              }
+      }
+      @if ($config-sm-grid-template-columns) {
+        &-template-columns {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-template-columns: repeat($column, 1fr)
             }
           }
         }
-        // Template Rows
-        // 
-        // If you need a design that defines rows instead of columns,
-        // then uncomment this line.
-        @if ($config-sm-grid-template-rows) {
-          &-template-rows {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-template-rows: repeat($column, auto)
-              }
+      }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      @if ($config-sm-grid-template-rows) {
+        &-template-rows {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-template-rows: repeat($column, auto)
             }
           }
         }
@@ -84,44 +82,42 @@
       // Template columns
       //
       // It will define how many columns the x-axis will have.
-      &-grid {
-        @if ($config-md-grid-column) {
-          &-column {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-column: span $column / span $column
-              }
+      @if ($config-md-grid-column) {
+        &-column {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-column: span $column / span $column
             }
           }
         }
-        @if ($config-md-grid-row) {
-          &-row {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-row: span $column / span $column
-              }
+      }
+      @if ($config-md-grid-row) {
+        &-row {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-row: span $column / span $column
             }
           }
         }
-        @if ($config-md-grid-template-columns) {
-          &-template-columns {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-template-columns: repeat($column, 1fr)
-              }
+      }
+      @if ($config-md-grid-template-columns) {
+        &-template-columns {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-template-columns: repeat($column, 1fr)
             }
           }
         }
-        // Template Rows
-        // 
-        // If you need a design that defines rows instead of columns,
-        // then uncomment this line.
-        @if ($config-md-grid-template-rows) {
-          &-template-rows {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-template-rows: repeat($column, auto)
-              }
+      }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      @if ($config-md-grid-template-rows) {
+        &-template-rows {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-template-rows: repeat($column, auto)
             }
           }
         }
@@ -138,44 +134,42 @@
       // Template columns
       //
       // It will define how many columns the x-axis will have.
-      &-grid {
-        @if ($config-lg-grid-column) {
-          &-column {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-column: span $column / span $column
-              }
+      @if ($config-lg-grid-column) {
+        &-column {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-column: span $column / span $column
             }
           }
         }
-        @if ($config-lg-grid-row) {
-          &-row {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-row: span $column / span $column
-              }
+      }
+      @if ($config-lg-grid-row) {
+        &-row {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-row: span $column / span $column
             }
           }
         }
-        @if ($config-lg-grid-template-columns) {
-          &-template-columns {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-template-columns: repeat($column, 1fr)
-              }
+      }
+      @if ($config-lg-grid-template-columns) {
+        &-template-columns {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-template-columns: repeat($column, 1fr)
             }
           }
         }
-        // Template Rows
-        // 
-        // If you need a design that defines rows instead of columns,
-        // then uncomment this line.
-        @if ($config-lg-grid-template-rows) {
-          &-template-rows {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-template-rows: repeat($column, auto)
-              }
+      }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      @if ($config-lg-grid-template-rows) {
+        &-template-rows {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-template-rows: repeat($column, auto)
             }
           }
         }
@@ -192,44 +186,42 @@
       // Template columns
       //
       // It will define how many columns the x-axis will have.
-      &-grid {
-        @if ($config-xl-grid-column) {
-          &-column {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-column: span $column / span $column
-              }
+      @if ($config-xl-grid-column) {
+        &-column {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-column: span $column / span $column
             }
           }
         }
-        @if ($config-xl-grid-row) {
-          &-row {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-row: span $column / span $column
-              }
+      }
+      @if ($config-xl-grid-row) {
+        &-row {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-row: span $column / span $column
             }
           }
         }
-        @if ($config-xl-grid-template-columns) {
-          &-template-columns {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-template-columns: repeat($column, 1fr)
-              }
+      }
+      @if ($config-xl-grid-template-columns) {
+        &-template-columns {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-template-columns: repeat($column, 1fr)
             }
           }
         }
-        // Template Rows
-        // 
-        // If you need a design that defines rows instead of columns,
-        // then uncomment this line.
-        @if ($config-xl-grid-template-rows) {
-          &-template-rows {
-            @for $column from 1 through $columns {
-              &--#{$column} {
-                grid-template-rows: repeat($column, auto)
-              }
+      }
+      // Template Rows
+      // 
+      // If you need a design that defines rows instead of columns,
+      // then uncomment this line.
+      @if ($config-xl-grid-template-rows) {
+        &-template-rows {
+          @for $column from 1 through $columns {
+            &--#{$column} {
+              grid-template-rows: repeat($column, auto)
             }
           }
         }
