@@ -395,10 +395,10 @@ $font-weights: (
   );
 
 $gap-scales: (
-  // 0,
-  // 4,
-  // 8,
-  // 16
+  0,
+  4,
+  8,
+  16
   );
 
 $grid-auto-columns: (
@@ -421,10 +421,18 @@ $grid-auto-flows: (
   column-dense: column dense
 );
 
+
+
+// sanitize this
+
 $grid-flow-gaps: (
-  // row,
-  // column
+  row,
+  column
 );
+
+// end sanitization
+
+
 
 // Scale heights as much as you want
 

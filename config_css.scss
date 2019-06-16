@@ -29,13 +29,13 @@
 // @import 'mycssfolder/utilcss/util.css.scss';
 
 
-$config-align-items:                 true;
+$config-align-items:                 false;
 $config-align-content:               false;
 $config-align-self:                  false;
 
-$config-auto-columns:                true; 
-$config-auto-flow:                   true; 
-$config-auto-rows:                   true;
+$config-auto-columns:                false; 
+$config-auto-flow:                   false; 
+$config-auto-rows:                   false;
 
 $config-backface-visibility:         false;
 
@@ -105,7 +105,6 @@ $config-font-weight:                 false;
 $config-gap:                         false; 
 
 $config-grid-column-gap:             false; 
-$config-grid-flow-gap:               false;     // adds grid-row or column gap
 
 $config-grid-lg:                     false;
 $config-grid-row-gap:                false;

@@ -1,13 +1,3 @@
-.auto-columns--auto { grid-auto-columns: auto; }
-.auto-columns--max-content { grid-auto-columns: max-content; }
-.auto-columns--min-content { grid-auto-columns: min-content; }
-.auto-flow--row { grid-auto-flow: row; }
-.auto-flow--column { grid-auto-flow: column; }
-.auto-flow--dense { grid-auto-flow: dense; }
-.auto-flow--row-dense { grid-auto-flow: row dense; }
-.auto-flow--column-dense { grid-auto-flow: column dense; }
-.auto-rows--auto { grid-auto-rows: auto; }
-.auto-rows--max-content { grid-auto-rows: max-content; }
-.auto-rows--min-content { grid-auto-rows: min-content; }
+
 
 /*# sourceMappingURL=test.compiled.css.map */
