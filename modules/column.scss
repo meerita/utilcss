@@ -32,7 +32,9 @@
   @if ($config-column-gap) {
     @each $gap in $gap-scales {
       &-gap {
-        column-gap: #{$gap}px
+        &--#{$gap} {
+          column-gap: #{$gap}px
+        }
       }
     }
   }

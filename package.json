@@ -1,13 +1,14 @@
 {
   "name": "utilcssm",
   "description": "UCSSM is a CSS framework and a methodology for developing responsive, mobile first projects on the web",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "author": "Diego M. Lafuente",
   "bugs": {
     "url": "https://github.com/meerita/utilcss/issues"
   },
   "files": [
-    "dist/*",
+    "modules/*",
+    "utils.css.scss",
     "LICENSE"
   ],
   "homepage": "https://github.com/meerita/utilcss",
@@ -18,17 +19,12 @@
     "web"
   ],
   "license": "MIT",
-  "main": "dist/utilcssm.min.css",
+  "main": "utils.css.scss",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meerita/utilcss.git"
   },
-  "style": "dist/utilcssm.css",
-  "scripts": {
-    "compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 utils.css.scss dist/utilcssm.css",
-    "minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/utilcssm.min.css dist/utilcssm.css",
-    "release": "npm-run-all compile minify"
-  },
+  "style": "utils.css.scss",
   "devDependencies": {
     "clean-css-cli": "^4.3.0",
     "node-sass": "^4.12.0",

@@ -1,0 +1,260 @@
+//      ___           ___           ___           ___                       ___     
+//     /\__\         /\  \         /\  \         /\__\                     /\__\    
+//    /:/  /        /::\  \        \:\  \       /:/ _/_       ___         /:/ _/_   
+//   /:/  /        /:/\:\  \        \:\  \     /:/ /\__\     /\__\       /:/ /\  \  
+//  /:/  /  ___   /:/  \:\  \   _____\:\  \   /:/ /:/  /    /:/__/      /:/ /::\  \ 
+// /:/__/  /\__\ /:/__/ \:\__\ /::::::::\__\ /:/_/:/  /    /::\  \     /:/__\/\:\__\
+// \:\  \ /:/  / \:\  \ /:/  / \:\~~\~~\/__/ \:\/:/  /     \/\:\  \__  \:\  \ /:/  /
+//  \:\  /:/  /   \:\  /:/  /   \:\  \        \::/__/       ~~\:\/\__\  \:\  /:/  / 
+//   \:\/:/  /     \:\/:/  /     \:\  \        \:\  \          \::/  /   \:\/:/  /  
+//    \::/  /       \::/  /       \:\__\        \:\__\         /:/  /     \::/  /   
+//     \/__/         \/__/         \/__/         \/__/         \/__/       \/__/    
+//
+//
+// NORMALIZER CONFIGURATION FILE
+//
+// Usually people install normalizer.css, which adds an amount of rules that may not
+// apply to your project. Within this lines you can tie to the finest that normalizer
+// rules and only print those that matter to you.
+//
+// INSTALLATION:
+//
+// Before compilation, you must rename this file to config_normalizer.scss and import it
+// before the util.css.scss in your project. If you don't do this, the project will not 
+// compiled adequately, like in this example:
+//
+// @import 'mycssfolder/config_vars.scss';
+// @import 'mycssfolder/config_css.scss';
+// @import 'mycssfolder/config_normalizer.scss'; <-- this position is ok
+// @import 'mycssfolder/utilcss/util.css.scss';
+
+
+
+
+// Document
+// 1. Correct the line height in all browsers.
+// 2. Prevent adjustments of font size after orientation changes in iOS.
+//
+
+$normalize-document:                false;
+$normalize-document-legibility:     false;
+
+// Sections
+//
+// Remove the margin in all browsers.
+//
+
+$normalize-sections-all-margins:    false;
+
+//
+// Render the `main` element consistently in IE.
+//
+
+$normalize-sections-main-ie:        false;
+
+//
+// Correct the font size and margin on `h1` elements within `section` and
+// `article` contexts in Chrome, Firefox, and Safari.
+//
+
+$normalize-sections-margin-h1:      false;
+
+
+// Grouping content
+//
+// 1. Add the correct box sizing in Firefox.
+// 2. Show the overflow in Edge and IE.
+//
+
+$normalize-grouping-content-hr:     false;
+
+//
+// 1. Correct the inheritance and scaling of font size in all browsers.
+// 2. Correct the odd `em` font sizing in all browsers.
+//
+
+$normalize-grouping-content-pre:    false;
+
+// Text-level semantics
+//
+// Remove the gray background on active links in IE 10.
+//
+
+$normalize-text-level-a:            false;
+
+//
+// 1. Remove the bottom border in Chrome 57-
+// 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+//
+
+$normalize-text-level-abbr:         false;
+
+//
+// Add the correct font weight in Chrome, Edge, and Safari.
+//
+
+$normalize-text-level-b-strong:     false;
+
+//
+// 1. Correct the inheritance and scaling of font size in all browsers.
+// 2. Correct the odd `em` font sizing in all browsers.
+//
+
+$normalize-text-level-code-kbd:     false;
+
+//
+// 1. Correct the inheritance and scaling of font size in all browsers.
+// 2. Correct the odd `em` font sizing in all browsers.
+//
+
+$normalize-text-level-small:        false;
+
+//
+// Prevent `sub` and `sup` elements from affecting the line height in
+// all browsers.
+//
+
+$normalize-text-level-sub-sup:      false;
+
+// Embedded content
+//
+// Remove the border on images inside links in IE 10.
+//
+
+$normalize-embedded-content:        false;
+
+// Forms
+//
+// 1. Change the font styles in all browsers.
+// 2. Remove the margin in Firefox and Safari.
+//
+
+$normalize-forms-change-fonts:   false;
+
+
+// Remove Select Webkit appearance
+//
+// 1. Change the font styles in all browsers.
+// 2. Remove the margin in Firefox and Safari.
+//
+
+$normalize-forms-remove-select:   false;
+
+//
+// Show the overflow in IE.
+// 1. Show the overflow in Edge.
+//
+
+$normalize-forms-overflow-ie:    false;
+
+//
+// Remove the inheritance of text transform in Edge, Firefox, and IE.
+// 1. Remove the inheritance of text transform in Firefox.
+//
+
+$normalize-forms-text-transform: false;
+
+//
+// Correct the inability to style clickable types in iOS and Safari.
+//
+
+$normalize-forms-button-click:   false;
+
+//
+// Remove the inner border and padding in Firefox.
+//
+
+$normalize-forms-inner-border:   false;
+
+//
+// Restore the focus styles unset by the previous rule.
+//
+
+$normalize-forms-focusring:      false;
+
+//
+// Correct the padding in Firefox.
+//
+
+$normalize-forms-fieldset:       false;
+
+//
+// 1. Correct the text wrapping in Edge and IE.
+// 2. Correct the color inheritance from `fieldset` elements in IE.
+// 3. Remove the padding so developers are not caught out when they zero out
+//    `fieldset` elements in all browsers.
+//
+
+$normalize-forms-legend:         false;
+
+//
+// Add the correct vertical alignment in Chrome, Firefox, and Opera.
+//
+
+$normalize-forms-progress:       false;
+
+//
+// Remove the default vertical scrollbar in IE 10+.
+//
+
+$normalize-forms-textarea:       false;
+
+//
+// 1. Add the correct box sizing in IE 10.
+// 2. Remove the padding in IE 10.
+//
+
+$normalize-forms-checkbox-radio: false;
+
+//
+// Correct the cursor style of increment and decrement buttons in Chrome.
+//
+
+$normalize-forms-number:         false;
+
+//
+// 1. Correct the odd appearance in Chrome and Safari.
+// 2. Correct the outline style in Safari.
+//
+
+$normalize-forms-search:         false;
+
+//
+// Remove the inner padding in Chrome and Safari on macOS.
+//
+
+$normalize-forms-file-upload:    false;
+
+
+//
+// 1. Correct the inability to style clickable types in iOS and Safari.
+// 2. Change font properties to `inherit` in Safari.
+//
+
+$normalize-forms-file-button:    false;
+
+// Interactive
+//
+// Add the correct display in Edge, IE 10+, and Firefox.
+//
+
+$normalize-interactive-details:  false;
+
+//
+// Add the correct display in all browsers.
+//
+
+$normalize-interactive-summary:  false;
+
+// Misc
+//
+// Add the correct display in IE 10+.
+//
+
+$normalize-misc-template:        false;
+
+//
+// Add the correct display in IE 10.
+//
+
+$normalize-misc-hidden:          false;

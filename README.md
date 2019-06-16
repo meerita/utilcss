@@ -29,6 +29,8 @@ Websites and apps that were made with UCSSM have generally offered higher perfor
 
 ## Installation
 
+Assuming you already have a CSS folder in your project, that compiles Sass:
+
 1. Clone this repo on your `/stylesheet/` folder.
 2. Create a new file as a main `.scss`, ex. `styles.scss`.
 3. Append `.scss` to the template files: `config_css`, `config_normalizer` and `config_vars`.
@@ -41,6 +43,8 @@ The correct order in your `styles.scss` must be:
 @import 'utilcss/config_css.scss';
 @import 'utilcss/config_normalizer.scss';
 @import 'utilcss/util.scss';
+
+/* my style here */
 </pre>
 
 ## Usage
