@@ -1,0 +1,31 @@
+// Auto column
+.auto {
+  @if ($config-auto-columns) {
+    &-columns {
+      @each $columns in $grid-auto-columns {
+        &--#{$columns} {
+          grid-auto-columns: $columns
+        }
+      }
+    }
+  }
+  // Auto-flow
+  @if ($config-auto-flow) {
+    &-flow {
+      @each $key, $flow in $grid-auto-flows {
+        &--#{$key} {
+          grid-auto-flow: $flow
+        }
+      }
+    }
+  }
+  @if ($config-auto-rows) {
+    &-rows {
+      @each $rows in $grid-auto-rows {
+        &--#{$rows} {
+          grid-auto-rows: $rows
+        }
+      }
+    }
+  }
+}
