@@ -24,35 +24,6 @@
 
 
 .grid {
-  // Auto column
-  @if ($config-grid-auto-columns) {
-    &-auto-columns {
-      @each $columns in $grid-auto-columns {
-        &--#{$columns} {
-          grid-auto-columns: $columns
-        }
-      }
-    }
-  }
-  // Auto-flow
-  @if ($config-grid-auto-flow) {
-    &-auto-flow {
-      @each $key, $flow in $grid-auto-flows {
-        &--#{$key} {
-          grid-auto-flow: $flow
-        }
-      }
-    }
-  }
-  @if ($config-grid-auto-rows) {
-    &-auto-rows {
-      @each $rows in $grid-auto-rows {
-        &--#{$rows} {
-          grid-auto-rows: $rows
-        }
-      }
-    }
-  }
   // Gap
   //
   // Specifies the size of the grid lines. You can think of it like setting the width 

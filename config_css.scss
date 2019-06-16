@@ -29,13 +29,13 @@
 // @import 'mycssfolder/utilcss/util.css.scss';
 
 
-$config-align-items:                 false;
+$config-align-items:                 true;
 $config-align-content:               false;
 $config-align-self:                  false;
 
-$config-auto-columns:                false; 
-$config-auto-flow:                   false; 
-$config-auto-rows:                   false;
+$config-auto-columns:                true; 
+$config-auto-flow:                   true; 
+$config-auto-rows:                   true;
 
 $config-backface-visibility:         false;
 

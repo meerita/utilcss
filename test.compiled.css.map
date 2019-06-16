@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKQ,mBAAe,GACb,iBAAiB,EC8YzB,IAAI;AD/YE,0BAAe,GACb,iBAAiB,EC+YzB,WAAW;ADhZL,0BAAe,GACb,iBAAiB,ECgZzB,WAAW;ADvYL,eAAW,GACT,cAAc,ECgZjB,GAAG;ADjZF,kBAAW,GACT,cAAc,ECiZd,MAAM;ADlZR,iBAAW,GACT,cAAc,ECkZf,KAAK;ADnZN,qBAAW,GACT,cAAc,ECmZZ,SAAU;ADpZd,wBAAW,GACT,cAAc,ECoZT,YACf;AD7YQ,gBAAY,GACV,cAAc,ECiYtB,IAAI;ADlYE,uBAAY,GACV,cAAc,ECkYtB,WAAW;ADnYL,uBAAY,GACV,cAAc,ECmYtB,WAAW",
+"sources": ["modules/auto.scss","config_vars.scss"],
+"names": [],
+"file": "test.compiled.css"
+}
