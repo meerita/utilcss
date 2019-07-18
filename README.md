@@ -173,7 +173,7 @@ In your `custom.scss` file, define that custom class:
   }
 </pre>
 
-Now when you hover that image, it will shift opacity to 1. This just an example on how functional CSS manages changes and interactions. Most of the projects end up with less than 5 lines of custom code.
+Now when you hover that image, it will shift opacity to 1. This just an example on how functional CSS manages changes and interactions. If done properly, most of the projects end up with less than 100 lines of custom code.
 
 ## List of supported properties
 
