@@ -151,6 +151,14 @@ If your design on mobile is too radical compared to the desktop, maybe you shoul
 
 Everyone installs [normalizer](https://necolas.github.io/normalize.css/), but few comment on the sections they will never use, therefore, each project already dedicates 6 KB to styles that will never be used. The UCSS framework has a normalizer module, which complies with all normalizer rules, but these are activated according to what you need. To start using it, you need to go to the `config_normalizer` file and start changing the variables to `true` so that it automatically takes effect. No more cost of KBs without impact on the site. You can have your customizer, as I recommend as a philosophy to have the best CSS code: only the classes that are needed.
 
+## Customization
+
+This framework allow you to achieve 99% of your project, but there are some caveats with this way of developing. Classes are wonderful but they don't cover cases like :hover, :focus, etc. You must create those instances in a separate file, name it custom.scss and store those particular behaviors that you cannot cover with the framework.
+
+The way we do it using UCSSM methodology, is to create a custom class. Customs classes in UCSSM are named with a prefix `c-`. Let's imagine you have an image that you want to change opacity when you hover it.
+
+We have found out it is easier to maintain code using this approach. The prefix alerts you from a non-framework behavior, so you can go to only one place to check the class and its properties.
+
 In your template file add a custom class:
 
 <pre>
@@ -166,14 +174,6 @@ In your `custom.scss` file, define that custom class:
 </pre>
 
 Now when you hover that image, it will shift opacity to 1. This just an example on how functional CSS manages changes and interactions. Most of the projects end up with less than 5 lines of custom code.
-
-## Customization
-
-This framework allow you to achieve 99% of your project, but there are some caveats with this way of developing. Classes are wonderful but they don't cover cases like :hover, :focus, etc. You must create those instances in a separate file, name it custom.scss and store those particular behaviors that you cannot cover with the framework.
-
-The way we do it using UCSSM methodology, is to create a custom class. Customs classes in UCSSM are named with a prefix `c-`. Let's imagine you have an image that you want to change opacity when you hover it.
-
-We have found out it is easier to maintain code using this approach. The prefix alerts you from a non-framework behavior, so you can go to only one place to check the class and its properties.
 
 ## List of supported properties
 
