@@ -1,0 +1,8 @@
+.scroll-snap-type--none { scroll-snap-type: none; }
+.scroll-snap-type--x { scroll-snap-type: x; }
+.scroll-snap-type--y { scroll-snap-type: y; }
+.scroll-snap-type--block { scroll-snap-type: block; }
+.scroll-snap-type--inline { scroll-snap-type: inline; }
+.scroll-snap-type--both { scroll-snap-type: both; }
+
+/*# sourceMappingURL=test.compiled.css.map */

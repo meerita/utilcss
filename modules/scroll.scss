@@ -8,4 +8,13 @@
       }
     }
   }
+  @if ($config-scroll-snap-type) {
+    @each $type in $scroll-snap-types {
+      &-snap-type {
+        &--#{$type} {
+          scroll-snap-type: $type
+        }
+      }
+    }
+  }
 }

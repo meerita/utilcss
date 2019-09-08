@@ -41,7 +41,7 @@ $device-xl:        1280px;
 
 
 $align-items: (
-  // stretch,
+  stretch,
   // center,
   // flex-start,
   // flex-end,
@@ -677,6 +677,15 @@ $scroll-behaviors: (
   // smooth,
   // initial,
   // inherit
+  );
+
+$scroll-snap-types: (
+  none,
+  x,
+  y,
+  block,
+  inline,
+  both
   );
 
 $table-layouts: (
