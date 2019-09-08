@@ -8,12 +8,33 @@
       }
     }
   }
-  @if ($config-scroll-padding) {
-    @each $scale in $scales {
-      &-padding {
+  &-padding {
+    @if ($config-scroll-padding) {
+      @each $scale in $padding-scales {
         &--#{$scale} {
           scroll-padding: #{$scale}px
         }
+      }
+    }
+      // scroll padding side
+    @if ($config-scroll-padding-sides) {
+      @each $side in $sides {
+        &-#{$side} {
+          @each $scale in $padding-scales {
+            &--#{$scale} {
+              scroll-padding-#{$side}: #{$scale}px
+            }
+          }
+        }
+      }
+    }
+    @if ($config-scroll-padding-inline) {
+      &-inline {
+         @each $key, $value in $scroll-padding-inlines {
+          &--#{$key} {
+            scroll-padding-inline: $value
+          }
+         }
       }
     }
   }

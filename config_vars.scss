@@ -619,8 +619,8 @@ $overflows: (
   );
 
 $padding-scales: (
-  // 0,
-  // 4,
+  0,
+  4,
   // 8,
   // 16,
   // 32,
@@ -656,8 +656,8 @@ $resizes: (
 // PC and Macs screens
 
 $scales: (
-  0,
-  4,
+  // 0,
+  // 4,
   // 8,
   // 16,
   // 32
@@ -666,10 +666,10 @@ $scales: (
 // these values will be used for paddings, margins, etc.
 
 $sides: (
-  // top,
-  // bottom,
-  // left,
-  // right
+  top,
+  bottom,
+  left,
+  right
   );
 
 $scroll-behaviors: (
@@ -677,6 +677,13 @@ $scroll-behaviors: (
   // smooth,
   // initial,
   // inherit
+  );
+
+$scroll-padding-inlines: (
+  // 0: 0%,
+  // 10: 10px,
+  // initial: initial,
+  // unset: unset,
   );
 
 $scroll-snap-stops: (

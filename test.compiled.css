@@ -1,4 +1,16 @@
 .scroll-padding--0 { scroll-padding: 0px; }
 .scroll-padding--4 { scroll-padding: 4px; }
+.scroll-padding-top--0 { scroll-padding-top: 0px; }
+.scroll-padding-top--4 { scroll-padding-top: 4px; }
+.scroll-padding-bottom--0 { scroll-padding-bottom: 0px; }
+.scroll-padding-bottom--4 { scroll-padding-bottom: 4px; }
+.scroll-padding-left--0 { scroll-padding-left: 0px; }
+.scroll-padding-left--4 { scroll-padding-left: 4px; }
+.scroll-padding-right--0 { scroll-padding-right: 0px; }
+.scroll-padding-right--4 { scroll-padding-right: 4px; }
+.scroll-padding-inline--0 { scroll-padding-inline: 0%; }
+.scroll-padding-inline--10 { scroll-padding-inline: 10px; }
+.scroll-padding-inline--initial { scroll-padding-inline: initial; }
+.scroll-padding-inline--unset { scroll-padding-inline: unset; }
 
 /*# sourceMappingURL=test.compiled.css.map */
