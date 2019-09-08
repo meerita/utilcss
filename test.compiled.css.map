@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAaQ,yBAAY,GACV,gBAAgB,EC4pBxB,MAAM;AD7pBA,yBAAY,GACV,gBAAgB,EC6pBxB,MAAM;AD9pBA,0BAAY,GACV,gBAAgB,EC8pBxB,OAAO;AD/pBD,0BAAY,GACV,gBAAgB,EC+pBxB,OAAO;ADhqBD,wBAAY,GACV,gBAAgB,ECgqBxB,KAAK",
-"sources": ["modules/scroll.scss","config_vars.scss"],
+"mappings": "AAaQ,kBAAa,GACX,cAAc,EAAE,GAClB;AAFA,kBAAa,GACX,cAAc,EAAE,GAClB",
+"sources": ["modules/scroll.scss"],
 "names": [],
 "file": "test.compiled.css"
 }

@@ -1,7 +1,4 @@
-.scroll-snap-stop--always { scroll-snap-stop: always; }
-.scroll-snap-stop--normal { scroll-snap-stop: normal; }
-.scroll-snap-stop--inherit { scroll-snap-stop: inherit; }
-.scroll-snap-stop--initial { scroll-snap-stop: initial; }
-.scroll-snap-stop--unset { scroll-snap-stop: unset; }
+.scroll-padding--0 { scroll-padding: 0px; }
+.scroll-padding--4 { scroll-padding: 4px; }
 
 /*# sourceMappingURL=test.compiled.css.map */

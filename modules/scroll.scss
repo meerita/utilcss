@@ -12,7 +12,7 @@
     @each $scale in $scales {
       &-padding {
         &--#{$scale} {
-          scroll-padding: ${scale}px
+          scroll-padding: #{$scale}px
         }
       }
     }
