@@ -679,13 +679,24 @@ $scroll-behaviors: (
   // inherit
   );
 
+$scroll-snap-stops: (
+  always,
+  normal,
+  inherit,
+  initial,
+  unset,
+  );
+
 $scroll-snap-types: (
-  none,
-  x,
-  y,
-  block,
-  inline,
-  both
+  // block,
+  // both,
+  // inherit,
+  // initial,
+  // inline,
+  // none,
+  // unset,
+  // x,
+  // y
   );
 
 $table-layouts: (

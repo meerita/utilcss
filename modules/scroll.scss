@@ -8,6 +8,15 @@
       }
     }
   }
+  @if ($config-scroll-snap-stop) {
+    @each $stop in $scroll-snap-stops {
+      &-snap-stop {
+        &--#{$stop} {
+          scroll-snap-stop: $stop
+        }
+      }
+    }
+  }
   @if ($config-scroll-snap-type) {
     @each $type in $scroll-snap-types {
       &-snap-type {
