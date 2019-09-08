@@ -8,6 +8,15 @@
       }
     }
   }
+  @if ($config-scroll-padding) {
+    @each $scale in $scales {
+      &-padding {
+        &--#{$scale} {
+          scroll-padding: ${scale}px
+        }
+      }
+    }
+  }
   @if ($config-scroll-snap-stop) {
     @each $stop in $scroll-snap-stops {
       &-snap-stop {

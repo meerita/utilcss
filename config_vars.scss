@@ -656,8 +656,8 @@ $resizes: (
 // PC and Macs screens
 
 $scales: (
-  // 0,
-  // 4,
+  0,
+  4,
   // 8,
   // 16,
   // 32
@@ -680,11 +680,11 @@ $scroll-behaviors: (
   );
 
 $scroll-snap-stops: (
-  always,
-  normal,
-  inherit,
-  initial,
-  unset,
+  // always,
+  // normal,
+  // inherit,
+  // initial,
+  // unset,
   );
 
 $scroll-snap-types: (
