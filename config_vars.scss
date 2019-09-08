@@ -686,6 +686,13 @@ $scroll-padding-inlines: (
   // unset: unset,
   );
 
+$scroll-padding-inline-start-ends: (
+  0: 0%,
+  10: 10px,
+  initial: initial,
+  unset: unset,
+  );
+
 $scroll-snap-stops: (
   // always,
   // normal,

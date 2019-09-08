@@ -37,6 +37,15 @@
          }
       }
     }
+    @if ($config-scroll-padding-inline-start) {
+      &-inline-start {
+         @each $key, $value in $scroll-padding-inline-start-ends {
+          &--#{$key} {
+            scroll-padding-inline-start: $value
+          }
+         }
+      }
+    }
   }
   @if ($config-scroll-snap-stop) {
     @each $stop in $scroll-snap-stops {
