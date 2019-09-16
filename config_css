@@ -193,11 +193,15 @@ $config-right:                       false;
 $config-right-with-scales:           false;    // deactivate the config-right first, if you want to profit.
 
 $config-scroll-behavior:             false;
-$config-scroll-padding:              false;
+$config-scroll-margin-sides:         false;
+$config-scroll-margin-block-start:   false;
+$config-scroll-margin-block-end:     false;
+$config-scroll-padding-block-start:  false;
+$config-scroll-padding-block-end:    false;
 $config-scroll-padding-sides:        false;
-$config-scroll-padding-inline:       false;
-$config-scroll-padding-inline-start: true;
-$config-scroll-padding-inline-end:   true;
+$config-scroll-padding-inline-start: false;
+$config-scroll-padding-inline-end:   false;
+$config-scroll-snap-align:           false;
 $config-scroll-snap-stop:            false;
 $config-scroll-snap-type:            false;
 

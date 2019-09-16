@@ -8,14 +8,48 @@
       }
     }
   }
-  &-padding {
-    @if ($config-scroll-padding) {
-      @each $scale in $padding-scales {
-        &--#{$scale} {
-          scroll-padding: #{$scale}px
+  &-nap {
+    @if ($config-scroll-snap-align) {
+      &-align {
+        @each $key, $value in $scroll-snap-aligns {
+          &--#{$key} {
+            scroll-nap-align: $value
+          }
         }
       }
     }
+  }
+  &-margin {
+    // @if ($config-scroll-margin-sides) {
+    //   @each $side in $sides {
+    //     &-#{$side} {
+    //       @each $scale in $margin-scales {
+    //         &--#{$scale} {
+    //           scroll-margin-#{$side}: #{$scale}px
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+    @if ($config-scroll-margin-block-start) {
+      .color {
+        color: red;
+      }
+      &-block-start {
+         color: red;
+      }
+    }
+    @if ($config-scroll-margin-block-end) {
+      &-block-end {
+         @each $key, $value in $scroll-margin-blocks {
+          &--#{$key} {
+            scroll-margin-block-end: $value
+          }
+         }
+      }
+    }
+  }
+  &-padding {
       // scroll padding side
     @if ($config-scroll-padding-sides) {
       @each $side in $sides {
@@ -28,11 +62,20 @@
         }
       }
     }
-    @if ($config-scroll-padding-inline) {
-      &-inline {
-         @each $key, $value in $scroll-padding-inlines {
+    @if ($config-scroll-padding-block-start) {
+      &-block-start {
+         @each $key, $value in $scroll-padding-inline-start-ends {
           &--#{$key} {
-            scroll-padding-inline: $value
+            scroll-padding-block-start: $value
+          }
+         }
+      }
+    }
+    @if ($config-scroll-padding-block-end) {
+      &-block-end {
+         @each $key, $value in $scroll-padding-inline-start-ends {
+          &--#{$key} {
+            scroll-padding-block-end: $value
           }
          }
       }

@@ -41,7 +41,7 @@ $device-xl:        1280px;
 
 
 $align-items: (
-  stretch,
+  // stretch,
   // center,
   // flex-start,
   // flex-end,
@@ -619,8 +619,8 @@ $overflows: (
   );
 
 $padding-scales: (
-  0,
-  4,
+  // 0,
+  // 4,
   // 8,
   // 16,
   // 32,
@@ -666,10 +666,19 @@ $scales: (
 // these values will be used for paddings, margins, etc.
 
 $sides: (
-  top,
-  bottom,
-  left,
-  right
+  // top,
+  // bottom,
+  // left,
+  // right
+  );
+
+$scroll-snap-aligns: (
+  // none: none,
+  // start-end: start end,
+  // center: center,
+  // inherit: inherit,
+  // initial: initial,
+  // unset: unset,
   );
 
 $scroll-behaviors: (
@@ -677,6 +686,27 @@ $scroll-behaviors: (
   // smooth,
   // initial,
   // inherit
+  );
+
+$scroll-margin-blocks: (
+  // 0: 0%,
+  // 10: 10px,
+  // initial: initial,
+  // unset: unset,
+  );
+
+$scroll-margin-inlines: (
+  // 0: 0%,
+  // 10: 10px,
+  // initial: initial,
+  // unset: unset,
+  );
+
+$scroll-padding-blocks: (
+  // 0: 0%,
+  // 10: 10px,
+  // initial: initial,
+  // unset: unset,
   );
 
 $scroll-padding-inlines: (
@@ -687,10 +717,10 @@ $scroll-padding-inlines: (
   );
 
 $scroll-padding-inline-start-ends: (
-  0: 0%,
-  10: 10px,
-  initial: initial,
-  unset: unset,
+  // 0: 0%,
+  // 10: 10px,
+  // initial: initial,
+  // unset: unset,
   );
 
 $scroll-snap-stops: (
