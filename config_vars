@@ -672,11 +672,75 @@ $sides: (
   // right
   );
 
+$scroll-snap-aligns: (
+  // none: none,
+  // start-end: start end,
+  // center: center,
+  // inherit: inherit,
+  // initial: initial,
+  // unset: unset,
+  );
+
 $scroll-behaviors: (
   // auto,
   // smooth,
   // initial,
   // inherit
+  );
+
+$scroll-margin-blocks: (
+  // 0: 0%,
+  // 10: 10px,
+  // initial: initial,
+  // unset: unset,
+  );
+
+$scroll-margin-inlines: (
+  // 0: 0%,
+  // 10: 10px,
+  // initial: initial,
+  // unset: unset,
+  );
+
+$scroll-padding-blocks: (
+  // 0: 0%,
+  // 10: 10px,
+  // initial: initial,
+  // unset: unset,
+  );
+
+$scroll-padding-inlines: (
+  // 0: 0%,
+  // 10: 10px,
+  // initial: initial,
+  // unset: unset,
+  );
+
+$scroll-padding-inline-start-ends: (
+  // 0: 0%,
+  // 10: 10px,
+  // initial: initial,
+  // unset: unset,
+  );
+
+$scroll-snap-stops: (
+  // always,
+  // normal,
+  // inherit,
+  // initial,
+  // unset,
+  );
+
+$scroll-snap-types: (
+  // block,
+  // both,
+  // inherit,
+  // initial,
+  // inline,
+  // none,
+  // unset,
+  // x,
+  // y
   );
 
 $table-layouts: (

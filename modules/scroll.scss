@@ -8,4 +8,113 @@
       }
     }
   }
+  &-nap {
+    @if ($config-scroll-snap-align) {
+      &-align {
+        @each $key, $value in $scroll-snap-aligns {
+          &--#{$key} {
+            scroll-nap-align: $value
+          }
+        }
+      }
+    }
+  }
+  &-margin {
+    // @if ($config-scroll-margin-sides) {
+    //   @each $side in $sides {
+    //     &-#{$side} {
+    //       @each $scale in $margin-scales {
+    //         &--#{$scale} {
+    //           scroll-margin-#{$side}: #{$scale}px
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+    @if ($config-scroll-margin-block-start) {
+      .color {
+        color: red;
+      }
+      &-block-start {
+         color: red;
+      }
+    }
+    @if ($config-scroll-margin-block-end) {
+      &-block-end {
+         @each $key, $value in $scroll-margin-blocks {
+          &--#{$key} {
+            scroll-margin-block-end: $value
+          }
+         }
+      }
+    }
+  }
+  &-padding {
+      // scroll padding side
+    @if ($config-scroll-padding-sides) {
+      @each $side in $sides {
+        &-#{$side} {
+          @each $scale in $padding-scales {
+            &--#{$scale} {
+              scroll-padding-#{$side}: #{$scale}px
+            }
+          }
+        }
+      }
+    }
+    @if ($config-scroll-padding-block-start) {
+      &-block-start {
+         @each $key, $value in $scroll-padding-inline-start-ends {
+          &--#{$key} {
+            scroll-padding-block-start: $value
+          }
+         }
+      }
+    }
+    @if ($config-scroll-padding-block-end) {
+      &-block-end {
+         @each $key, $value in $scroll-padding-inline-start-ends {
+          &--#{$key} {
+            scroll-padding-block-end: $value
+          }
+         }
+      }
+    }
+    @if ($config-scroll-padding-inline-start) {
+      &-inline-start {
+         @each $key, $value in $scroll-padding-inline-start-ends {
+          &--#{$key} {
+            scroll-padding-inline-start: $value
+          }
+         }
+      }
+    }
+    @if ($config-scroll-padding-inline-end) {
+      &-inline-end {
+         @each $key, $value in $scroll-padding-inline-start-ends {
+          &--#{$key} {
+            scroll-padding-inline-end: $value
+          }
+         }
+      }
+    }
+  }
+  @if ($config-scroll-snap-stop) {
+    @each $stop in $scroll-snap-stops {
+      &-snap-stop {
+        &--#{$stop} {
+          scroll-snap-stop: $stop
+        }
+      }
+    }
+  }
+  @if ($config-scroll-snap-type) {
+    @each $type in $scroll-snap-types {
+      &-snap-type {
+        &--#{$type} {
+          scroll-snap-type: $type
+        }
+      }
+    }
+  }
 }
