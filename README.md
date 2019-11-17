@@ -1,4 +1,4 @@
-The Utilitarian CSS Framework (UCSSM) is a Functional CSS framework and a methodology for developing any website with incredible loading, rendering and painting performance, helping developers to work over time without having to carry architectural problems, technical debt or legacy problems. Yes, you can do responsive to.
+The Utilitarian CSS Framework (UCSSM) is a Functional CSS framework and a methodology for developing any website with incredible loading, rendering and painting performance, helping developers to work over time without having to carry architectural problems, technical debt or legacy problems. Yes, you can do responsive too.
 
 Unlike other similar projects such as Bootstrap or BEM, UCSSM focuses on the [utilitarian/functional philosophy of CSS](http://minid.net/2019/04/07/the-css-utilitarian-methodology/): which advocates using atomized classes with individual utility applied to the element instead of creating an initial set of predefined structures, styles and effects, thus increasing the overall size of the CSS file and the time it takes to maintain it or resume  development.
 
